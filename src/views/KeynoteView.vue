@@ -43,12 +43,12 @@
 	min-height: calc(100vh - 64px);
 	margin: 0 calc(50vw - 720px);
 	padding-bottom: 120px;
-	padding-top: 44px;
+	padding-top: 80px;
 	background-color: white;
 }
 
 .main-title {
-  margin-top : 0;
+  margin-top : 44px;
   margin-bottom: 40px;
 }
 
@@ -119,12 +119,12 @@ hr {
 }
 
 .keynote-box {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .keynote-title {
 	font-family: Helvetica;
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: bold;
 	color: #000;
 	padding-bottom: 10px;

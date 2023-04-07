@@ -23,12 +23,13 @@ export default {
 #copyright {
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 10px;
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
     text-align: center;
-    color: #fff;
+    color: #f0f0f0;
 }
 
 #logos {

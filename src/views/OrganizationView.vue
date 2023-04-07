@@ -13,7 +13,7 @@
 					<div class="belong">Korea University</div>
 				</div>
 				<div class="card">
-					<img src="@/assets/logo.png" alt="" class="profile">
+					<img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile">
 					<div class="name">Hyunwoo Kim</div>
 					<div class="belong">Korea University</div>
 				</div>
@@ -38,7 +38,7 @@
 					<div class="belong">Shanghai AI Laboratory</div>
 				</div>
 				<div class="card">
-					<img src='../assets/logo.png' alt="" class="profile">
+					<img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile">
 					<div class="name">Hoon Cho</div>
 					<div class="belong">Broad Institute of MIT and Harvard</div>
 				</div>
@@ -73,12 +73,12 @@
     padding-left: calc(50vw - 720px);
 	padding-right: calc(50vw - 720px);
 	padding-bottom: 120px;
-	padding-top: 44px;
+	padding-top: 80px;
 	background-color: white;
   }
 
 .main-title {
-  margin-top : 0;
+  margin-top : 44px;
   margin-bottom: 40px;
 }
 

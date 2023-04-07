@@ -1,9 +1,11 @@
 <template>
   <!-- Introduction -->
   <div id="introduction">
-      <div class="big-title">
-        <hr class="title-deco"><div id="intro-title">FMGMAI</div><hr class="title-deco">
-        <div class="workshop-description">
+      <div class="big-title" v-bind:class="{'big-title-off' : this.$data.page !=='Home'}">
+        <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+        <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">FMGMAI</div>
+        <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+        <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
           MICCAI 2023 Workshop on<br> Foundation Models for general medical AI
         </div>
       </div>
@@ -11,14 +13,14 @@
   <!-- End Introduction -->
 
   <!-- <div id="page"> -->
-    <div id="navigation">
+    <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home'}">
       <div id="title">FMGMAI</div>
       <nav id="tab-box">
-        <router-link to="/" class="navigation-tab">Home</router-link>
-        <router-link to="/organization" class="navigation-tab">Organization</router-link>
-        <router-link to="/program" class="navigation-tab">Program</router-link>
-        <router-link to="/keynote" class="navigation-tab">Keynote</router-link>
-        <router-link to="/submission" class="navigation-tab">Submission</router-link>
+        <router-link to="/" class="navigation-tab" v-bind:class="{selectedTab : this.$data.page ===''}">Home</router-link>
+        <router-link to="/organization" class="navigation-tab" v-bind:class="{'selected-tab' : this.$data.page === 'Organization'}">Organization</router-link>
+        <router-link to="/program" class="navigation-tab" v-bind:class="{'selected-tab' : this.$data.page=='Program'}">Program</router-link>
+        <router-link to="/keynote" class="navigation-tab" v-bind:class="{'selected-tab' : this.$data.page=='Keynote'}">Keynote</router-link>
+        <router-link to="/submission" class="navigation-tab" v-bind:class="{'selected-tab' : this.$data.page=='Submission'}">Submission</router-link>
       </nav>
     </div>  
     <div id="contents">
@@ -39,10 +41,17 @@ export default {
     Footer,
   },
   mounted() {
-    document.title = "FMGMAI"
+    document.title = "FMGMAI";
+  },
+  watch: {
+    $route(to, from) {
+      this.$data.page = to.name;
+    }
   },
   data() {
-    return {};
+    return {
+      page: ''
+    };
   }
 }
 </script>
@@ -71,7 +80,7 @@ html, body {
 
 .title-deco {
   width: 169px;
-  height: 4px;
+  height: 2px;
   background-color: white;
 }
 
@@ -86,6 +95,15 @@ html, body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.big-title-off {
+  height: 80px!important;
+  position: fixed;
+}
+
+.hide-description {
+  display: none;
 }
 
 .workshop-description {
@@ -119,6 +137,10 @@ html, body {
   z-index: 30;
 }
 
+.fixed-navigation {
+  position: fixed !important;
+}
+
 #contents {
   position: -webkit-sticky;
   position: sticky;
@@ -144,9 +166,11 @@ html, body {
   font-weight: 200;
   text-align: center;
   text-decoration: none;
-  /* text-underline-offset: 4px; */
-  text-decoration: underline 2px yellow;
   color: #FFFFFF;
+}
+
+.selected-tab {
+  text-decoration: underline 2px yellow!important;
 }
 
 .navigation-tab:hover {

@@ -57,6 +57,7 @@
     width: 1440px;
     min-height: calc(100vh - 80px);
     margin: 0 calc(50vw - 720px);
+    padding-top: 80px;
 		padding-bottom: 120px;
   }
 

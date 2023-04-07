@@ -4,7 +4,7 @@ import HomeView from '../views/HomeView.vue'
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
   {
@@ -22,7 +22,7 @@ const routes = [
   },
   {
     path: '/keynote',
-    name: 'keynote',
+    name: 'Keynote',
     component: () => import('../views/KeynoteView.vue')
   },
   {

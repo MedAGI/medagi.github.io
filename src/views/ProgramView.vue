@@ -46,7 +46,7 @@
     min-height: calc(100vh - 64px);
     padding-left: calc(50vw - 720px);
     padding-right: calc(50vw - 720px);
-    /* padding-top: 44px; */
+    padding-top: 80px;
     background-color: white;
   }
 
