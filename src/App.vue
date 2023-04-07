@@ -1,7 +1,9 @@
 <template>
   <!-- Introduction -->
   <div id="introduction">
-      <div class="big-title" v-bind:class="{'big-title-off' : this.$data.page !=='Home'}">
+      <div class="big-title" 
+      v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
+      v-bind:style="{backgroundPosition: '0 ' + offsetY + 'px'}">
         <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
         <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">FMGMAI</div>
         <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
@@ -42,15 +44,24 @@ export default {
   },
   mounted() {
     document.title = "FMGMAI";
+    window.addEventListener('scroll', () => {
+      if (this.$data.page === 'Home') { this.$data.offsetY = -1 * Math.min(window.scrollY, screen.height)/2 }
+      else { this.$data.offsetY = -1 * screen.height /2 }
+      });
+
+      
   },
   watch: {
     $route(to, from) {
       this.$data.page = to.name;
-    }
+      window.scrollTo(0, 0);
+    },
   },
   data() {
     return {
-      page: ''
+      page: '',
+      offsetY: 0
+      
     };
   }
 }
@@ -109,7 +120,7 @@ html, body {
 .workshop-description {
   margin-top: 40px;
   font-family: Helvetica;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
   line-height: 1.3;
   text-align: center;
