@@ -68,10 +68,9 @@
 
 <style scoped>
 #organization {
-    width: 1440px;
-    min-height: calc(100vh - 64px);
-    padding-left: calc(50vw - 720px);
-	padding-right: calc(50vw - 720px);
+    width: 1280px;
+    padding-left: calc(50vw - 640px);
+	padding-right: calc(50vw - 640px);
 	padding-bottom: 120px;
 	padding-top: 80px;
 	background-color: white;
@@ -106,21 +105,21 @@ hr {
 
 /* Organization Team */
 .card-container {
-	margin-top: 20px;
-	padding: 20px;
+	padding: 10px;
 	display: flex;
 	flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card {
-	width: 250px;
+	width: 220px;
 	padding-bottom: 40px;
 }
 
 .profile {
-	width: 200px;
+  width: 200px;
   height: 200px;
-  margin: 10px 25px;
+  margin: 10px;
   border-radius: 125px;
   border: solid 1px #979797;
   object-fit: cover;

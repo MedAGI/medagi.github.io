@@ -47,9 +47,9 @@
 
 <style scoped>
 #keynote {
-	width: 1440px;
+	width: 1280px;
 	min-height: calc(100vh - 64px);
-	margin: 0 calc(50vw - 720px);
+	margin: 0 calc(50vw - 640px);
 	padding-bottom: 120px;
 	padding-top: 80px;
 	background-color: white;

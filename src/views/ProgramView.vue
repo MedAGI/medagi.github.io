@@ -43,10 +43,10 @@
   
   <style scoped>
   #program {
-    width: 1440px;
+    width: 1280px;
     min-height: calc(100vh - 64px);
-    padding-left: calc(50vw - 720px);
-    padding-right: calc(50vw - 720px);
+    padding-left: calc(50vw - 640px);
+    padding-right: calc(50vw - 640px);
     padding-top: 80px;
     background-color: white;
   }
@@ -58,7 +58,7 @@
 
   h1 {
     margin-bottom: 0;
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .main-title-deco {

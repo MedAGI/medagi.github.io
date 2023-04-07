@@ -27,9 +27,9 @@
 <style scoped>
 /* Workshop Description */
 #home {
-  width: 1440px;
-  padding-left: calc(50vw - 720px);
-  padding-right: calc(50vw - 720px);
+  width: 1280px;
+  padding-left: calc(50vw - 640px);
+  padding-right: calc(50vw - 640px);
   padding-bottom: 120px;
   padding-top: 44px;
   background-color: white;
@@ -51,7 +51,7 @@ h1 {
   margin-top: 40px;
   margin-bottom: 100px;
   font-family: Helvetica;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.4;
   color: #000;
 }
@@ -61,7 +61,7 @@ h1 {
 .contact {
   margin-top: 40px;
   font-family: Helvetica;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.4;
   color: #000;
 }

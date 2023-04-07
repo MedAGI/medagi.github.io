@@ -62,9 +62,9 @@
 
 <style scoped>
 #submission {
-    width: 1440px;
+    width: 1280px;
     min-height: calc(100vh - 80px);
-    margin: 0 calc(50vw - 720px);
+    margin: 0 calc(50vw - 640px);
     padding-top: 80px;
 		padding-bottom: 120px;
   }
