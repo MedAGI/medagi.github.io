@@ -21,9 +21,9 @@ const routes = [
     component: () => import('../views/ProgramView.vue')
   },
   {
-    path: '/speakers',
-    name: 'speakers',
-    component: () => import('../views/SpeakersView.vue')
+    path: '/keynote',
+    name: 'keynote',
+    component: () => import('../views/KeynoteView.vue')
   },
   {
     path: '/submission',

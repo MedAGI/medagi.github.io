@@ -40,11 +40,14 @@
     </div>
   </template>
   
-  <style>
+  <style scoped>
   #program {
     width: 1440px;
     min-height: calc(100vh - 64px);
-    margin: 0 calc(50vw - 720px)
+    padding-left: calc(50vw - 720px);
+    padding-right: calc(50vw - 720px);
+    /* padding-top: 44px; */
+    background-color: white;
   }
 
   .main-title {

@@ -8,52 +8,52 @@
 			<h2>Organizing Team</h2><hr>
 			<div class="card-container">
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src='@/assets/profile/Wonki_Jeong.jpg' alt="" class="profile">
 					<div class="name">Won-Ki Jeong</div>
 					<div class="belong">Korea University</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src="@/assets/logo.png" alt="" class="profile">
 					<div class="name">Hyunwoo Kim</div>
 					<div class="belong">Korea University</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src="@/assets/profile/edward_choi.png" alt="" class="profile">
 					<div class="name">Edward Choi</div>
 					<div class="belong">KAIST</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src="@/assets/profile/Yiqing_Shen.jpg" alt="" class="profile">
 					<div class="name">Yiqing Shen</div>
 					<div class="belong">Johns Hopkins University</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src="@/assets/profile/Zhongying_Deng.jpg" alt="" class="profile">
 					<div class="name">Zhongying Deng</div>
 					<div class="belong">University of Surrey</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src="../assets/profile/Junjun_He.webp" alt="" class="profile">
 					<div class="name">Junjun He</div>
 					<div class="belong">Shanghai AI Laboratory</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src='../assets/logo.png' alt="" class="profile">
 					<div class="name">Hoon Cho</div>
 					<div class="belong">Broad Institute of MIT and Harvard</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src="@/assets/profile/donglai_sq.png" alt="" class="profile">
 					<div class="name">Donglai Wei</div>
 					<div class="belong">Boston College</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src="@/assets/profile/Jin_Ye.jpg" alt="" class="profile">
 					<div class="name">Jin Ye</div>
 					<div class="belong">Shanghai AI Laboratory</div>
 				</div>
 				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
+					<img src="@/assets/profile/Jing_Ke.jpg" alt="" class="profile">
 					<div class="name">Jing Ke</div>
 					<div class="belong">Shanghai Jiao Tong University</div>
 				</div>
@@ -66,21 +66,24 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 #organization {
     width: 1440px;
     min-height: calc(100vh - 64px);
-    margin: 0 calc(50vw - 720px);
-		padding-bottom: 120px;
+    padding-left: calc(50vw - 720px);
+	padding-right: calc(50vw - 720px);
+	padding-bottom: 120px;
+	padding-top: 44px;
+	background-color: white;
   }
 
 .main-title {
-  margin-top: 44px;
+  margin-top : 0;
   margin-bottom: 40px;
 }
 
 h1 {
-  margin-bottom: 0;
+	margin: 0;
 	font-size: 40px;
 }
 
@@ -119,6 +122,7 @@ hr {
   margin: 10px 25px;
   border-radius: 125px;
   border: solid 1px #979797;
+  object-fit: cover;
 }
 
 .name {
