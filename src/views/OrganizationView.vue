@@ -104,6 +104,7 @@ hr {
 	border: 1px solid black;
 }
 
+/* Organization Team */
 .card-container {
 	margin-top: 20px;
 	padding: 20px;
@@ -142,4 +143,5 @@ hr {
   text-align: center;
   color: #484848;
 }
+/* Organization Team End */
 </style>

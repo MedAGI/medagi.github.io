@@ -1,9 +1,13 @@
 <template>
   <div id="keynote">
+    <!-- Main Title -->
     <div class="main-title">
-      <h1>Keynote</h1>
-    	<div class="main-title-deco"></div>
+    	<h1>Keynote</h1>
+		  <div class="main-title-deco"></div>
     </div>
+    <!-- Main Title End -->
+
+    <!-- Speakers -->
 		<div id="speakers">
 			<h2>Speakers</h2><hr>
 			<div class="card-container">
@@ -14,8 +18,11 @@
 				</div>
 			</div>
 		</div>
+    <!-- Speakers End -->
+
+    <!-- Preliminary Keynotes -->
 		<div id="keynotes">
-			<h2>Preliminary Keyntes</h2><hr>
+			<h2>Preliminary Keynotes</h2><hr>
 			<div id="keynote-container">
 				<div class="keynote-box">
 					<div class="keynote-title">Title Of the Keynote Talks</div>
@@ -34,6 +41,7 @@
 				</div>
 			</div>
 		</div>
+    <!-- Preliminary Keynotes End -->
   </div>
 </template>
 
@@ -73,6 +81,7 @@ h2 {
 hr {
 	border: 1px solid black;
 }
+
 /* Speaker */
 .card-container {
 	margin-top: 20px;

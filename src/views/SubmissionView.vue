@@ -1,9 +1,13 @@
 <template>
   <div id="submission">
+    <!-- Main Title -->
     <div class="main-title">
       <h1>Submission</h1>
     	<div class="main-title-deco"></div>
     </div>
+    <!-- Main Title End -->
+
+    <!-- Important Dates -->
 		<div id="important-dates">
 			<h2>Important Dates</h2><hr>
       <table id="dates-table">
@@ -29,6 +33,9 @@
         </tr>
       </table>
 		</div>
+    <!-- Important Dates Ends -->
+
+    <!-- Topics -->
     <div id="topics">
 			<h2>Topics</h2><hr>
       <div id="topic-description">
@@ -49,6 +56,7 @@
         <li>Large-scale, multi-modality, and multi-task medical AI benchmarks</li>
       </ul>
 		</div>
+    <!-- Topics End -->
   </div>
 </template>
 

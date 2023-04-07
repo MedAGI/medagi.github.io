@@ -1,42 +1,43 @@
 <template>
     <div id="program">
+      <!-- Main Title -->
       <div class="main-title">
           <h1>Program</h1>
           <div class="main-title-deco"></div>
       </div>
+      <!-- Main Title End -->
 
+      <!-- Program Table -->
       <div>
         <table id="program-table">
-            <tr class="timeline">
-              <td class="timeline-time">8:00-08:05</td>
-              <td class="timeline-contents">Welcome and Opening Remarks</td>
-            </tr>
-            <tr class="timeline">
-              <td class="timeline-time">8:05-08:35</td>
-              <td class="timeline-contents">
-                <b>Keynote 1:<br>
-                Prof.Dr.Marinka Zitnik<br>
-                "Trustworthy AI with GNN Explainers"</b>
-              </td>
-            </tr>
-            <tr class="timeline">
-              <td class="timeline-time">8:35-09:05</td>
-              <td class="timeline-contents">
-                <b>Oral Session 1:</b><br>
-                <ul>
-                  <li>
+          <tr class="timeline">
+            <td class="timeline-time">8:00-08:05</td>
+            <td class="timeline-contents">Welcome and Opening Remarks</td>
+          </tr>
+          <tr class="timeline">
+            <td class="timeline-time">8:05-08:35</td>
+            <td class="timeline-contents">
+              <b>Keynote 1:<br>
+              Prof.Dr.Marinka Zitnik<br>
+              "Trustworthy AI with GNN Explainers"</b>
+            </td>
+          </tr>
+          <tr class="timeline">
+            <td class="timeline-time">8:35-09:05</td>
+            <td class="timeline-contents">
+              <b>Oral Session 1:</b><br>
+              <ul>
+                <li>
                   08:35 - 08:45<br>
                   Modular Graph Encoding and Hierarchical Readout for Functional Brain Network based eMCI Diagnosis<br>
                   <i>Lang Mei, Mianxin Liu, Lingbin Bian, Yuyao Zhang, Feng Shi, Han Zhang, Dinggang Shen</i>
                 </li>
-                </ul>
-                
-
-              </td>
-            </tr>
-            
+              </ul>
+            </td>
+          </tr>  
         </table>
       </div>
+      <!-- Program Table End -->
     </div>
   </template>
   
@@ -67,6 +68,7 @@
     background-color: #5b5b5b;
   }
 
+  /* Program Table */
   #program-table {
     width: 100%
   }
@@ -90,7 +92,6 @@
     width: 100px;
     font-size: 18px;
     color: #606060;
-    
   }
 
   .timeline-contents {
@@ -99,5 +100,6 @@
     color: #606060;
     line-height: 1.5;
   }
+  /* Program Table End */
   </style>
   
