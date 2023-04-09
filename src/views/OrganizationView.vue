@@ -70,10 +70,11 @@
 @media screen and (min-width: 1280px) {
 	#organization {
     width: 1280px;
+    min-height: calc(100vh - 80px);
     padding-left: calc(50vw - 640px);
     padding-right: calc(50vw - 640px);
     padding-bottom: 120px;
-    padding-top: 80px;
+    padding-top: 64px;
     background-color: white;
     }
 
@@ -149,6 +150,7 @@
 @media screen and (max-width: 1279px) and (min-width: 768px){
 	#organization {
     width: 720px;
+    min-height: calc(100vh - 64px);
     padding-left: calc(50vw - 360px);
     padding-right: calc(50vw - 360px);
     padding-bottom: 100px;

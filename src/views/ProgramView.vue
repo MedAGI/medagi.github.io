@@ -45,7 +45,7 @@
   @media screen and (min-width: 1280px) {
     #program {
       width: 1280px;
-      min-height: calc(100vh - 64px);
+      min-height: calc(100vh - 80px);
       padding-left: calc(50vw - 640px);
       padding-right: calc(50vw - 640px);
       padding-top: 80px;
@@ -110,7 +110,7 @@
       min-height: calc(100vh - 64px);
       padding-left: calc(50vw - 360px);
       padding-right: calc(50vw - 360px);
-      padding-top: 60px;
+      padding-top: 64px;
       background-color: white;
     }
 

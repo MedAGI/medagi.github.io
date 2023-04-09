@@ -49,7 +49,7 @@
 @media screen and (min-width: 1280px) {
   #keynote {
     width: 1280px;
-    min-height: calc(100vh - 64px);
+    min-height: calc(100vh - 80px);
     margin: 0 calc(50vw - 640px);
     padding-bottom: 120px;
     padding-top: 80px;
