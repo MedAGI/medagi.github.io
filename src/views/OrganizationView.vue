@@ -154,13 +154,13 @@
     padding-left: calc(50vw - 360px);
     padding-right: calc(50vw - 360px);
     padding-bottom: 100px;
-    padding-top: 60px;
+    padding-top: 64px;
     background-color: white;
     }
 
   .main-title {
     margin-top : 44px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   h1 {

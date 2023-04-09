@@ -122,7 +122,7 @@
     h1 {
       font-family: Helvetica;
       margin-bottom: 0;
-      font-size: 40px;
+      font-size: 36px;
     }
 
     .main-title-deco {

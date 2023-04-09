@@ -165,13 +165,13 @@
     min-height: calc(100vh - 64px);
     margin: 0 calc(50vw - 360px);
     padding-bottom: 100px;
-    padding-top: 44px;
+    padding-top: 64px;
     background-color: white;
   }
 
   .main-title {
     margin-top : 44px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   h1 {
