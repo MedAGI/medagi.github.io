@@ -67,80 +67,163 @@
 </template>
 
 <style scoped>
-#organization {
+@media screen and (min-width: 1280px) {
+	#organization {
     width: 1280px;
     padding-left: calc(50vw - 640px);
-	padding-right: calc(50vw - 640px);
-	padding-bottom: 120px;
-	padding-top: 80px;
-	background-color: white;
+    padding-right: calc(50vw - 640px);
+    padding-bottom: 120px;
+    padding-top: 80px;
+    background-color: white;
+    }
+
+  .main-title {
+    margin-top : 44px;
+    margin-bottom: 40px;
   }
 
-.main-title {
-  margin-top : 44px;
-  margin-bottom: 40px;
+  h1 {
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .main-title-deco {
+    width: 28px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
+
+  h2 {
+    margin-bottom: 0px;
+    font-family: Helvetica;
+    font-size: 28px;
+  }
+
+  hr {
+    border: 1px solid black;
+  }
+
+  /* Organization Team */
+  .card-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 220px;
+    padding-bottom: 40px;
+  }
+
+  .profile {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 125px;
+    border: solid 1px #979797;
+    object-fit: cover;
+  }
+
+  .name {
+    margin-bottom: 4px;
+    font-family: Helvetica;
+    font-size: 22px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+  }
+
+  .belong {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #484848;
+  }
+  /* Organization Team End */
 }
 
-h1 {
-	margin: 0;
-	font-size: 40px;
-}
+@media screen and (max-width: 1279px) and (min-width: 768px){
+	#organization {
+    width: 720px;
+    padding-left: calc(50vw - 360px);
+    padding-right: calc(50vw - 360px);
+    padding-bottom: 100px;
+    padding-top: 60px;
+    background-color: white;
+    }
 
-.main-title-deco {
-  width: 28px;
-  height: 1px;
-  border: solid 2px #000000;
-  background-color: #5b5b5b;
-}
+  .main-title {
+    margin-top : 44px;
+    margin-bottom: 20px;
+  }
 
-h2 {
-	margin-bottom: 0px;
-	font-family: Helvetica;
-	font-size: 28px;
-}
+  h1 {
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 36px;
+  }
 
-hr {
-	border: 1px solid black;
-}
+  .main-title-deco {
+    width: 28px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
 
-/* Organization Team */
-.card-container {
-	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
-  justify-content: space-between;
-}
+  h2 {
+    margin-bottom: 0px;
+    font-family: Helvetica;
+    font-size: 28px;
+  }
 
-.card {
-	width: 220px;
-	padding-bottom: 40px;
-}
+  hr {
+    border: 1px solid black;
+  }
 
-.profile {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  border-radius: 125px;
-  border: solid 1px #979797;
-  object-fit: cover;
-}
+  /* Organization Team */
+  .card-container {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.name {
-	margin-bottom: 4px;
-  font-family: Helvetica;
-  font-size: 22px;
-  letter-spacing: normal;
-  text-align: center;
-  color: #000;
-}
+  .card {
+    width: 180px;
+    padding-bottom: 20px;
+  }
 
-.belong {
-  font-family: Helvetica;
-  font-size: 12px;
-  font-weight: 300;
-	font-style: italic;
-  text-align: center;
-  color: #484848;
+  .profile {
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border-radius: 125px;
+    border: solid 1px #979797;
+    object-fit: cover;
+  }
+
+  .name {
+    width: 100%;
+    margin-bottom: 2px;
+    font-family: Helvetica;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+  }
+
+  .belong {
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #484848;
+  }
+  /* Organization Team End */
 }
-/* Organization Team End */
 </style>

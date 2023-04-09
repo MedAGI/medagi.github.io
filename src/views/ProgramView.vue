@@ -42,64 +42,131 @@
   </template>
   
   <style scoped>
-  #program {
-    width: 1280px;
-    min-height: calc(100vh - 64px);
-    padding-left: calc(50vw - 640px);
-    padding-right: calc(50vw - 640px);
-    padding-top: 80px;
-    background-color: white;
-  }
+  @media screen and (min-width: 1280px) {
+    #program {
+      width: 1280px;
+      min-height: calc(100vh - 64px);
+      padding-left: calc(50vw - 640px);
+      padding-right: calc(50vw - 640px);
+      padding-top: 80px;
+      background-color: white;
+    }
 
-  .main-title {
-    margin-top: 44px;
-    margin-bottom: 40px;
-  }
+    .main-title {
+      margin-top: 44px;
+      margin-bottom: 40px;
+    }
 
-  h1 {
-    margin-bottom: 0;
-    font-size: 40px;
-  }
+    h1 {
+      margin-bottom: 0;
+      font-size: 40px;
+    }
 
-  .main-title-deco {
-    width: 28px;
-    height: 1px;
-    border: solid 2px #000000;
-    background-color: #5b5b5b;
-  }
+    .main-title-deco {
+      width: 28px;
+      height: 1px;
+      border: solid 2px #000000;
+      background-color: #5b5b5b;
+    }
 
-  /* Program Table */
-  #program-table {
-    width: 100%
-  }
+    /* Program Table */
+    #program-table {
+      width: 100%
+    }
 
-  .timeline {
-    min-height: 64px;
-    display: flex;
-  }
+    .timeline {
+      min-height: 64px;
+      display: flex;
+    }
 
-  .timeline:nth-child(2n+1) {
-    background-color: #f7f7f7;
-  }
+    .timeline:nth-child(2n+1) {
+      background-color: #f7f7f7;
+    }
 
-  .timeline:nth-child(2n) {
-    border-top: 1px solid #dfdfdf;
-    border-bottom: 1px solid #dfdfdf;
-  }
+    .timeline:nth-child(2n) {
+      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf;
+    }
 
-  .timeline-time {
-    padding: 24px 20px;
-    width: 100px;
-    font-size: 18px;
-    color: #606060;
-  }
+    .timeline-time {
+      padding: 24px 20px;
+      width: 100px;
+      font-size: 18px;
+      color: #606060;
+    }
 
-  .timeline-contents {
-    padding: 20px;
-    font-size: 20px;
-    color: #606060;
-    line-height: 1.5;
+    .timeline-contents {
+      padding: 20px;
+      font-size: 20px;
+      color: #606060;
+      line-height: 1.5;
+    }
+    /* Program Table End */
   }
-  /* Program Table End */
+  
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    #program {
+      width: 720px;
+      min-height: calc(100vh - 64px);
+      padding-left: calc(50vw - 360px);
+      padding-right: calc(50vw - 360px);
+      padding-top: 60px;
+      background-color: white;
+    }
+
+    .main-title {
+      margin-top: 44px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-family: Helvetica;
+      margin-bottom: 0;
+      font-size: 40px;
+    }
+
+    .main-title-deco {
+      width: 28px;
+      height: 1px;
+      border: solid 2px #000000;
+      background-color: #5b5b5b;
+    }
+
+    /* Program Table */
+    #program-table {
+      width: 100%
+    }
+
+    .timeline {
+      min-height: 48px;
+      display: flex;
+    }
+
+    .timeline:nth-child(2n+1) {
+      background-color: #f7f7f7;
+    }
+
+    .timeline:nth-child(2n) {
+      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf;
+    }
+
+    .timeline-time {
+      padding: 24px 16px;
+      width: 100px;
+      font-family: Helvetica;
+      font-size: 14px;
+      color: #606060;
+    }
+
+    .timeline-contents {
+      padding: 20px 16px;
+      font-family: Helvetica;
+      font-size: 16px;
+      color: #606060;
+      line-height: 1.5;
+    }
+    /* Program Table End */
+  }
   </style>
   

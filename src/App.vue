@@ -72,114 +72,229 @@ html, body {
   border: 0;
 }
 
-/* Introduction */
-#introduction {
-  width: 100vw;
-  position: sticky;
-  top: calc(80px - 100vh);
-  z-index: 20;
+@media screen and (min-width: 1280px) {
+  /* Introduction */
+  #introduction {
+    width: 100vw;
+    position: sticky;
+    top: calc(64px - 100vh);
+    z-index: 20;
+  }
+
+  .big-title {
+    background-image: url('./assets/intro.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .big-title-off {
+    height: 80px!important;
+    position: fixed;
+  }
+
+  .title-deco {
+    width: 169px;
+    height: 2px;
+    background-color: white;
+  }
+
+  #intro-title {
+    padding: 5px 0;
+    font-family: Helvetica;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .hide-description {
+    display: none;
+  }
+
+  .workshop-description {
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #c0c0c0;
+  }
+  /* Introudction End */
+
+  /* Navigation */
+  #navigation {
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+  }
+
+  .fixed-navigation {
+    position: fixed !important;
+  }
+
+  #title {
+    font-family: 'Helvetica', Sans-Serif;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 48px;
+  }
+
+  #tab-box {
+    margin-right: 48px;
+  }
+
+  .navigation-tab {
+    margin: 0 10px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .navigation-tab:hover {
+    color: #A0A0A0;
+  }
+
+  .selected-tab {
+    text-decoration: underline 2px yellow!important;
+  }
+  /* Navigation End */
+
+  #contents {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+  }
 }
 
-.big-title {
-  background-image: url('./assets/intro.jpg');
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  /* Introduction */
+  #introduction {
+    width: 100vw;
+    position: sticky;
+    top: calc(64px - 100vh);
+    z-index: 20;
+  }
 
-.big-title-off {
-  height: 80px!important;
-  position: fixed;
-}
+  .big-title {
+    background-image: url('./assets/intro.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.title-deco {
-  width: 169px;
-  height: 2px;
-  background-color: white;
-}
+  .big-title-off {
+    height: 64px!important;
+    position: fixed;
+  }
 
-#intro-title {
-  padding: 5px 0;
-  font-family: Helvetica;
-  font-size: 72px;
-  font-weight: bold;
-  color: #fff;
-}
+  .title-deco {
+    width: 169px;
+    height: 2px;
+    background-color: white;
+  }
 
-.hide-description {
-  display: none;
-}
+  #intro-title {
+    padding: 5px 0;
+    font-family: Helvetica;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+  }
 
-.workshop-description {
-  margin-top: 40px;
-  font-family: Helvetica;
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 1.3;
-  text-align: center;
-  letter-spacing: 1px;
-  color: #c0c0c0;
-}
-/* Introudction End */
+  .hide-description {
+    display: none;
+  }
 
-/* Navigation */
-#navigation {
-  width: 100%;
-  height: 80px;
-  background-color: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 30;
-}
+  .workshop-description {
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #c0c0c0;
+  }
+  /* Introudction End */
 
-.fixed-navigation {
-  position: fixed !important;
-}
+  /* Navigation */
+  #navigation {
+    width: 100%;
+    height: 64px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+  }
 
-#title {
-  font-family: 'Helvetica', Sans-Serif;
-  color: white;
-  font-size: 36px;
-  font-weight: bold;
-  margin-left: 48px;
-}
+  .fixed-navigation {
+    position: fixed !important;
+  }
 
-#tab-box {
-  margin-right: 48px;
-}
+  #title {
+    font-family: 'Helvetica', Sans-Serif;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 24px;
+  }
 
-.navigation-tab {
-  margin: 0 10px;
-  font-family: Helvetica;
-  font-size: 18px;
-  font-weight: 200;
-  text-align: center;
-  text-decoration: none;
-  color: #FFFFFF;
-}
+  #tab-box {
+    margin-right: 24px;
+  }
 
-.navigation-tab:hover {
-  color: #A0A0A0;
-}
+  .navigation-tab {
+    margin: 0 8px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
 
-.selected-tab {
-  text-decoration: underline 2px yellow!important;
-}
-/* Navigation End */
+  .navigation-tab:hover {
+    color: #A0A0A0;
+  }
 
-#contents {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 80px;
+  .selected-tab {
+    text-decoration: underline 2px yellow!important;
+  }
+  /* Navigation End */
+
+  #contents {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 64px;
+  }
 }
 </style>

@@ -61,7 +61,8 @@
 </template>
 
 <style scoped>
-#submission {
+@media screen and (min-width: 1280px) {
+  #submission {
     width: 1280px;
     min-height: calc(100vh - 80px);
     margin: 0 calc(50vw - 640px);
@@ -69,73 +70,155 @@
 		padding-bottom: 120px;
   }
 
-.main-title {
-  margin-top: 44px;
-  margin-bottom: 40px;
+  .main-title {
+    margin-top: 44px;
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .main-title-deco {
+    width: 28px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
+
+  h2 {
+    margin-bottom: 0px;
+    font-family: Helvetica;
+    font-size: 28px;
+  }
+
+  hr {
+    border: 1px solid black;
+  }
+
+  /* Dates Table */
+  #dates-table {
+    padding: 20px;
+  }
+
+  .dates {
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 250px;
+    padding: 5px;
+    color: #5A5A5A;
+  }
+
+  .due-work {
+    width: calc(100% - 340px);
+    padding: 5px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000;
+  }
+  /* Dates Table End */
+
+  /* Topics */
+  #topic-description {
+    padding: 10px 20px;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+  }
+
+  #topic-list {
+    margin: 0;
+    padding-left: 60px;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #000;
+  }
+  /* Topics End */
 }
 
-h1 {
-  margin-bottom: 0;
-	font-size: 40px;
-}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  #submission {
+    width: 720px;
+    min-height: calc(100vh - 64px);
+    margin: 0 calc(50vw - 360px);
+    padding-top: 64px;
+		padding-bottom: 120px;
+  }
 
-.main-title-deco {
-  width: 28px;
-  height: 1px;
-  border: solid 2px #000000;
-  background-color: #5b5b5b;
-}
+  .main-title {
+    margin-top: 44px;
+    margin-bottom: 30px;
+  }
 
-h2 {
-	margin-bottom: 0px;
-	font-family: Helvetica;
-	font-size: 28px;
-}
+  h1 {
+    margin-bottom: 0;
+    font-family: Helvetica;
+    font-size: 36px;
+  }
 
-hr {
-	border: 1px solid black;
-}
+  .main-title-deco {
+    width: 28px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
 
-/* Dates Table */
-#dates-table {
-  padding: 20px;
-}
+  h2 {
+    margin-bottom: 0px;
+    font-family: Helvetica;
+    font-size: 28px;
+  }
 
-.dates {
-  font-family: Helvetica;
-  font-size: 18px;
-  line-height: 1.4;
-  width: 250px;
-  padding: 5px;
-  color: #5A5A5A;
-}
+  hr {
+    border: 1px solid black;
+  }
 
-.due-work {
-  width: calc(100% - 340px);
-  padding: 5px;
-  font-family: Helvetica;
-  font-size: 18px;
-  line-height: 1.4;
-  color: #000;
-}
-/* Dates Table End */
+  /* Dates Table */
+  #dates-table {
+    padding: 10px;
+  }
 
-/* Topics */
-#topic-description {
-  padding: 10px 20px;
-  font-family: Helvetica;
-  font-size: 20px;
-  line-height: 1.4;
-  color: #000;
-}
+  .dates {
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 250px;
+    padding: 5px;
+    color: #5A5A5A;
+  }
 
-#topic-list {
-  margin: 0;
-  padding-left: 60px;
-  font-family: Helvetica;
-  font-size: 20px;
-  line-height: 1.8;
-  color: #000;
+  .due-work {
+    width: calc(100% - 340px);
+    padding: 5px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000;
+  }
+  /* Dates Table End */
+
+  /* Topics */
+  #topic-description {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000;
+  }
+
+  #topic-list {
+    margin: 0;
+    padding-left: 40px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+  }
+  /* Topics End */
 }
-/* Topics End */
 </style>

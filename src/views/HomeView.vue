@@ -25,45 +25,93 @@
 </template>
 
 <style scoped>
-/* Workshop Description */
-#home {
-  width: 1280px;
-  padding-left: calc(50vw - 640px);
-  padding-right: calc(50vw - 640px);
-  padding-bottom: 120px;
-  padding-top: 44px;
-  background-color: white;
+@media screen and (min-width: 1280px) {
+  /* Workshop Description */
+  #home {
+    width: 1280px;
+    padding-left: calc(50vw - 640px);
+    padding-right: calc(50vw - 640px);
+    padding-bottom: 120px;
+    padding-top: 44px;
+    background-color: white;
+  }
+
+  h1 {
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .main-title-deco {
+    width: 28px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
+
+  .description {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #000;
+  }
+  /* Workshop Description End */
+
+  /* Contact */
+  .contact {
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #000;
+  }
+  /* Contact End */
 }
 
-h1 {
-  margin: 0;
-	font-size: 40px;
-}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  /* Workshop Description */
+  #home {
+    width: 720px;
+    padding-left: calc(50vw - 360px);
+    padding-right: calc(50vw - 360px);
+    padding-bottom: 100px;
+    padding-top: 44px;
+    background-color: white;
+  }
 
-.main-title-deco {
-  width: 28px;
-  height: 1px;
-  border: solid 2px #000000;
-  background-color: #5b5b5b;
-}
+  h1 {
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 36px;
+  }
 
-.description {
-  margin-top: 40px;
-  margin-bottom: 100px;
-  font-family: Helvetica;
-  font-size: 24px;
-  line-height: 1.4;
-  color: #000;
-}
-/* Workshop Description End */
+  .main-title-deco {
+    width: 28px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
 
-/* Contact */
-.contact {
-  margin-top: 40px;
-  font-family: Helvetica;
-  font-size: 24px;
-  line-height: 1.4;
-  color: #000;
+  .description {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+  }
+  /* Workshop Description End */
+
+  /* Contact */
+  .contact {
+    margin-top: 30px;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+  }
+  /* Contact End */
 }
-/* Contact End */
 </style>
