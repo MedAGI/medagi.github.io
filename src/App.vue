@@ -77,7 +77,7 @@ html, body {
   #introduction {
     width: 100vw;
     position: sticky;
-    top: calc(64px - 100vh);
+    top: calc(80px - 100vh);
     z-index: 20;
   }
 

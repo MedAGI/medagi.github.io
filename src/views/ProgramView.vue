@@ -9,7 +9,8 @@
 
       <!-- Program Table -->
       <div>
-        <table id="program-table">
+        TBA
+        <!-- <table id="program-table">
           <tr class="timeline">
             <td class="timeline-time">8:00-08:05</td>
             <td class="timeline-contents">Welcome and Opening Remarks</td>
@@ -35,7 +36,7 @@
               </ul>
             </td>
           </tr>  
-        </table>
+        </table> -->
       </div>
       <!-- Program Table End -->
     </div>

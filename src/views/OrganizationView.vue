@@ -13,14 +13,9 @@
 					<div class="belong">Korea University</div>
 				</div>
 				<div class="card">
-					<img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile">
+					<img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
 					<div class="name">Hyunwoo Kim</div>
 					<div class="belong">Korea University</div>
-				</div>
-				<div class="card">
-					<img src="@/assets/profile/edward_choi.png" alt="" class="profile">
-					<div class="name">Edward Choi</div>
-					<div class="belong">KAIST</div>
 				</div>
 				<div class="card">
 					<img src="@/assets/profile/Yiqing_Shen.jpg" alt="" class="profile">
@@ -32,13 +27,18 @@
 					<div class="name">Zhongying Deng</div>
 					<div class="belong">University of Surrey</div>
 				</div>
+        <div class="card">
+					<img src="@/assets/profile/edward_choi.png" alt="" class="profile">
+					<div class="name">Edward Choi</div>
+					<div class="belong">KAIST</div>
+				</div>
 				<div class="card">
-					<img src="../assets/profile/Junjun_He.webp" alt="" class="profile">
+					<img src="../assets/profile/Junjun_He.webp" alt="" class="profile" style="object-position: 50% 15px;">
 					<div class="name">Junjun He</div>
 					<div class="belong">Shanghai AI Laboratory</div>
 				</div>
 				<div class="card">
-					<img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile">
+					<img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile color-profile" style="object-position: 50% 1px;">
 					<div class="name">Hoon Cho</div>
 					<div class="belong">Broad Institute of MIT and Harvard</div>
 				</div>
@@ -53,7 +53,7 @@
 					<div class="belong">Shanghai AI Laboratory</div>
 				</div>
 				<div class="card">
-					<img src="@/assets/profile/Jing_Ke.jpg" alt="" class="profile">
+					<img src="@/assets/profile/Jing_Ke.jpg" alt="" class="profile color-profile">
 					<div class="name">Jing Ke</div>
 					<div class="belong">Shanghai Jiao Tong University</div>
 				</div>
@@ -124,7 +124,11 @@
     margin: 10px;
     border-radius: 125px;
     border: solid 1px #979797;
-    object-fit: cover;
+    object-fit: contain;
+  }
+
+  .color-profile {
+    object-fit: cover!important;
   }
 
   .name {
@@ -204,7 +208,11 @@
     margin: 10px;
     border-radius: 125px;
     border: solid 1px #979797;
-    object-fit: cover;
+    object-fit: contain;
+  }
+
+  .color-profile {
+    object-fit: cover!important;
   }
 
   .name {
