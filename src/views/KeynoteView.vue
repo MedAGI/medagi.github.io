@@ -10,20 +10,21 @@
     <!-- Speakers -->
 		<div id="speakers">
 			<h2>Speakers</h2><hr>
-			<div class="card-container">
+			<!--<div class="card-container">
 				<div class="card">
 					<img src="../assets/logo.png" alt="" class="profile">
 					<div class="name">Won-Ki Jeong</div>
 					<div class="belong">Korea University</div>
 				</div>
-			</div>
+			</div>-->
+      TBA
 		</div>
     <!-- Speakers End -->
 
     <!-- Preliminary Keynotes -->
 		<div id="keynotes">
 			<h2>Preliminary Keynotes</h2><hr>
-			<div id="keynote-container">
+			<!--<div id="keynote-container">
 				<div class="keynote-box">
 					<div class="keynote-title">Title Of the Keynote Talks</div>
 					<div class="keynote-speaker">Speaker of the Keynote Talks</div>
@@ -39,7 +40,8 @@
 					<div class="keynote-speaker">Speaker of the Keynote Talks</div>
 					<div class="keynote-time">Sep 33, 2022 2:55PM - 3:10 PM</div>
 				</div>
-			</div>
+			</div>-->
+      TBA
 		</div>
     <!-- Preliminary Keynotes End -->
   </div>
