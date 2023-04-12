@@ -116,4 +116,50 @@
   }
   /* Contact End */
 }
+
+@media screen and (max-width: 767px) {
+  /* Workshop Description */
+  #home {
+    width: 360px;
+    min-height: calc(100vh - 64px);
+    padding-left: calc(50vw - 180px);
+    padding-right: calc(50vw - 180px);
+    padding-bottom: 30px;
+    padding-top: 24px;
+    background-color: white;
+  }
+
+  h1 {
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .main-title-deco {
+    width: 28px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
+
+  .description {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #000;
+  }
+  /* Workshop Description End */
+
+  /* Contact */
+  .contact {
+    margin-top: 30px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #000;
+  }
+  /* Contact End */
+}
 </style>

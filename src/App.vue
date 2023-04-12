@@ -297,4 +297,116 @@ html, body {
     top: 64px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  /* Introduction */
+  #introduction {
+    width: 100vw;
+    position: sticky;
+    top: calc(60px - 100vh);
+    z-index: 20;
+  }
+
+  .big-title {
+    background-image: url('./assets/intro.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .big-title-off {
+    height: 60px!important;
+    position: fixed;
+  }
+
+  .title-deco {
+    width: 69px;
+    height: 2px;
+    background-color: white;
+  }
+
+  #intro-title {
+    padding: 5px 0;
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .hide-description {
+    display: none;
+  }
+
+  .workshop-description {
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #c0c0c0;
+  }
+  /* Introudction End */
+
+  /* Navigation */
+  #navigation {
+    width: 100%;
+    height: 64px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 30;
+  }
+
+  .fixed-navigation {
+    position: fixed !important;
+  }
+
+  #title {
+    font-family: 'Helvetica', Sans-Serif;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 24px;
+  }
+
+  #tab-box {
+    margin-right: 24px;
+  }
+
+  .navigation-tab {
+    margin: 0 8px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .navigation-tab:hover {
+    color: #A0A0A0;
+  }
+
+  .selected-tab {
+    text-decoration: underline 2px yellow!important;
+  }
+  /* Navigation End */
+
+  #contents {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 64px;
+  }
+}
 </style>

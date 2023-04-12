@@ -72,4 +72,33 @@ export default {
   }
 }
 
+@media screen and (max-width:767px) {
+  #footer {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: black;
+  }
+
+  #copyright {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Helvetica;
+    font-size: 6px;
+    font-weight: 300;
+    text-align: center;
+    color: #f0f0f0;
+  }
+
+  #logos {
+    padding-bottom: 10px;
+    display: flex;
+  }
+
+  .logo {
+    height: 20px;
+  }
+}
+
+
 </style>
