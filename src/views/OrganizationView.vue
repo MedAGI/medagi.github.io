@@ -281,16 +281,17 @@
     padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .card {
-    width: 250px;
+    width: 180px;
     padding-bottom: 20px;
   }
 
   .profile {
-    width: 250px;
-    height: 250px;
+    width: 160px;
+    height: 160px;
     margin: 10px;
     border-radius: 125px;
     border: solid 1px #979797;

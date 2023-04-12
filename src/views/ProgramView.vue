@@ -10,22 +10,22 @@
       <!-- Program Table -->
       <div>
         TBA
-        <!-- <table id="program-table">
-          <tr class="timeline">
-            <td class="timeline-time">8:00-08:05</td>
-            <td class="timeline-contents">Welcome and Opening Remarks</td>
-          </tr>
-          <tr class="timeline">
-            <td class="timeline-time">8:05-08:35</td>
-            <td class="timeline-contents">
+        <div id="program-table">
+          <div class="timeline">
+            <div class="timeline-time">8:00-08:05</div>
+            <div class="timeline-contents">Welcome and Opening Remarks</div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-time">8:05-08:35</div>
+            <div class="timeline-contents">
               <b>Keynote 1:<br>
               Prof.Dr.Marinka Zitnik<br>
               "Trustworthy AI with GNN Explainers"</b>
-            </td>
-          </tr>
-          <tr class="timeline">
-            <td class="timeline-time">8:35-09:05</td>
-            <td class="timeline-contents">
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-time">8:35-09:05</div>
+            <div class="timeline-contents">
               <b>Oral Session 1:</b><br>
               <ul>
                 <li>
@@ -34,9 +34,9 @@
                   <i>Lang Mei, Mianxin Liu, Lingbin Bian, Yuyao Zhang, Feng Shi, Han Zhang, Dinggang Shen</i>
                 </li>
               </ul>
-            </td>
-          </tr>  
-        </table> -->
+            </div>
+          </div>  
+        </div>
       </div>
       <!-- Program Table End -->
     </div>
@@ -166,6 +166,77 @@
       font-size: 16px;
       color: #606060;
       line-height: 1.5;
+    }
+    /* Program Table End */
+  }
+
+  @media screen and (max-width: 767px) {
+    #program {
+      width: 360px;
+      min-height: calc(100vh - 30px);
+      padding-left: calc(50vw - 180px);
+      padding-right: calc(50vw - 180px);
+      padding-top: 30px;
+      background-color: white;
+    }
+
+    .main-title {
+      margin-top: 44px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-family: Helvetica;
+      margin-bottom: 0;
+      font-size: 24px;
+    }
+
+    .main-title-deco {
+      width: 20px;
+      height: 1px;
+      border: solid 2px #000000;
+      background-color: #5b5b5b;
+    }
+
+    /* Program Table */
+    #program-table {
+      width: 100%
+    }
+
+    .timeline {
+      display: flex;
+      /* flex-direction: column; */
+      padding: 10px;
+    }
+
+    .timeline:nth-child(2n+1) {
+      background-color: #f7f7f7;
+    }
+
+    .timeline:nth-child(2n) {
+      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf;
+    }
+
+    .timeline-time {
+      padding-bottom: 10px;
+      width: 40px;
+      font-family: Helvetica;
+      font-size: 10px;
+      color: #606060;
+      flex-shrink: 0;
+    }
+
+    .timeline-contents {
+      /* padding: 0 10px; */
+      font-family: Helvetica;
+      font-size: 12px;
+      color: #606060;
+      line-height: 1.3;
+    }
+
+    ul {
+      padding-left: 10px;
     }
     /* Program Table End */
   }

@@ -10,28 +10,28 @@
     <!-- Important Dates -->
 		<div id="important-dates">
 			<h2>Important Dates</h2><hr>
-      <table id="dates-table">
-        <tr>
-          <td class="dates">25 June 2023</td>
-          <td class="due-work">Paper submission due</td>
-        </tr>
-        <tr>
-          <td class="dates">16 July 2023</td>
-          <td class="due-work">Notification of paper decisions</td>
-        </tr>
-        <tr>
-          <td class="dates">30 July 2023</td>
-          <td class="due-work">Canera ready papers due</td>
-        </tr>
-        <tr>
-          <td class="dates">6 September 2023</td>
-          <td class="due-work">Workshop proceedings due</td>
-        </tr>
-        <tr>
-          <td class="dates">8 October & 12 October 2023</td>
-          <td class="due-work">Workshop dates</td>
-        </tr>
-      </table>
+      <div id="dates-table">
+        <div class="date-row">
+          <div class="dates">25 June 2023</div>
+          <div class="due-work">Paper submission due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">16 July 2023</div>
+          <div class="due-work">Notification of paper decisions</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">30 July 2023</div>
+          <div class="due-work">Canera ready papers due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">6 September 2023</div>
+          <div class="due-work">Workshop proceedings due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">8 October & 12 October 2023</div>
+          <div class="due-work">Workshop dates</div>
+        </div>
+      </div>
 		</div>
     <!-- Important Dates Ends -->
 
@@ -109,6 +109,10 @@
     width: 250px;
     padding: 5px;
     color: #5A5A5A;
+  }
+
+  .date-row {
+    display: flex;
   }
 
   .due-work {
@@ -192,6 +196,10 @@
     color: #5A5A5A;
   }
 
+  .date-row {
+    display: flex;
+  }
+
   .due-work {
     width: calc(100% - 340px);
     padding: 5px;
@@ -217,6 +225,94 @@
     font-family: Helvetica;
     font-size: 18px;
     line-height: 1.8;
+    color: #000;
+  }
+  /* Topics End */
+}
+
+@media screen and (max-width: 767px) {
+  #submission {
+    width: 360px;
+    min-height: calc(100vh - 64px);
+    margin: 0 calc(50vw - 180px);
+    padding-top: 64px;
+		padding-bottom: 120px;
+  }
+
+  .main-title {
+    margin-top: 24px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    font-family: Helvetica;
+    font-size: 36px;
+  }
+
+  .main-title-deco {
+    width: 20px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
+
+  h2 {
+    margin-bottom: 0px;
+    font-family: Helvetica;
+    font-size: 20px;
+  }
+
+  hr {
+    border: 1px solid black;
+  }
+
+  /* Dates Table */
+  #dates-table {
+    padding: 10px;
+  }
+
+  .dates {
+    font-family: Helvetica;
+    font-size: 14px;
+    width: 250px;
+    padding: 5px 5px 0;
+    color: #5A5A5A;
+  }
+
+  .date-row {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+
+  .due-work {
+    width: calc(100% - 10px);
+    padding: 5px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000;
+  }
+  /* Dates Table End */
+
+  /* Topics */
+  #topic-description {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+  }
+
+  #topic-list {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.5;
     color: #000;
   }
   /* Topics End */

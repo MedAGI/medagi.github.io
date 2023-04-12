@@ -274,4 +274,119 @@
   }
   /* Preliminary Keynote End */
 }
+
+@media screen and (max-width: 767px) {
+  #keynote {
+    width: 360px;
+    min-height: calc(100vh - 64px);
+    margin: 0 calc(50vw - 180px);
+    padding-bottom: 30px;
+    padding-top: 54px;
+    background-color: white;
+  }
+
+  .main-title {
+    margin-top : 24px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 36px;
+  }
+
+  .main-title-deco {
+    width: 20px;
+    height: 1px;
+    border: solid 2px #000000;
+    background-color: #5b5b5b;
+  }
+
+  h2 {
+    margin-bottom: 0px;
+    font-family: Helvetica;
+    font-size: 20px;
+  }
+
+  hr {
+    border: 1px solid black;
+  }
+
+  /* Speaker */
+  .card-container {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 180px;
+    padding-bottom: 40px;
+  }
+
+  .profile {
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border-radius: 125px;
+    border: solid 1px #979797;
+    object-fit: cover;
+  }
+
+  .name {
+    width: 100%;
+    margin-bottom: 4px;
+    font-family: Helvetica;
+    font-size: 18px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+  }
+
+  .belong {
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #484848;
+  }
+  /* Speaker End */
+
+  /* Preliminary Keynote */
+  #keynote-container {
+    padding: 10px 0;
+  }
+
+  .keynote-box {
+    margin-bottom: 30px;
+  }
+
+  .keynote-title {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 10px;
+  }
+
+  .keynote-speaker {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    padding-bottom: 5px;
+  }
+
+  .keynote-time {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    color: #797979;
+  }
+  /* Preliminary Keynote End */
+}
 </style>
