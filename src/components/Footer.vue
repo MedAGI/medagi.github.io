@@ -74,6 +74,7 @@ export default {
 
 @media screen and (max-width:767px) {
   #footer {
+
     width: calc(100% - 20px);
     padding: 10px;
     background-color: black;
@@ -81,7 +82,7 @@ export default {
 
   #copyright {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     font-family: Helvetica;
     font-size: 6px;
@@ -91,12 +92,12 @@ export default {
   }
 
   #logos {
-    padding-bottom: 10px;
+    padding: 10px;
     display: flex;
   }
 
   .logo {
-    height: 20px;
+    height: 50px;
   }
 }
 

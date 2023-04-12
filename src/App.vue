@@ -17,12 +17,36 @@
   <!-- Navigation -->
   <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home'}">
     <div id="title">FMGMAI</div>
-    <nav id="tab-box">
-      <router-link to="/" class="navigation-tab" v-bind:class="{selectedTab : this.$data.page ===''}">Home</router-link>
-      <router-link to="/organization" class="navigation-tab" v-bind:class="{'selected-tab' : this.$data.page === 'Organization'}">Organization</router-link>
-      <router-link to="/program" class="navigation-tab" v-bind:class="{'selected-tab' : this.$data.page=='Program'}">Program</router-link>
-      <router-link to="/keynote" class="navigation-tab" v-bind:class="{'selected-tab' : this.$data.page=='Keynote'}">Keynote</router-link>
-      <router-link to="/submission" class="navigation-tab" v-bind:class="{'selected-tab' : this.$data.page=='Submission'}">Submission</router-link>
+    <div v-on:click="changeMenuBtn" id="menu">
+            <div v-bind:class="sideBtnStyle"></div>
+            <div v-bind:class="sideBtnStyle"></div>
+    </div>
+    <nav id="tab-box" v-bind:class="showMenuBar">
+      <router-link to="/" 
+        class="navigation-tab"
+        v-bind:class="{selectedTab : this.$data.page ===''}"
+        v-on:click="changeMenuBtn">
+        Home</router-link>
+      <router-link to="/organization" 
+        class="navigation-tab"
+        v-on:click="changeMenuBtn" 
+        v-bind:class="{'selected-tab' : this.$data.page === 'Organization'}">
+        Organization</router-link>
+      <router-link to="/program" 
+        class="navigation-tab"
+        v-on:click="changeMenuBtn" 
+        v-bind:class="{'selected-tab' : this.$data.page=='Program'}">
+      Program</router-link>
+      <router-link to="/keynote" 
+        class="navigation-tab"
+        v-on:click="changeMenuBtn" 
+        v-bind:class="{'selected-tab' : this.$data.page=='Keynote'}">
+      Keynote</router-link>
+      <router-link to="/submission" 
+        class="navigation-tab"
+        v-on:click="changeMenuBtn" 
+        v-bind:class="{'selected-tab' : this.$data.page=='Submission'}">
+      Submission</router-link>
     </nav>
   </div>  
   <!-- Navigation End -->
@@ -41,6 +65,22 @@ import Footer from "@/components/Footer.vue";
 export default {
   name: 'Home',
   components: { Footer },
+  computed: {
+          sideBtnStyle: function() {
+            if (!this.$data.isSideOpened) return {'side-menu-open': true };
+            else return {'side-menu-close': true };
+          },
+          showMenuBar: function() {
+            if (this.$data.isSideOpened) return {'show-menu-bar': true };
+            else return {'hide-menu-bar': true };
+          }
+
+  },
+  methods: {
+        changeMenuBtn: function() {
+            this.$data.isSideOpened = !(this.$data.isSideOpened);
+        }
+      },
   mounted() {
     document.title = "FMGMAI";  // 문서 탭 타이틀 변경
 
@@ -61,7 +101,8 @@ export default {
   data() {
     return {
       page: '',
-      offsetY: 0
+      offsetY: 0,
+      isSideOpened: false
     }}
 }
 </script>
@@ -381,11 +422,22 @@ html, body {
   }
 
   #tab-box {
-    margin-right: 24px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 60px;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  .hide-menu-bar {
+    display: none!important;
   }
 
   .navigation-tab {
-    margin: 0 8px;
+    margin: 30px;
+    height: 30px;
     font-family: Helvetica;
     font-size: 16px;
     font-weight: 200;
@@ -401,6 +453,43 @@ html, body {
   .selected-tab {
     text-decoration: underline 2px yellow!important;
   }
+
+  #menu {
+    width: 20px;
+    margin-right: 24px;
+    z-index: 99;
+    cursor: pointer;
+    }
+
+  .side-menu-open {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: 0;
+    transition: 
+        transform .3s cubic-bezier(0.04, 0.04, 0.12, 0.96),
+        -webkit-transform .3s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+    .side-menu-close {
+      position: relative;
+      width: 100%;
+      height: 1px;
+      border: 0;
+      background-color: white;
+      transition: 
+          transform .35s cubic-bezier(0.04, 0.04, 0.12, 0.96),
+          -webkit-transform .35s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+    .side-menu-close:first-child {
+      top: 0.5px;
+      transform: rotate( 45deg );
+    }
+    .side-menu-close:last-child {
+      bottom: 0.5px;
+      transform: rotate( -45deg );
+    }
   /* Navigation End */
 
   #contents {

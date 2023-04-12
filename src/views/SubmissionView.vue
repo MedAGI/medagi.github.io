@@ -236,7 +236,7 @@
     min-height: calc(100vh - 64px);
     margin: 0 calc(50vw - 180px);
     padding-top: 64px;
-		padding-bottom: 120px;
+		padding-bottom: 40px;
   }
 
   .main-title {
