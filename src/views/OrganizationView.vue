@@ -74,7 +74,7 @@
     padding-left: calc(50vw - 640px);
     padding-right: calc(50vw - 640px);
     padding-bottom: 120px;
-    padding-top: 64px;
+    padding-top: 80px;
     background-color: white;
     }
 
@@ -84,6 +84,7 @@
   }
 
   h1 {
+    font-family: Helvetica;
     margin: 0;
     font-size: 40px;
   }
@@ -181,6 +182,7 @@
   }
 
   h2 {
+    font-family: Helvetica;
     margin-bottom: 0px;
     font-family: Helvetica;
     font-size: 28px;
