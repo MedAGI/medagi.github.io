@@ -5,10 +5,10 @@
       v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
       v-bind:style="{backgroundPosition: '0 ' + offsetY + 'px'}">
         <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-        <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">FMGMAI</div>
+        <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
         <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
         <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-          MICCAI 2023  1st International Workshop on<br> Foundation Models for general medical AI
+          MICCAI 2023 1st International Workshop on<br> Foundation Models for general medical AI
         </div>
       </div>
   </div>
@@ -16,7 +16,7 @@
 
   <!-- Navigation -->
   <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home'}">
-    <div id="title">FMGMAI</div>
+    <div id="title">MedAGI</div>
     <div v-on:click="changeMenuBtn" id="menu">
             <div v-bind:class="sideBtnStyle"></div>
             <div v-bind:class="sideBtnStyle"></div>
@@ -82,7 +82,7 @@ export default {
         }
       },
   mounted() {
-    document.title = "FMGMAI";  // 문서 탭 타이틀 변경
+    document.title = "MedAGI";  // 문서 탭 타이틀 변경
 
     // Scroll 시 배경 이미지 이동
     window.addEventListener('scroll', () => {

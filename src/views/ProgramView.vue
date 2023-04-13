@@ -10,7 +10,7 @@
       <!-- Program Table -->
       <div>
         TBA
-        <div id="program-table">
+        <!--<div id="program-table">
           <div class="timeline">
             <div class="timeline-time">8:00-08:05</div>
             <div class="timeline-contents">Welcome and Opening Remarks</div>
@@ -36,7 +36,7 @@
               </ul>
             </div>
           </div>  
-        </div>
+        </div>-->
       </div>
       <!-- Program Table End -->
     </div>
