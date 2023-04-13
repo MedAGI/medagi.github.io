@@ -3,7 +3,7 @@
         <div id="logos">
             <img src="@/assets/miccai2023-logo.png" class="logo" alt="">
         </div>
-        <div id="copyright">© 2023 1st International Workshop on Foundation Models for General Medical AI (FMGMAI 2023)</div>
+        <div id="copyright">© 2023 1st International Workshop on Foundation Models for General Medical AI (MedAGI 2023)</div>
     </div>
 </template>
 
