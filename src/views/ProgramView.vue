@@ -61,7 +61,7 @@
     h1 {
       font-family: Helvetica;
       margin-bottom: 0;
-      font-size: 36px;
+      font-size: 40px;
     }
 
     .main-title-deco {
