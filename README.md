@@ -1,4 +1,4 @@
-# miccai2023
+# MedAGI
 
 ## Project setup
 ```
