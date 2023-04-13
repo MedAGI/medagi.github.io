@@ -176,12 +176,13 @@
       min-height: calc(100vh - 30px);
       padding-left: calc(50vw - 180px);
       padding-right: calc(50vw - 180px);
-      padding-top: 30px;
+      padding-top: 54px;
+      padding-bottom: 30px;
       background-color: white;
     }
 
     .main-title {
-      margin-top: 44px;
+      margin-top: 24px;
       margin-bottom: 30px;
     }
 

@@ -278,11 +278,10 @@
 @media screen and (max-width: 767px) {
   #keynote {
     width: 360px;
-    min-height: calc(100vh - 64px);
+    min-height: calc(100vh - 84px);
     margin: 0 calc(50vw - 180px);
-    padding-bottom: 30px;
     padding-top: 54px;
-    background-color: white;
+    padding-bottom: 30px;
   }
 
   .main-title {
@@ -293,7 +292,7 @@
   h1 {
     font-family: Helvetica;
     margin: 0;
-    font-size: 36px;
+    font-size: 24px;
   }
 
   .main-title-deco {

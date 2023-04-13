@@ -233,10 +233,10 @@
 @media screen and (max-width: 767px) {
   #submission {
     width: 360px;
-    min-height: calc(100vh - 64px);
+    min-height: calc(100vh - 84px);
     margin: 0 calc(50vw - 180px);
-    padding-top: 64px;
-		padding-bottom: 40px;
+    padding-top: 54px;
+		padding-bottom: 30px;
   }
 
   .main-title {
@@ -247,7 +247,7 @@
   h1 {
     margin-bottom: 0;
     font-family: Helvetica;
-    font-size: 36px;
+    font-size: 24px;
   }
 
   .main-title-deco {
