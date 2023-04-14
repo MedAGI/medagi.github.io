@@ -8,8 +8,10 @@
         <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
         <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
         <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-          MICCAI 2023 1st International Workshop on<br> Foundation Models for general medical AI
+          MICCAI 2023 1st International Workshop on<br> Foundation Models for General Medical AI
         </div>
+        <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+          October 12, 2023 AM 8:00-11:30</div>
       </div>
   </div>
   <!-- Introduction End -->
@@ -159,7 +161,7 @@ html, body {
   }
 
   .workshop-description {
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: Helvetica;
     font-size: 20px;
     font-weight: 100;
@@ -167,6 +169,14 @@ html, body {
     text-align: center;
     letter-spacing: 1px;
     color: #c0c0c0;
+  }
+
+  .workshop-time {
+    margin-top: 15px;
+    font-family: Helvetica;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #d9d9d9;
   }
   /* Introudction End */
 
@@ -272,7 +282,7 @@ html, body {
   }
 
   .workshop-description {
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: Helvetica;
     font-size: 18px;
     font-weight: 100;
@@ -280,6 +290,13 @@ html, body {
     text-align: center;
     letter-spacing: 1px;
     color: #c0c0c0;
+  }
+
+  .workshop-time {
+    margin-top: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #d9d9d9;
   }
   /* Introudction End */
 
@@ -385,7 +402,7 @@ html, body {
   }
 
   .workshop-description {
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: Helvetica;
     font-size: 16px;
     font-weight: 100;
@@ -393,6 +410,13 @@ html, body {
     text-align: center;
     letter-spacing: 1px;
     color: #c0c0c0;
+  }
+
+  .workshop-time {
+    margin-top: 10px;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #d9d9d9;
   }
   /* Introudction End */
 

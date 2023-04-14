@@ -33,12 +33,12 @@
 					<div class="belong">KAIST</div>
 				</div>
 				<div class="card">
-					<img src="../assets/profile/Junjun_He.webp" alt="" class="profile" style="object-position: 50% 15px;">
+					<img src="../assets/profile/Junjun_He.webp" alt="" class="profile">
 					<div class="name">Junjun He</div>
 					<div class="belong">Shanghai AI Laboratory</div>
 				</div>
 				<div class="card">
-					<img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile color-profile" style="object-position: 50% 1px;">
+					<img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile color-profile">
 					<div class="name">Hoon Cho</div>
 					<div class="belong">Broad Institute of MIT and Harvard</div>
 				</div>
@@ -297,7 +297,7 @@
     margin: 10px;
     border-radius: 125px;
     border: solid 1px #979797;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .name {
