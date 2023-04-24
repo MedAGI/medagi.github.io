@@ -21,7 +21,7 @@
         </div>
         <div class="date-row">
           <div class="dates">30 July 2023</div>
-          <div class="due-work">Camera ready papers due</div>
+          <div class="due-work">Canera ready papers due</div>
         </div>
         <div class="date-row">
           <div class="dates">6 September 2023</div>
