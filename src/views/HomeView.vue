@@ -17,7 +17,7 @@
       <h1>Contact</h1>
       <div class="main-title-deco"></div>
       <div class="contact">
-        If you have any inquires, please e-mail us at : asdf@korea.ac.kr
+        If you have any inquires, please e-mail us at : <a href="mailto:miccai.MedAGI@gmail.com" class="email">miccai.MedAGI@gmail.com</a>
       </div>
     </div>
     <!-- End Contact -->
@@ -25,6 +25,10 @@
 </template>
 
 <style scoped>
+.email {
+  text-decoration: underline;
+  color: #1cacd7;
+}
 @media screen and (min-width: 1280px) {
   /* Workshop Description */
   #home {

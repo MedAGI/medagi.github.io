@@ -61,7 +61,15 @@
 		</div>
 		<div id="program-committee">
 			<h2>Program Committee</h2><hr>
-			<div>TBA</div>
+      <ul id="committee-list">
+        <li v-for="committee in pc" :id="committee['No']">
+          {{ committee.Name }} (<i class="committee-belong">{{ committee.Affliation }}</i>) 
+          [<a class="committee-email" :title="'Mail to ' +committee.email" :href='"mailto:"+committee.email'>Email</a>]
+        </li>
+      </ul>
+			<div>
+        
+      </div>
 		</div>
   </div>
 </template>
@@ -150,6 +158,26 @@
     color: #484848;
   }
   /* Organization Team End */
+
+  /* Program Committee */
+  #committee-list {
+    margin: 0;
+    padding-left: 20px;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #000;
+  }
+
+  .committee-belong {
+    color: #484848;
+  }
+
+  .committee-email {
+    color: #1cacd7;
+    text-decoration: none;
+  }
+  /* Program Committee End */
 }
 
 @media screen and (max-width: 1279px) and (min-width: 768px){
@@ -237,6 +265,21 @@
     color: #484848;
   }
   /* Organization Team End */
+
+  /* Program Committee */
+  #committee-list {
+    margin: 0;
+    padding-left: 20px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+  }
+
+  .committee-belong {
+    color: #484848;
+  }
+  /* Program Committee End */
 }
 
 @media screen and (max-width: 767px){
@@ -320,5 +363,35 @@
     color: #484848;
   }
   /* Organization Team End */
+
+  /* Program Committee */
+  #committee-list {
+    margin: 0;
+    padding-left: 16px;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000;
+  }
+
+  .committee-belong {
+    color: #484848;;
+  }
+  /* Program Committee End */
 }
 </style>
+
+<script>
+import program_committee from "@/assets/info/program_committee.json"
+
+export default {
+  data() {
+    return {
+      pc : program_committee
+    }
+  },
+  methods: {
+
+  }
+}
+</script>

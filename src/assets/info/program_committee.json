@@ -1,0 +1,116 @@
+[
+    {
+        "No": 1,
+        "Name": "Seong Jae Hwang",
+        "Affliation": "Yonsei Univ.",
+        "email": "seongjae@yonsei.ac.kr"
+    },
+    {
+        "No": 2,
+        "Name": "Yun Gu",
+        "Affliation": "Shanghai Jiao Tong University",
+        "email": "yungu@ieee.org"
+    },
+    {
+        "No": 3,
+        "Name": "Weidao Chen",
+        "Affliation": "Beijing Infervision Technology Co., Ltd.",
+        "email": "chenweidao163@163.com"
+    },
+    {
+        "No": 4,
+        "Name": "Xiaosong Wang",
+        "Affliation": "Shanghai AI Labatory",
+        "email": "xiaosong.wang@live.com"
+    },
+    {
+        "No": 5,
+        "Name": "Ruimao Zhang",
+        "Affliation": "The Chinese University of Hong Kong, Shenzhen",
+        "email": "zhangruimao@cuhk.edu.cn"
+    },
+    {
+        "No": 6,
+        "Name": "Jingchen Ma",
+        "Affliation": "Columbia University",
+        "email": "jm4669@cumc.columbia.edu"
+    },
+    {
+        "No": 7,
+        "Name": "Yu Guang Wang",
+        "Affliation": "Shanghai Jiao Tong University",
+        "email": "yuguang.wang@sjtu.edu.cn"
+    },
+    {
+        "No": 8,
+        "Name": "Jiancheng Yang",
+        "Affliation": "EPFL",
+        "email": "jiancheng.yang@epfl.ch"
+    },
+    {
+        "No": 9,
+        "Name": "Shunjun Wang",
+        "Affliation": "The Hong Kong Polytechnic University",
+        "email": "shu-jun.wang@polyu.edu.hk"
+    },
+    {
+        "No": 10,
+        "Name": "Xuebin Zheng",
+        "Affliation": "Fosun AITrox",
+        "email": "zhengxb@fosun-aitrox.com"
+    },
+    {
+        "No": 11,
+        "Name": "Hongyu Zhou",
+        "Affliation": "Tsinghua University",
+        "email": "hy.zhou@sita.ac.cn"
+    },
+    {
+        "No": 12,
+        "Name": "Jong Hak Moon",
+        "Affliation": "KAIST",
+        "email": "jhak.moon@kaist.ac.kr"
+    },
+    {
+        "No": 13,
+        "Name": "Hyungyung Lee",
+        "Affliation": "KAIST",
+        "email": "ttumyche@kaist.ac.kr"
+    },
+    {
+        "No": 14,
+        "Name": "Juan Caicedo",
+        "Affliation": "Broad Institute",
+        "email": "jcaicedo@broadinstitute.org"
+    },
+    {
+        "No": 15,
+        "Name": "Seyoung Chun",
+        "Affliation": "Seoul National University",
+        "email": "sychun@snu.ac.kr"
+    },
+    {
+        "No": 16,
+        "Name": "Seungryong Kim",
+        "Affliation": "Korea University",
+        "email": "seungryong_kim@korea.ac.kr"
+    },
+    {
+        "No": 17,
+        "Name": "Jinkyu Kim",
+        "Affliation": "Korea University",
+        "email": "jinkyukim@korea.ac.kr"
+    },
+    {
+        "No": 18,
+        "Name": "Seong Eun Moon",
+        "Affliation": "Naver Health AI",
+        "email": "seongeun.moon@navercorp.com"
+    },
+    {
+        "No": 19,
+        "Name": "Janghwan Choi",
+        "Affliation": "Ewha Womans University",
+        "email": "choij@ewha.ac.kr"
+    }
+]

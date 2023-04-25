@@ -17,8 +17,10 @@
   <!-- Introduction End -->
 
   <!-- Navigation -->
-  <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home'}">
-    <div id="title">MedAGI</div>
+  <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home', 'hide-nav-bar' : this.$data.hideNavBar}">
+    <div id="title">
+      <img src="@/assets/Logo.png" alt="">
+    </div>
     <div v-on:click="changeMenuBtn" id="menu">
             <div v-bind:class="sideBtnStyle"></div>
             <div v-bind:class="sideBtnStyle"></div>
@@ -76,7 +78,6 @@ export default {
             if (this.$data.isSideOpened) return {'show-menu-bar': true };
             else return {'hide-menu-bar': true };
           }
-
   },
   methods: {
         changeMenuBtn: function() {
@@ -85,10 +86,18 @@ export default {
       },
   mounted() {
     document.title = "MedAGI";  // 문서 탭 타이틀 변경
+    if (this.$data.page !== 'Home') {
+      this.$data.offsetY = -1 * screen.height /2;
+    }
 
     // Scroll 시 배경 이미지 이동
     window.addEventListener('scroll', () => {
-      if (this.$data.page === 'Home') { this.$data.offsetY = -1 * Math.min(window.scrollY, screen.height)/2 }
+      // Main 화면의 경우 스크롤에 따라 backgroun image가 delay scroll event를 발생시킴
+      if (this.$data.page === 'Home') {
+        let navHeight = document.getElementById('navigation').offsetHeight;
+        this.$data.offsetY = -1 * Math.min(window.scrollY, screen.height)/2;
+        this.$data.hideNavBar = screen.height - window.scrollY > navHeight*1.5;
+      }
       else { this.$data.offsetY = -1 * screen.height /2 }
     });      
   },
@@ -97,14 +106,15 @@ export default {
     $route(to, from) {
       this.$data.page = to.name;
       window.scrollTo(0, 0);
-      this.$data.offsetY = 0;
+      if (to.name === "Home") { this.$data.offsetY = 0; }
     },
   },
   data() {
     return {
       page: '',
       offsetY: 0,
-      isSideOpened: false
+      isSideOpened: false,
+      hideNavBar: false
     }}
 }
 </script>
@@ -113,6 +123,10 @@ export default {
 html, body {
   margin: 0;
   border: 0;
+}
+
+.hide-nav-bar {
+  visibility: hidden;
 }
 
 @media screen and (min-width: 1280px) {
@@ -199,11 +213,16 @@ html, body {
   }
 
   #title {
+    height: 100%;
     font-family: 'Helvetica', Sans-Serif;
     color: white;
-    font-size: 36px;
     font-weight: bold;
     margin-left: 48px;
+  }
+
+  #title > img {
+    height: 64px;
+    margin: 8px 0;
   }
 
   #tab-box {
@@ -319,11 +338,15 @@ html, body {
   }
 
   #title {
+    height: 100%;
     font-family: 'Helvetica', Sans-Serif;
     color: white;
-    font-size: 32px;
-    font-weight: bold;
     margin-left: 24px;
+  }
+
+  #title > img {
+    height: 56px;
+    margin: 4px 0;
   }
 
   #tab-box {
@@ -361,7 +384,7 @@ html, body {
   #introduction {
     width: 100vw;
     position: sticky;
-    top: calc(60px - 100vh);
+    top: calc(64px - 100vh);
     z-index: 20;
   }
 
@@ -379,7 +402,7 @@ html, body {
   }
 
   .big-title-off {
-    height: 60px!important;
+    height: 64px!important;
     position: fixed;
   }
 
@@ -438,11 +461,15 @@ html, body {
   }
 
   #title {
+    height: 100%;
     font-family: 'Helvetica', Sans-Serif;
     color: white;
-    font-size: 32px;
-    font-weight: bold;
-    margin-left: 24px;
+    margin-left: 12px;
+  }
+
+  #title > img {
+    height: 56px;
+    margin: 4px 0;
   }
 
   #tab-box {
