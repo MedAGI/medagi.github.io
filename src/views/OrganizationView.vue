@@ -63,7 +63,7 @@
 			<h2>Program Committee</h2><hr>
       <ul id="committee-list">
         <li v-for="committee in pc" :id="committee['No']">
-          {{ committee.Name }} (<i class="committee-belong">{{ committee.Affliation }}</i>) 
+          <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
           [<a class="committee-email" :title="'Mail to ' +committee.email" :href='"mailto:"+committee.email'>Email</a>]
         </li>
       </ul>
@@ -155,7 +155,7 @@
     font-weight: 300;
     font-style: italic;
     text-align: center;
-    color: #484848;
+    color: #5C5C5C;
   }
   /* Organization Team End */
 
@@ -170,7 +170,7 @@
   }
 
   .committee-belong {
-    color: #484848;
+    color: #5C5C5C;
   }
 
   .committee-email {
@@ -262,7 +262,7 @@
     font-weight: 300;
     font-style: italic;
     text-align: center;
-    color: #484848;
+    color: #5C5C5C;
   }
   /* Organization Team End */
 
@@ -277,7 +277,7 @@
   }
 
   .committee-belong {
-    color: #484848;
+    color: #5C5C5C;
   }
   /* Program Committee End */
 }
@@ -360,7 +360,7 @@
     font-weight: 300;
     font-style: italic;
     text-align: center;
-    color: #484848;
+    color: #5C5C5C;
   }
   /* Organization Team End */
 
@@ -375,7 +375,7 @@
   }
 
   .committee-belong {
-    color: #484848;;
+    color: #5C5C5C;
   }
   /* Program Committee End */
 }
