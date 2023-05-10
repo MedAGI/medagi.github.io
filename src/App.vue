@@ -19,7 +19,7 @@
   <!-- Navigation -->
   <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home', 'hide-nav-bar' : this.$data.hideNavBar}">
     <div id="title">
-      <img src="@/assets/Logo.png" alt="">
+      <img src="@/assets/logo.png" alt="">
     </div>
     <div v-on:click="changeMenuBtn" id="menu">
             <div v-bind:class="sideBtnStyle"></div>
@@ -214,15 +214,15 @@ html, body {
 
   #title {
     height: 100%;
-    font-family: 'Helvetica', Sans-Serif;
-    color: white;
+    font-family:'Britannic W04 Bold' , 'fallback-font';
+    color: #E81E25;
     font-weight: bold;
     margin-left: 48px;
   }
 
   #title > img {
-    height: 64px;
-    margin: 8px 0;
+    height: 100%;
+    margin: 0;
   }
 
   #tab-box {
@@ -345,8 +345,8 @@ html, body {
   }
 
   #title > img {
-    height: 56px;
-    margin: 4px 0;
+    height: 100%;
+    margin: 0;
   }
 
   #tab-box {
@@ -468,8 +468,8 @@ html, body {
   }
 
   #title > img {
-    height: 56px;
-    margin: 4px 0;
+    height: 100%;
+    margin: 0;
   }
 
   #tab-box {
