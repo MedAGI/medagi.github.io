@@ -46,11 +46,11 @@
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Keynote'}">
       Keynote</router-link>
-      <router-link to="/submission" 
+      <router-link to="/call-for-papers" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
-        v-bind:class="{'selected-tab' : this.$data.page=='Submission'}">
-      Submission</router-link>
+        v-bind:class="{'selected-tab' : this.$data.page=='Call For Papers'}">
+      Call For Papers</router-link>
     </nav>
   </div>  
   <!-- Navigation End -->
