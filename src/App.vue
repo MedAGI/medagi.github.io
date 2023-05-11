@@ -29,28 +29,23 @@
       <router-link to="/" 
         class="navigation-tab"
         v-bind:class="{selectedTab : this.$data.page ===''}"
-        v-on:click="changeMenuBtn">
-        Home</router-link>
+        v-on:click="changeMenuBtn">Home</router-link>
       <router-link to="/organization" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
-        v-bind:class="{'selected-tab' : this.$data.page === 'Organization'}">
-        Organization</router-link>
+        v-bind:class="{'selected-tab' : this.$data.page === 'Organization'}">Organization</router-link>
       <router-link to="/program" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
-        v-bind:class="{'selected-tab' : this.$data.page=='Program'}">
-      Program</router-link>
+        v-bind:class="{'selected-tab' : this.$data.page=='Program'}">Program</router-link>
       <router-link to="/keynote" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
-        v-bind:class="{'selected-tab' : this.$data.page=='Keynote'}">
-      Keynote</router-link>
+        v-bind:class="{'selected-tab' : this.$data.page=='Keynote'}">Keynote</router-link>
       <router-link to="/call-for-papers" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
-        v-bind:class="{'selected-tab' : this.$data.page=='Call For Papers'}">
-      Call For Papers</router-link>
+        v-bind:class="{'selected-tab' : this.$data.page=='Call For Papers'}">Call For Papers</router-link>
     </nav>
   </div>  
   <!-- Navigation End -->
