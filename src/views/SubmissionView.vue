@@ -282,7 +282,7 @@ a {
 
   /* Scope of the Workshop */
   #scope {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .scope-contents {
     padding: 10px;
@@ -296,7 +296,7 @@ a {
 
   /* Topics */
   #topics {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   
   #topic-description {
@@ -319,7 +319,7 @@ a {
 
   /* Important Dates */
   #important-dates {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   #dates-table {
@@ -368,6 +368,7 @@ a {
   .instruction-contents {
     margin-bottom: 20px;
   }
+  /* Submission Instructions End */
 }
 
 @media screen and (max-width: 767px) {
@@ -409,17 +410,50 @@ a {
 
   /* Scope of the Workshop */
   #scope {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
-  /* Dates Table */
+  .scope-contents {
+    padding: 10px 10px 0;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-indent: 10px;
+    line-height: 1.4;
+    color: #000;
+  }
+  /* Scope of the Workshop End */
+
+  /* Topics */
+  #topics {
+    margin-bottom: 40px;
+  }
+  #topic-description {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+  }
+
+  #topic-list {
+    margin: 0;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #000;
+  }
+  /* Topics End */
+
+  /* Important Dates */
   #dates-table {
     padding: 10px;
   }
 
   .dates {
     font-family: Helvetica;
-    font-size: 14px;
+    font-size: 13px;
     width: 250px;
     padding: 5px 5px 0;
     color: #5A5A5A;
@@ -435,31 +469,32 @@ a {
     width: calc(100% - 10px);
     padding: 5px;
     font-family: Helvetica;
-    font-size: 18px;
-    line-height: 1.4;
-    color: #000;
-  }
-  /* Dates Table End */
-
-  /* Topics */
-  #topic-description {
-    padding: 10px;
-    font-family: Helvetica;
     font-size: 16px;
     line-height: 1.4;
     color: #000;
   }
+  /* Important Dates End */
 
-  #topic-list {
-    margin: 0;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 10px;
+  /* Submission Instructions */
+  #instructions {
     font-family: Helvetica;
     font-size: 16px;
     line-height: 1.5;
     color: #000;
   }
-  /* Topics End */
+
+  ol {
+    margin: 10px 0;
+    padding-left: 30px;
+  }
+
+  ol li {
+    margin-bottom: 10px;
+  }
+
+  .instruction-contents {
+    margin-bottom: 20px;
+  }
+  /* Submission Instructions End */
 }
 </style>
