@@ -85,7 +85,7 @@
 
         <!-- Manuscript Template -->
         <div class="instruction-contents">
-          <strong>Manuscript template | </strong> In general, the format requirements are the same as MICCAI 2023 main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
+          <strong>Manuscript template | </strong> In general, the format requirements are the same as MICCAI 2023 main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
         </div>
         <!-- Manuscript Template End -->
 
@@ -109,7 +109,7 @@
 
         <!-- Submission Site -->
         <div class="instruction-contents">
-          <strong>Submission Site | </strong> <a href="https://cmt3.research.microsoft.com/MedAGI2023">https://cmt3.research.microsoft.com/MedAGI2023 </a>
+          <strong>Submission Site | </strong> <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI2023 </a>
         </div>
         <!-- Submission Site End -->
       </div>
@@ -170,6 +170,7 @@ a {
     font-family: Helvetica;
     font-size: 24px;
     line-height: 1.5;
+    text-indent: 10px;
     color: #000;
   }
   /* Scope of the Workshop End */
@@ -281,14 +282,46 @@ a {
 
   /* Scope of the Workshop */
   #scope {
-    
+    margin-bottom: 60px;
+  }
+  .scope-contents {
+    padding: 10px;
     font-family: Helvetica;
     font-size: 18px;
-    line-height: 1.5;
+    text-indent: 10px;
+    line-height: 1.6;
+    color: #000;
+  }
+  /* Scope of the Workshop End */
+
+  /* Topics */
+  #topics {
+    margin-bottom: 60px;
+  }
+  
+  #topic-description {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
     color: #000;
   }
 
-  /* Dates Table */
+  #topic-list {
+    margin: 0;
+    padding-left: 40px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+  }
+  /* Topics End */
+
+  /* Important Dates */
+  #important-dates {
+    margin-bottom: 60px;
+  }
+
   #dates-table {
     padding: 10px;
   }
@@ -314,35 +347,26 @@ a {
     line-height: 1.4;
     color: #000;
   }
-  /* Dates Table End */
-
-  /* Topics */
-  #topic-description {
-    padding: 10px;
-    font-family: Helvetica;
-    font-size: 18px;
-    line-height: 1.4;
-    color: #000;
-  }
-
-  #topic-list {
-    margin: 0;
-    padding-left: 40px;
-    font-family: Helvetica;
-    font-size: 18px;
-    line-height: 1.8;
-    color: #000;
-  }
-  /* Topics End */
+  /* Important Dates End */
 
   /* Submission Instructions */
   #instructions {
-    margin-top: 30px;
-    margin-bottom: 100px;
     font-family: Helvetica;
     font-size: 18px;
     line-height: 1.5;
     color: #000;
+  }
+
+  ol {
+    padding-left: 30px;
+  }
+
+  ol li {
+    margin-bottom: 10px;
+  }
+
+  .instruction-contents {
+    margin-bottom: 20px;
   }
 }
 
@@ -381,6 +405,11 @@ a {
 
   hr {
     border: 1px solid black;
+  }
+
+  /* Scope of the Workshop */
+  #scope {
+    margin-bottom: 60px;
   }
 
   /* Dates Table */
