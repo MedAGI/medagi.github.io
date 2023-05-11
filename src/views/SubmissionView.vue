@@ -163,7 +163,7 @@ a {
 
   /* Scope of the Workshop */
   #scope {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   .scope-contents {
     padding: 10px 20px;
@@ -177,7 +177,7 @@ a {
 
   /* Topics */
   #topics {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   #topic-description {
@@ -200,7 +200,7 @@ a {
 
   /* Important Dates */
   #important-dates {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   #dates-table {
