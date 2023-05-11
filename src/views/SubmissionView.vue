@@ -239,7 +239,7 @@ a {
   }
 
   .instruction-contents {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 
@@ -366,7 +366,7 @@ a {
   }
 
   .instruction-contents {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   /* Submission Instructions End */
 }

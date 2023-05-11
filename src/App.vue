@@ -21,7 +21,7 @@
     <div id="title">
       <img src="@/assets/logo.png" alt="">
     </div>
-    <div v-on:click="changeMenuBtn" id="menu">
+    <div v-on:click="openMenuBtn" id="menu">
             <div v-bind:class="sideBtnStyle"></div>
             <div v-bind:class="sideBtnStyle"></div>
     </div>
@@ -80,8 +80,11 @@ export default {
           }
   },
   methods: {
+        openMenuBtn: function() {
+          this.$data.isSideOpened = !(this.$data.isSideOpened);
+        },
         changeMenuBtn: function() {
-            this.$data.isSideOpened = !(this.$data.isSideOpened);
+            this.$data.isSideOpened = false;
         }
       },
   mounted() {
