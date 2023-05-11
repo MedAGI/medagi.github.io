@@ -64,7 +64,6 @@
       <ul id="committee-list">
         <li v-for="committee in pc" :id="committee['No']">
           <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
-          [<a class="committee-email" :title="'Mail to ' +committee.email" :href='"mailto:"+committee.email'>Email</a>]
         </li>
       </ul>
 			<div>
