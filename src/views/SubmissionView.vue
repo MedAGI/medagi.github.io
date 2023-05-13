@@ -58,7 +58,7 @@
           <div class="due-work">Workshop proceedings due</div>
         </div>
         <div class="date-row">
-          <div class="dates">October 8, 2023</div>
+          <div class="dates">October 12, 2023</div>
           <div class="due-work">Workshop dates</div>
         </div>
       </div>
