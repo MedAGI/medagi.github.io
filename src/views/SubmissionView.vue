@@ -59,7 +59,7 @@
         </div>
         <div class="date-row">
           <div class="dates">October 12, 2023</div>
-          <div class="due-work">Workshop dates</div>
+          <div class="due-work">Workshop date</div>
         </div>
       </div>
 		</div>
@@ -108,8 +108,9 @@
         <!-- Publication End -->
 
         <!-- Submission Site -->
-        <div class="instruction-contents">
-          <strong>Submission Site | </strong> <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI2023 </a>
+        <div id="submission-site">
+          <h2>Submission Site</h2><hr>
+          <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI2023 </a>
         </div>
         <!-- Submission Site End -->
       </div>
@@ -241,6 +242,14 @@ a {
   .instruction-contents {
     margin-bottom: 20px;
   }
+
+  /* Submission Site */
+  #submission-site {
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  /* Submission Site End */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -313,7 +322,6 @@ a {
     font-family: Helvetica;
     font-size: 18px;
     line-height: 1.8;
-    color: #000;
   }
   /* Topics End */
 
@@ -369,6 +377,14 @@ a {
     margin-bottom: 10px;
   }
   /* Submission Instructions End */
+
+  /* Submission Site */
+  #submission-site {
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  /* Submission Site End */
 }
 
 @media screen and (max-width: 767px) {
@@ -496,5 +512,13 @@ a {
     margin-bottom: 20px;
   }
   /* Submission Instructions End */
+
+  /* Submission Site */
+  #submission-site {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /* Submission Site End */
 }
 </style>
