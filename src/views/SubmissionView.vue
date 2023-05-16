@@ -393,7 +393,7 @@ a {
     min-height: calc(100vh - 84px);
     margin: 0 calc(50vw - 180px);
     padding-top: 54px;
-		padding-bottom: 30px;
+		padding-bottom: 60px;
   }
 
   .main-title {

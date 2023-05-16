@@ -185,7 +185,7 @@
     min-height: calc(100vh - 64px);
     padding-left: calc(50vw - 360px);
     padding-right: calc(50vw - 360px);
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     padding-top: 64px;
     background-color: white;
     }
@@ -287,7 +287,7 @@
     min-height: calc(100vh - 64px);
     padding-left: calc(50vw - 180px);
     padding-right: calc(50vw - 180px);
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     padding-top: 24px;
     background-color: white;
     }
