@@ -17,9 +17,12 @@
   <!-- Introduction End -->
 
   <!-- Navigation -->
-  <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home', 'hide-nav-bar' : this.$data.hideNavBar}">
+  <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home'}">
     <div id="title">
-      <img src="@/assets/logo.png" alt="">
+      <router-link to="/" tag="img">
+        <img src="@/assets/logo.png" alt="">
+      </router-link>
+      
     </div>
     <div v-on:click="openMenuBtn" id="menu">
             <div v-bind:class="sideBtnStyle"></div>
@@ -200,8 +203,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 30;
   }
@@ -218,7 +220,7 @@ html, body {
     margin-left: 48px;
   }
 
-  #title > img {
+  #title img {
     height: 100%;
     margin: 0;
   }
@@ -325,8 +327,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 30;
   }
@@ -342,7 +343,7 @@ html, body {
     margin-left: 24px;
   }
 
-  #title > img {
+  #title img {
     height: 100%;
     margin: 0;
   }
@@ -465,7 +466,7 @@ html, body {
     margin-left: 12px;
   }
 
-  #title > img {
+  #title img {
     height: 100%;
     margin: 0;
   }
