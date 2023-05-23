@@ -99,5 +99,45 @@
         "No": 20,
         "Name": "Jintae Kwak",
         "Affliation": "Korea University"
+    },
+    {
+        "No": 21,
+        "Name": "Youngjung Uh",
+        "Affliation": "Yonsei University"
+    },
+    {
+        "No": 22,
+        "Name": "Jaejun Yoo",
+        "Affliation": "UNIST"
+    },
+    {
+        "No": 23,
+        "Name": "Changjae Oh",
+        "Affliation": "Queen Mary University of London"
+    },
+    {
+        "No": 24,
+        "Name": "Jiyoung Lee",
+        "Affliation": "NAVER AI Lab"
+    },
+    {
+        "No": 25,
+        "Name": "Sangryung Jeon",
+        "Affliation": "University of Michigan"
+    },
+    {
+        "No": 26,
+        "Name": "Steve Lin",
+        "Affliation": "Microsoft Research Asia"
+    },
+    {
+        "No": 27,
+        "Name": "Matteo Poggi",
+        "Affliation": "University of Bologna"
+    },
+    {
+        "No": 28,
+        "Name": "Anurag Arnab",
+        "Affliation": "Google Research"
     }
 ]
