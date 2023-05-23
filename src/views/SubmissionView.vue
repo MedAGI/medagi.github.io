@@ -70,7 +70,7 @@
       <h2>Submission Instructions</h2><hr>
       <div>
         <!-- Submission Formats -->
-        <div>
+        <div class="instruction-contents">
           <strong>Submission format |</strong> Submissions are in two tracks: Full-length papers and extended abstracts.
           <ol>
             <li>
@@ -240,7 +240,7 @@ a {
   }
 
   .instruction-contents {
-    margin-bottom: 20px;
+    padding: 10px 20px;
   }
 
   /* Submission Site */
@@ -248,6 +248,7 @@ a {
     font-family: Helvetica;
     font-size: 24px;
     line-height: 1.5;
+    padding: 10px 20px;
   }
   /* Submission Site End */
 }
@@ -374,7 +375,7 @@ a {
   }
 
   .instruction-contents {
-    margin-bottom: 10px;
+    padding: 10px;
   }
   /* Submission Instructions End */
 
@@ -383,6 +384,7 @@ a {
     font-family: Helvetica;
     font-size: 18px;
     line-height: 1.5;
+    padding: 10px;
   }
   /* Submission Site End */
 }
@@ -509,7 +511,7 @@ a {
   }
 
   .instruction-contents {
-    margin-bottom: 20px;
+    padding: 10px;
   }
   /* Submission Instructions End */
 
@@ -518,6 +520,7 @@ a {
     font-family: Helvetica;
     font-size: 16px;
     line-height: 1.5;
+    padding: 10px;
   }
   /* Submission Site End */
 }
