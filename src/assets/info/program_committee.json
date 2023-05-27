@@ -85,11 +85,7 @@
         "Name": "Jinkyu Kim",
         "Affliation": "Korea University"
     },
-    {
-        "No": 18,
-        "Name": "Seong Eun Moon",
-        "Affliation": "Naver Health AI"
-    },
+    
     {
         "No": 19,
         "Name": "Janghwan Choi",
@@ -139,5 +135,15 @@
         "No": 28,
         "Name": "Anurag Arnab",
         "Affliation": "Google Research"
+    },
+    {
+        "No": 29,
+        "Name": "Erfan Darzi",
+        "Affliation": "University of Groningen"
+    },
+    {
+        "No": 30,
+        "Name": "Wonhwa Kim",
+        "Affliation": "POSTECH"
     }
 ]
