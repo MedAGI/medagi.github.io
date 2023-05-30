@@ -253,8 +253,7 @@ html, body {
   /* Navigation End */
 
   #contents {
-    position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     top: 80px;
   }
 }
@@ -376,8 +375,7 @@ html, body {
   /* Navigation End */
 
   #contents {
-    position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     top: 64px;
   }
 }
@@ -547,8 +545,7 @@ html, body {
   /* Navigation End */
 
   #contents {
-    position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     top: 64px;
   }
 }
