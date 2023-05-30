@@ -262,7 +262,7 @@ html, body {
 
   #contents {
     position: relative;
-    top: 80px;
+    /* top: 80px; */
   }
 }
 
@@ -392,7 +392,7 @@ html, body {
 
   #contents {
     position: relative;
-    top: 64px;
+    /* top: 64px; */
   }
 }
 
@@ -570,7 +570,7 @@ html, body {
 
   #contents {
     position: relative;
-    top: 64px;
+    /* top: 64px; */
   }
 }
 </style>
