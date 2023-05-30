@@ -1,6 +1,6 @@
 <template>
   <!-- Introduction -->
-  <div id="introduction">
+  <div id="introduction" v-bind:class="{'home-nav' : this.$data.page ==='Home'}">
       <div class="big-title" 
       v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
       v-bind:style="{backgroundPosition: '0 ' + offsetY + 'px'}">
@@ -138,10 +138,14 @@ html, body {
   /* Introduction */
   #introduction {
     width: 100vw;
-    position: -webkit-sticky;
-    position: sticky;
-    top: calc(80px - 100vh);
+    position: fixed;
     z-index: 20;
+  }
+
+  .home-nav {
+    position: -webkit-sticky!important;
+    position: sticky!important;
+    top: calc(80px - 100vh);
   }
 
   .big-title {
@@ -250,6 +254,9 @@ html, body {
 
   .selected-tab {
     text-decoration: underline 2px yellow!important;
+    -webkit-text-decoration-line:  underline !important;
+    -webkit-text-decoration-color: yellow !important;
+    -webkit-text-decoration-thickness: 2px !important;
   }
   /* Navigation End */
 
@@ -263,10 +270,14 @@ html, body {
   /* Introduction */
   #introduction {
     width: 100vw;
-    position: -webkit-sticky;
-    position: sticky;
-    top: calc(64px - 100vh);
+    position: fixed;
     z-index: 20;
+  }
+
+  .home-nav {
+    position: -webkit-sticky!important;
+    position: sticky!important;
+    top: calc(64px - 100vh);
   }
 
   .big-title {
@@ -373,6 +384,9 @@ html, body {
 
   .selected-tab {
     text-decoration: underline 2px yellow!important;
+    -webkit-text-decoration-line:  underline !important;
+    -webkit-text-decoration-color: yellow !important;
+    -webkit-text-decoration-thickness: 2px !important;
   }
   /* Navigation End */
 
@@ -386,10 +400,14 @@ html, body {
   /* Introduction */
   #introduction {
     width: 100vw;
-    position: -webkit-sticky;
-    position: sticky;
-    top: calc(64px - 100vh);
+    position: fixed;
     z-index: 20;
+  }
+
+  .home-nav {
+    position: -webkit-sticky!important;
+    position: sticky!important;
+    top: calc(64px - 100vh);
   }
 
   .big-title {
@@ -507,6 +525,9 @@ html, body {
 
   .selected-tab {
     text-decoration: underline 2px yellow!important;
+    -webkit-text-decoration-line:  underline !important;
+    -webkit-text-decoration-color: yellow !important;
+    -webkit-text-decoration-thickness: 2px !important;
   }
 
   #menu {
