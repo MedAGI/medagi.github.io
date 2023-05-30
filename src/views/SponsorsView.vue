@@ -8,9 +8,9 @@
       <!-- Main Title End -->
   
       <!-- Sponsors -->
-          <div id="sponsors-list">
+          <!-- <div id="sponsors-list">
               <h2>Sponsors</h2><hr>
-          </div>
+          </div> -->
           <div id="sponsors-container">
             <img src="@/assets/logo_ict.png" alt="" class="sponsors-logo">
           </div>
@@ -59,7 +59,7 @@
     /* Sponsors Container */
     #sponsors-container {
       width: 100%;
-      margin-top: 40px;
+      margin-top: 64x;
     }
 
     .sponsors-logo {
@@ -109,7 +109,7 @@
     /* Sponsors Container */
     #sponsors-container {
       width: 100%;
-      margin-top: 30px;
+      margin-top: 40px;
     }
 
     .sponsors-logo {
@@ -158,7 +158,7 @@
     /* Sponsors Container */
     #sponsors-container {
       width: 100%;
-      margin-top: 20px;
+      margin-top: 40px;
     }
 
     .sponsors-logo {
