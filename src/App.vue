@@ -138,6 +138,7 @@ html, body {
   /* Introduction */
   #introduction {
     width: 100vw;
+    position: -webkit-sticky;
     position: sticky;
     top: calc(80px - 100vh);
     z-index: 20;
@@ -262,6 +263,7 @@ html, body {
   /* Introduction */
   #introduction {
     width: 100vw;
+    position: -webkit-sticky;
     position: sticky;
     top: calc(64px - 100vh);
     z-index: 20;
@@ -384,6 +386,7 @@ html, body {
   /* Introduction */
   #introduction {
     width: 100vw;
+    position: -webkit-sticky;
     position: sticky;
     top: calc(64px - 100vh);
     z-index: 20;
