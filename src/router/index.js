@@ -30,6 +30,11 @@ const routes = [
     name: 'Call For Papers',
     component: () => import('../views/SubmissionView.vue')
   },
+  {
+    path: '/sponsors',
+    name: 'Sponsors',
+    component: () => import('../views/SponsorsView.vue')
+  }
 
   
 ]
