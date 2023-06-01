@@ -13,10 +13,28 @@
 			<div id="keynote-container">
 				<div class="keynote-box">
 					<div class="keynote-title">Pre-Foundation-Model-Era for Medical Imaging: <br>What can we study from the paradigm of self-supervised learning?</div>
-          <div class="keynote-speaker">Prof. Yun Gu</div>
-					<div class="affiliation"><i>Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China</i></div>
+          <div class="profile-box">
+            <img src="@/assets/keynotes/yun_gu.png" class="profile">
+            <div>
+              <div class="keynote-speaker">Prof. Yun Gu</div>
+              <div class="affiliation"><i>Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China</i></div>
+            </div>
+          </div>
           <div class="speaker-bio">
             Yun Gu received the Ph.D. degree from the Department of Biomedical Engineering, Shanghai Jiao Tong University. He was a visiting scholar with the Hamlyn Centre for Robotic Surgery. Since 2020, he is an Assistant Professor with the Institute of Medical Robotics, Shanghai Jiao Tong University, China. He has published in major conferences and journals for medical imaging analysis and computer-aided surgery including MedIA/IEEE TMI/TBME/JBHI and MICCAI/ICRA/IROS. His major research interests are computer-assisted surgical planning and medical image analysis. 
+          </div>
+				</div>
+        <div class="keynote-box">
+					<div class="keynote-title">Foundation Model Prompting for Medical Image Analysis</div>
+          <div class="profile-box">
+            <img src="@/assets/keynotes/shaoting_zhang.jpeg" class="profile" style="object-position: top;">
+            <div class="">
+              <div class="keynote-speaker">Prof. Shaoting Zhang</div>
+              <div class="affiliation"><i>Shanghai Artificial Intelligence Laboratory</i></div>
+            </div>
+          </div>
+          <div class="speaker-bio">
+            Prof. Shaoting Zhang is the director of the Medical AI Center at the Shanghai AI Laboratory. He graduated from Zhejiang University and obtained his Master's degree from Shanghai Jiao Tong University, and his Ph.D. from the Computer Science Department at Rutgers University in the United States. He previously served as a tenured Associate Professor in the Computer Science Department at the University of North Carolina. His research interests include Medical Artificial Intelligence, Computer Vision, Medical Image Computing, Large-Scale Data Retrieval and Machine Learning, etc. In recent years, he has published numerous articles in top conferences and journals in the field, such as TPAMI, TMI, TBME, MedIA, CVPR, ICCV, ECCV, MICCAI and IPMI, with more than 13,000 citations according to Google Scholar. He has won the Young Scientist Award at the top conference in the field of MICCAI in 2010, and his supervised students have won the Best Paper Award at ISBI in 2014 and the Young Scientist Award at MICCAI in 2015. He also serves as an editorial board member of the top journal in the field, Medical Image Analysis.
           </div>
 				</div>
 			</div>
@@ -79,7 +97,22 @@
     font-size: 32px;
     font-weight: bold;
     color: #000;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+  }
+
+  .profile-box {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 15px;
+  }
+
+  .profile {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border: solid 1px #979797;
+    object-fit: cover;
   }
 
   .keynote-speaker {
@@ -95,11 +128,11 @@
     font-size: 14px;
     font-weight: 300;
     color: #797979;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
 
   .speaker-bio {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
     font-family: Helvetica;
     font-size: 18px;
@@ -163,6 +196,23 @@
     color: #000;
     padding-bottom: 10px;
   }
+
+
+  .profile-box {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .profile {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border: solid 1px #979797;
+    object-fit: cover;
+  }
+
 
   .keynote-speaker {
     font-family: Helvetica;
@@ -241,8 +291,24 @@
     font-size: 20px;
     font-weight: bold;
     color: #000;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
+
+  .profile-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+
+  .profile {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border: solid 1px #979797;
+    object-fit: cover;
+  }
+
 
   .keynote-speaker {
     font-family: Helvetica;
@@ -260,7 +326,6 @@
   }
 
   .speaker-bio {
-    padding-top: 10px;
     padding-bottom: 10px;
     font-family: Helvetica;
     font-size: 14px;
