@@ -7,41 +7,19 @@
     </div>
     <!-- Main Title End -->
 
-    <!-- Speakers -->
-		<div id="speakers">
-			<h2>Speakers</h2><hr>
-			<!--<div class="card-container">
-				<div class="card">
-					<img src="../assets/logo.png" alt="" class="profile">
-					<div class="name">Won-Ki Jeong</div>
-					<div class="belong">Korea University</div>
-				</div>
-			</div>-->
-      TBA
-		</div>
-    <!-- Speakers End -->
-
     <!-- Preliminary Keynotes -->
 		<div id="keynotes">
-			<h2>Preliminary Keynotes</h2><hr>
-			<!--<div id="keynote-container">
+			<!-- <h2>Keynotes</h2><hr> -->
+			<div id="keynote-container">
 				<div class="keynote-box">
-					<div class="keynote-title">Title Of the Keynote Talks</div>
-					<div class="keynote-speaker">Speaker of the Keynote Talks</div>
-					<div class="keynote-time">Sep 33, 2022 2:55PM - 3:10 PM</div>
+					<div class="keynote-title">Pre-Foundation-Model-Era for Medical Imaging: <br>What can we study from the paradigm of self-supervised learning?</div>
+          <div class="keynote-speaker">Prof. Yun Gu</div>
+					<div class="affiliation"><i>Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China</i></div>
+          <div class="speaker-bio">
+            Yun Gu received the Ph.D. degree from the Department of Biomedical Engineering, Shanghai Jiao Tong University. He was a visiting scholar with the Hamlyn Centre for Robotic Surgery. Since 2020, he is an Assistant Professor with the Institute of Medical Robotics, Shanghai Jiao Tong University, China. He has published in major conferences and journals for medical imaging analysis and computer-aided surgery including MedIA/IEEE TMI/TBME/JBHI and MICCAI/ICRA/IROS. His major research interests are computer-assisted surgical planning and medical image analysis. 
+          </div>
 				</div>
-				<div class="keynote-box">
-					<div class="keynote-title">Title Of the Keynote Talks</div>
-					<div class="keynote-speaker">Speaker of the Keynote Talks</div>
-					<div class="keynote-time">Sep 33, 2022 2:55PM - 3:10 PM</div>
-				</div>
-				<div class="keynote-box">
-					<div class="keynote-title">Title Of the Keynote Talks</div>
-					<div class="keynote-speaker">Speaker of the Keynote Talks</div>
-					<div class="keynote-time">Sep 33, 2022 2:55PM - 3:10 PM</div>
-				</div>
-			</div>-->
-      TBA
+			</div>
 		</div>
     <!-- Preliminary Keynotes End -->
   </div>
@@ -87,46 +65,6 @@
     border: 1px solid black;
   }
 
-  /* Speaker */
-  .card-container {
-    margin-top: 20px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .card {
-    width: 250px;
-    padding-bottom: 40px;
-  }
-
-  .profile {
-    width: 200px;
-    height: 200px;
-    margin: 10px 25px;
-    border-radius: 125px;
-    border: solid 1px #979797;
-  }
-
-  .name {
-    margin-bottom: 4px;
-    font-family: Helvetica;
-    font-size: 22px;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
-  }
-
-  .belong {
-    font-family: Helvetica;
-    font-size: 12px;
-    font-weight: 300;
-    font-style: italic;
-    text-align: center;
-    color: #484848;
-  }
-  /* Speaker End */
-
   /* Preliminary Keynote */
   #keynote-container {
     padding: 20px;
@@ -138,25 +76,35 @@
 
   .keynote-title {
     font-family: Helvetica;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
     color: #000;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
 
   .keynote-speaker {
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     color: #000;
     padding-bottom: 5px;
   }
 
-  .keynote-time {
+  .affiliation {
     font-family: Helvetica;
     font-size: 14px;
     font-weight: 300;
     color: #797979;
+    padding-bottom: 5px;
+  }
+
+  .speaker-bio {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000;
   }
   /* Preliminary Keynote End */
 }
@@ -199,48 +147,6 @@
     border: 1px solid black;
   }
 
-  /* Speaker */
-  .card-container {
-    padding: 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .card {
-    width: 180px;
-    padding-bottom: 40px;
-  }
-
-  .profile {
-    width: 160px;
-    height: 160px;
-    margin: 10px;
-    border-radius: 125px;
-    border: solid 1px #979797;
-    object-fit: cover;
-  }
-
-  .name {
-    width: 100%;
-    margin-bottom: 4px;
-    font-family: Helvetica;
-    font-size: 18px;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
-  }
-
-  .belong {
-    width: 100%;
-    font-family: Helvetica;
-    font-size: 12px;
-    font-weight: 300;
-    font-style: italic;
-    text-align: center;
-    color: #484848;
-  }
-  /* Speaker End */
-
   /* Preliminary Keynote */
   #keynote-container {
     padding: 10px 0;
@@ -252,7 +158,7 @@
 
   .keynote-title {
     font-family: Helvetica;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     color: #000;
     padding-bottom: 10px;
@@ -266,11 +172,20 @@
     padding-bottom: 5px;
   }
 
-  .keynote-time {
+  .affiliation {
     font-family: Helvetica;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     color: #797979;
+  }
+
+  .speaker-bio {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
   }
   /* Preliminary Keynote End */
 }
@@ -312,49 +227,6 @@
     border: 1px solid black;
   }
 
-  /* Speaker */
-  .card-container {
-    padding: 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .card {
-    width: 180px;
-    padding-bottom: 40px;
-  }
-
-  .profile {
-    width: 160px;
-    height: 160px;
-    margin: 10px;
-    border-radius: 125px;
-    border: solid 1px #979797;
-    object-fit: cover;
-  }
-
-  .name {
-    width: 100%;
-    margin-bottom: 4px;
-    font-family: Helvetica;
-    font-size: 18px;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
-  }
-
-  .belong {
-    width: 100%;
-    font-family: Helvetica;
-    font-size: 12px;
-    font-weight: 300;
-    font-style: italic;
-    text-align: center;
-    color: #484848;
-  }
-  /* Speaker End */
-
   /* Preliminary Keynote */
   #keynote-container {
     padding: 10px 0;
@@ -366,7 +238,7 @@
 
   .keynote-title {
     font-family: Helvetica;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: bold;
     color: #000;
     padding-bottom: 10px;
@@ -380,11 +252,20 @@
     padding-bottom: 5px;
   }
 
-  .keynote-time {
+  .affiliation {
     font-family: Helvetica;
     font-size: 12px;
     font-weight: 300;
     color: #797979;
+  }
+
+  .speaker-bio {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #000;
   }
   /* Preliminary Keynote End */
 }
