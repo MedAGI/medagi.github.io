@@ -222,7 +222,7 @@ html, body {
   }
 
   #title {
-    height: 100%;
+    height: 70%;
     font-family:'Britannic W04 Bold' , 'fallback-font';
     color: #E81E25;
     font-weight: bold;
@@ -353,7 +353,7 @@ html, body {
   }
 
   #title {
-    height: 100%;
+    height: 80%;
     font-family: 'Helvetica', Sans-Serif;
     color: white;
     margin-left: 24px;
@@ -483,7 +483,7 @@ html, body {
   }
 
   #title {
-    height: 100%;
+    height: 80%;
     font-family: 'Helvetica', Sans-Serif;
     color: white;
     margin-left: 12px;
