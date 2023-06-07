@@ -42,7 +42,7 @@
 			<h2>Important Dates</h2><hr>
       <div id="dates-table">
         <div class="date-row">
-          <div class="dates">June 25, 2023 23:59 (PDT)</div>
+          <div class="dates">June 25, 2023 (23:59 PDT)</div>
           <div class="due-work">Paper submission due</div>
         </div>
         <div class="date-row">
