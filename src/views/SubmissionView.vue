@@ -111,7 +111,7 @@
         <div id="awards">
           <h2>Awards</h2><hr>
           <div class="awards-contents">
-            The MedAGI 2023 best paper and the honorable mention awards will be given to the two hight-quality papers chosen by the award committee.
+            The MedAGI 2023 best paper and the honorable mention awards will be given to the two high-quality papers chosen by the award committee.
           </div>
         </div>
         <!-- Awards End -->
