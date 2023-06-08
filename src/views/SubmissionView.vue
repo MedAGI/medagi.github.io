@@ -65,6 +65,13 @@
 		</div>
     <!-- Important Dates Ends -->
 
+    <div id="awards">
+      <h2>Awards</h2><hr>
+      <div class="awards-contents">
+        The MedAGI 2023 best paper and the honorable mention awards will be given to the two hight-quality papers chosen by the award committee.
+      </div>
+    </div>
+
     <!-- Submission Instructions -->
     <div id="instructions">
       <h2>Submission Instructions</h2><hr>
@@ -231,6 +238,15 @@ a {
   }
   /* Important Dates End */
 
+  .awards-contents {
+    padding: 10px 20px;
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 1.5;
+    text-indent: 10px;
+    color: #000;
+  }
+
   /* Submisiion Instructions */
   #instructions {
     font-family: Helvetica;
@@ -325,6 +341,15 @@ a {
     line-height: 1.8;
   }
   /* Topics End */
+
+  .awards-contents {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-indent: 10px;
+    line-height: 1.6;
+    color: #000;
+  }
 
   /* Important Dates */
   #important-dates {
@@ -514,6 +539,15 @@ a {
     padding: 10px;
   }
   /* Submission Instructions End */
+
+  .awards-contents {
+    padding: 10px 10px 0;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-indent: 10px;
+    line-height: 1.4;
+    color: #000;
+  }
 
   /* Submission Site */
   #submission-site {
