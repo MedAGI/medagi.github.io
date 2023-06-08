@@ -65,13 +65,6 @@
 		</div>
     <!-- Important Dates Ends -->
 
-    <div id="awards">
-      <h2>Awards</h2><hr>
-      <div class="awards-contents">
-        The MedAGI 2023 best paper and the honorable mention awards will be given to the two hight-quality papers chosen by the award committee.
-      </div>
-    </div>
-
     <!-- Submission Instructions -->
     <div id="instructions">
       <h2>Submission Instructions</h2><hr>
@@ -113,6 +106,15 @@
           <strong>Publication | </strong>Accepted full-length papers will be published with MICCAI Proceedings in the Springer LNCS Series. Expanded versions of selected papers will be invited to a special issue “Foundation Models for Medical Image Analysis” of the Medical Image Analysis journal.
         </div>
         <!-- Publication End -->
+        
+        <!-- Awards -->
+        <div id="awards">
+          <h2>Awards</h2><hr>
+          <div class="awards-contents">
+            The MedAGI 2023 best paper and the honorable mention awards will be given to the two hight-quality papers chosen by the award committee.
+          </div>
+        </div>
+        <!-- Awards End -->
 
         <!-- Submission Site -->
         <div id="submission-site">
@@ -264,7 +266,11 @@ a {
     font-family: Helvetica;
     font-size: 24px;
     line-height: 1.5;
-    padding: 10px 20px;
+    padding: 10px 0px;
+  }
+
+  #submission-site > a {
+    padding: 0 20px;
   }
   /* Submission Site End */
 }
