@@ -42,7 +42,7 @@
 			<h2>Important Dates</h2><hr>
       <div id="dates-table">
         <div class="date-row">
-          <div class="dates">June 25, 2023 (23:59 PDT)</div>
+          <div class="dates"><span class="canceled-date">June 25, 2023 (23:59 PDT)</span><br>July 5, 2023 (23:59PDT)</div>
           <div class="due-work">Paper submission due</div>
         </div>
         <div class="date-row">
@@ -129,10 +129,13 @@
 </template>
 
 <style scoped>
-
 a {
   color: #1cacd7;
   text-decoration: none;
+}
+
+.canceled-date {
+  text-decoration: line-through;
 }
 @media screen and (min-width: 1280px) {
   #submission {
