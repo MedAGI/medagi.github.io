@@ -46,11 +46,11 @@
           <div class="due-work">Paper submission due</div>
         </div>
         <div class="date-row">
-          <div class="dates">July 30, 2023</div>
+          <div class="dates"><span class="canceled-date">July 30, 2023</span><br>August 6, 2023</div>
           <div class="due-work">Notification of paper decisions</div>
         </div>
         <div class="date-row">
-          <div class="dates">August 13, 2023</div>
+          <div class="dates"><span class="canceled-date">August 13, 2023</span><br>August 20, 2023</div>
           <div class="due-work">Camera ready papers due</div>
         </div>
         <div class="date-row">
