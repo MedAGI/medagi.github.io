@@ -12,7 +12,7 @@
         <h2>Oral Sessions</h2><hr>
         <table id="oral-table" class="table">
           <tr v-for="(item, index) in oral1" :key="index">
-              <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral1<br>(8:50 - 9:40)</td>
+            <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(8:50 - 9:40)</td>
               <td class="oral-content">{{item['name']}}</td>
           </tr>
           <tr v-for="(item, index) in oral2" :key="index">
@@ -20,14 +20,33 @@
               <td class="oral-content">{{item['name']}}</td>
           </tr>
         </table>
+
+        <table id="oral-table-m" class="table">
+          <tr class="sticky-header">
+            <td class="oral-time-m">Oral1 (8:50 - 9:40)</td>
+          </tr>
+          
+          <tr v-for="(item, index) in oral1" :key="index">
+              <td class="oral-content">{{item['name']}}</td>
+          </tr>
+
+          <tr class="sticky-header">
+            <td class="oral-time-m">Oral2 (11:10 - 12:10)</td>
+          </tr>
+          
+          <tr v-for="(item, index) in oral2" :key="index">
+              <td class="oral-content">{{item['name']}}</td>
+          </tr>
+        </table>
       </div>
       <!-- Oral Sessions End -->
+
 
       <div id="poster">
         <h2>Poster Sessions (9:40 - 10:30)</h2><hr>
         <table class="table">
           <tr>
-            <td colspan="2" class="poster-title">Full-length Papers</td>
+            <td colspan="2" class="poster-title sticky-header">Full-length Papers</td>
           </tr>
           <tr v-for="(item, index) in paper" :key="index">
             <td class="poster-id">{{item['id']}}</td>
@@ -37,7 +56,7 @@
         
         <table class="table">
           <tr>
-            <td colspan="2" class="poster-title">Extended Abstracts</td>
+            <td colspan="2" class="poster-title sticky-header">Extended Abstracts</td>
           </tr>
           
           <tr v-for="(item, index) in abstract" :key="index">
@@ -102,6 +121,10 @@
     /* Oral */
     #oral {
       margin-bottom: 40px;
+    }
+
+    #oral-table-m {
+      display: none;
     }
     .oral-time {
       text-align: center;
@@ -170,6 +193,80 @@
       background-color: #5b5b5b;
     }
 
+    h2 {
+      margin-bottom: 0px;
+      font-family: Helvetica;
+      font-size: 28px;
+    }
+
+    hr {
+      border: 1px solid black;
+    }
+
+    .table {
+      width: 100%;
+      margin: 0;
+    }
+
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Helvetica;
+  }
+
+    /* Oral */
+    #oral {
+      margin-bottom: 40px;
+    }
+
+    #oral-table-m {
+      display: none;
+    }
+
+    .oral-time {
+      width: 120px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .oral-content {
+      padding: 15px;
+      font-family: Helvetica;
+      font-size: 14px;
+    }
+    
+    /* Oral end */
+
+    /* Poster */
+    #poster {
+      margin-bottom: 40px;
+    }
+
+    #poster > table {
+      margin-bottom: 20px;
+    }
+
+    .poster-title {
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .poster-id {
+      padding: 15px;
+      text-align: center;
+      font-family: Helvetica;
+      font-size: 14px;
+    }
+
+    .poster-name {
+      padding: 15px;
+      font-family: Helvetica;
+      font-size: 14px;
+    }
+    /* Poster end */
+
   }
 
   @media screen and (max-width: 767px) {
@@ -200,6 +297,83 @@
       border: solid 2px #000000;
       background-color: #5b5b5b;
     }
+
+    h2 {
+      margin-bottom: 0px;
+      font-family: Helvetica;
+      font-size: 28px;
+    }
+
+    hr {
+      border: 1px solid black;
+    }
+
+    .table {
+      width: 100%;
+      margin: 0;
+    }
+
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Helvetica;
+  }
+
+  .sticky-header {
+    position: sticky;
+    top: 64px;
+    background-color: lightgray;
+  }
+
+    /* Oral */
+    #oral {
+      margin-bottom: 40px;
+    }
+
+    #oral-table {
+      display: none;
+    }
+    .oral-time-m {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+    .oral-content {
+      padding: 15px;
+      font-size: 14px;
+    }
+    
+    /* Oral end */
+
+    /* Poster */
+    #poster {
+      margin-bottom: 40px;
+    }
+
+    #poster > table {
+      margin-bottom: 20px;
+    }
+
+    .poster-title {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+    .poster-id {
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .poster-name {
+      padding: 15px;
+      font-size: 14px;
+    }
+    /* Poster end */
 
   }
   </style>
