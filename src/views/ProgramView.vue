@@ -7,38 +7,45 @@
       </div>
       <!-- Main Title End -->
 
-      <!-- Program Table -->
-      <div>
-        TBA
-        <!--<div id="program-table">
-          <div class="timeline">
-            <div class="timeline-time">8:00-08:05</div>
-            <div class="timeline-contents">Welcome and Opening Remarks</div>
-          </div>
-          <div class="timeline">
-            <div class="timeline-time">8:05-08:35</div>
-            <div class="timeline-contents">
-              <b>Keynote 1:<br>
-              Prof.Dr.Marinka Zitnik<br>
-              "Trustworthy AI with GNN Explainers"</b>
-            </div>
-          </div>
-          <div class="timeline">
-            <div class="timeline-time">8:35-09:05</div>
-            <div class="timeline-contents">
-              <b>Oral Session 1:</b><br>
-              <ul>
-                <li>
-                  08:35 - 08:45<br>
-                  Modular Graph Encoding and Hierarchical Readout for Functional Brain Network based eMCI Diagnosis<br>
-                  <i>Lang Mei, Mianxin Liu, Lingbin Bian, Yuyao Zhang, Feng Shi, Han Zhang, Dinggang Shen</i>
-                </li>
-              </ul>
-            </div>
-          </div>  
-        </div>-->
+      <!-- Oral Sessions -->
+      <div id="oral">
+        <h2>Oral Sessions</h2><hr>
+        <table id="oral-table" class="table">
+          <tr v-for="(item, index) in oral1" :key="index">
+              <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral1<br>(8:50 - 9:40)</td>
+              <td class="oral-content">{{item['name']}}</td>
+          </tr>
+          <tr v-for="(item, index) in oral2" :key="index">
+              <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(11:10 - 12:10)</td>
+              <td class="oral-content">{{item['name']}}</td>
+          </tr>
+        </table>
       </div>
-      <!-- Program Table End -->
+      <!-- Oral Sessions End -->
+
+      <div id="poster">
+        <h2>Poster Sessions (9:40 - 10:30)</h2><hr>
+        <table class="table">
+          <tr>
+            <td colspan="2" class="poster-title">Full-length Papers</td>
+          </tr>
+          <tr v-for="(item, index) in paper" :key="index">
+            <td class="poster-id">{{item['id']}}</td>
+            <td class="poster-name">{{item['name']}}</td>
+          </tr>
+        </table>
+        
+        <table class="table">
+          <tr>
+            <td colspan="2" class="poster-title">Extended Abstracts</td>
+          </tr>
+          
+          <tr v-for="(item, index) in abstract" :key="index">
+            <td class="oral-content">{{item['id']}}</td>
+            <td class="oral-content">{{item['name']}}</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </template>
   
@@ -71,39 +78,68 @@
       background-color: #5b5b5b;
     }
 
-    /* Program Table */
-    #program-table {
-      width: 100%
+    h2 {
+      margin-bottom: 0px;
+      font-family: Helvetica;
+      font-size: 28px;
     }
 
-    .timeline {
-      min-height: 64px;
-      display: flex;
+    hr {
+      border: 1px solid black;
     }
 
-    .timeline:nth-child(2n+1) {
-      background-color: #f7f7f7;
+    .table {
+      width: calc(100% - 40px);
+      margin: 0 20px;
     }
 
-    .timeline:nth-child(2n) {
-      border-top: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf;
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Helvetica;
+  }
+
+    /* Oral */
+    #oral {
+      margin-bottom: 40px;
+    }
+    .oral-time {
+      text-align: center;
+      width: 200px;
     }
 
-    .timeline-time {
-      padding: 24px 20px;
-      width: 100px;
-      font-size: 18px;
-      color: #606060;
+    .oral-content {
+      padding: 15px;
+    }
+    
+    /* Oral end */
+
+    /* Poster */
+    #poster {
+      margin-bottom: 40px;
     }
 
-    .timeline-contents {
-      padding: 20px;
-      font-size: 20px;
-      color: #606060;
-      line-height: 1.5;
+    #poster > table {
+      margin-bottom: 20px;
     }
-    /* Program Table End */
+
+    .poster-title {
+      padding: 15px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center!important;
+    }
+
+    .poster-id {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .poster-name {
+      padding: 15px;
+    }
+    /* Poster end */
+
   }
   
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -134,41 +170,6 @@
       background-color: #5b5b5b;
     }
 
-    /* Program Table */
-    #program-table {
-      width: 100%
-    }
-
-    .timeline {
-      min-height: 48px;
-      display: flex;
-    }
-
-    .timeline:nth-child(2n+1) {
-      background-color: #f7f7f7;
-    }
-
-    .timeline:nth-child(2n) {
-      border-top: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf;
-    }
-
-    .timeline-time {
-      padding: 24px 16px;
-      width: 100px;
-      font-family: Helvetica;
-      font-size: 14px;
-      color: #606060;
-    }
-
-    .timeline-contents {
-      padding: 20px 16px;
-      font-family: Helvetica;
-      font-size: 16px;
-      color: #606060;
-      line-height: 1.5;
-    }
-    /* Program Table End */
   }
 
   @media screen and (max-width: 767px) {
@@ -200,47 +201,23 @@
       background-color: #5b5b5b;
     }
 
-    /* Program Table */
-    #program-table {
-      width: 100%
-    }
-
-    .timeline {
-      display: flex;
-      /* flex-direction: column; */
-      padding: 10px;
-    }
-
-    .timeline:nth-child(2n+1) {
-      background-color: #f7f7f7;
-    }
-
-    .timeline:nth-child(2n) {
-      border-top: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf;
-    }
-
-    .timeline-time {
-      padding-bottom: 10px;
-      width: 40px;
-      font-family: Helvetica;
-      font-size: 10px;
-      color: #606060;
-      flex-shrink: 0;
-    }
-
-    .timeline-contents {
-      /* padding: 0 10px; */
-      font-family: Helvetica;
-      font-size: 12px;
-      color: #606060;
-      line-height: 1.3;
-    }
-
-    ul {
-      padding-left: 10px;
-    }
-    /* Program Table End */
   }
   </style>
   
+  <script>
+import program from "@/assets/info/program.json"
+
+export default {
+  data() {
+    return {
+      oral1 : program[0]['oral1'],
+      oral2 : program[0]['oral2'],
+      paper : program[0]['full_length'],
+      abstract : program[0]['abstract'],
+    }
+  },
+  methods: {
+
+  }
+}
+</script>

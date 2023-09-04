@@ -1,0 +1,149 @@
+[
+    {
+        "oral1" : [
+            {
+                "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology"
+            },
+            {
+                "name" : "GPC: Generative and general pathology image classifier"
+            },
+            {
+                "name" : "Transductive few-shot adapters for medical image segmentation"
+            },
+            {
+                "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications"
+            },
+            {
+                "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model"
+            },
+            {
+                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima"
+            }
+        ],
+        "oral2" : [
+            {
+                "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities"
+            },
+            {
+                "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds"
+            },
+            {
+                "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification"
+            },
+            {
+                "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation"
+            },
+            {
+                "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation"
+            }
+        ],
+        "full_length" : [
+            {
+                "id" : "P1",
+                "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology"
+            },
+            {
+                "id" : "P2",
+                "name" : "GPC: Generative and general pathology image classifier"
+            },
+            {
+                "id" : "P3",
+                "name" : "Transductive few-shot adapters for medical image segmentation"
+            },
+            {
+                "id" : "P4",
+                "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications"
+            },
+            {
+                "id" : "P5",
+                "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model"
+            },
+            {
+                "id" : "P6",
+                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima"
+            },
+            {
+                "id" : "P7",
+                "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities"
+            },
+            {
+                "id" : "P8",
+                "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds"
+            },
+            {
+                "id" : "P9",
+                "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification"
+            },
+            {
+                "id" : "P10",
+                "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation"
+            },
+            {
+                "id" : "P11",
+                "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation"
+            },
+            {
+                "id" : "P12",
+                "name" : "Empirical Analysis of a Segmentation Foundation Model in Prostate Imaging"
+            },
+            {
+                "id" : "P13",
+                "name" : "CEmb-SAM: Segment Anything Model with Condition Embedding for Joint Learning from Heterogeneous Datasets"
+            },
+            {
+                "id" : "P14",
+                "name" : "GPT4MIA: Utilizing Generative Pre-trained Transformer (GPT-3) as A Plug-and-Play Transductive Model for Medical Image Analysis"
+            },
+            {
+                "id" : "P15",
+                "name" : "Task-driven prompt evolution for Foundation models"
+            },
+            {
+                "id" : "P16",
+                "name" : "Generalizing Across Domains in Diabetic Retinopathy via Variational Autoencoders"
+            },
+            {
+                "id" : "P17",
+                "name" : "Histopathological Image Analysis with Style-Augmented Feature Domain Mixing for Improved Generalization"
+            }
+        ],
+        "abstract" : [
+            {
+                "id" : "P18",
+                "name" : "Histopathology-Specific Foundation Model for Tissue Segmentation and Clustering"
+            },
+            {
+                "id" : "P19",
+                "name" : "Multi Pose-based Convolutional Neural Network Model for Diagnosis of Patient with Central Lumbar Spinal Stenosis"},
+            {
+                "id" : "P20",
+                "name" : "Improving Intravenous Contrast Detection and Brain Filter Classification in Head CT Scans using a 3D CNN Model"},
+            {
+                "id" : "P21",
+                "name" : "Tyche: In-Context Learning for Stochastic Medical Image Segmentation"},
+            {
+                "id" : "P22",
+                "name" : "Diagnosis of Pigmented Skin Cancer with CBAM"},
+            {
+                "id" : "P23",
+                "name" : "Zero-shot Segmentation of Biomarkers in Optical Coherence Tomography Using Foundation Model Based on Bounding Box Prompting"},
+            {
+                "id" : "P24",
+                "name" : "Comparative Detection of Carpal Tunnel Syndrome in Muscle Ultrasound Images leveraging Heterogeneous Datasets"},
+            {
+                "id" : "P25",
+                "name" : "Extra-Surv: Extrapolated Transformer Networks for Survival Analysis"},
+            {
+                "id" : "P26",
+                "name" : "CLIP-IVP: CLIP-based Intraoral View Prediction Using Conditional GANs"},
+            {
+                "id" : "P27",
+                "name" : "Few-shot medical image classification with simple shape and texture text descriptors using vision-language models"},
+            {
+                "id" : "P28",
+                "name" : "Revisiting Active Learning in Histopathology Segmentation: Representativeness and Cost-Effective Active Learning"}
+            
+        ]
+    }
+    
+]

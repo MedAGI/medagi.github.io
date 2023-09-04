@@ -66,10 +66,13 @@
           <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
         </li>
       </ul>
-			<div>
-        
-      </div>
 		</div>
+    <div id="student-contributor">
+      <h2>Student Contributor</h2><hr>
+        <ul id="contributor-list">
+          <li><strong>Byungju Chae</strong> (<span class="committee-belong">Korea University</span>) </li>
+        </ul>
+    </div>
   </div>
 </template>
 
@@ -177,6 +180,17 @@
     text-decoration: none;
   }
   /* Program Committee End */
+
+  /* Student Contributor */
+  #contributor-list {
+    margin: 0;
+    padding-left: 20px;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #000;
+  }
+  /* Student Contributor End */
 }
 
 @media screen and (max-width: 1279px) and (min-width: 768px){
@@ -279,6 +293,17 @@
     color: #5C5C5C;
   }
   /* Program Committee End */
+
+  /* Student Contributor */
+  #contributor-list {
+    margin: 0;
+    padding-left: 20px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+  }
+  /* Student Contributor End */
 }
 
 @media screen and (max-width: 767px){
@@ -377,6 +402,17 @@
     color: #5C5C5C;
   }
   /* Program Committee End */
+
+  /* Student Contributor */
+  #contributor-list {
+    margin: 0;
+    padding-left: 16px;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000;
+  }
+  /* Student Contributor End */
 }
 </style>
 
