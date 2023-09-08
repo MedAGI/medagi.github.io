@@ -15,9 +15,6 @@
             },
             {
                 "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model"
-            },
-            {
-                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima"
             }
         ],
         "oral2" : [
@@ -35,6 +32,9 @@
             },
             {
                 "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation"
+            },
+            {
+                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima"
             }
         ],
         "full_length" : [
