@@ -24,6 +24,10 @@
         ],
         "oral2" : [
             {
+                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima",
+                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W"
+            },
+            {
                 "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities",
                 "authors": "Hu, Dewei*; Li, Hao; Liu, Han; Yao, Xing; Wang, Jiacheng; Oguz, Ipek"
             },
@@ -42,10 +46,6 @@
             {
                 "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation",
                 "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*"
-            },
-            {
-                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima",
-                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W"
             }
         ],
         "full_length" : [
