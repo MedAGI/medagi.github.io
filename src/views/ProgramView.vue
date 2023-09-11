@@ -13,11 +13,11 @@
         <table id="oral-table" class="table">
           <tr v-for="(item, index) in oral1" :key="index">
             <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(8:50 - 9:40)</td>
-              <td class="oral-content">{{item['name']}}</td>
+              <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
           <tr v-for="(item, index) in oral2" :key="index">
               <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(11:10 - 12:10)</td>
-              <td class="oral-content">{{item['name']}}</td>
+              <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
         </table>
 
@@ -27,7 +27,7 @@
           </tr>
           
           <tr v-for="(item, index) in oral1" :key="index">
-              <td class="oral-content">{{item['name']}}</td>
+              <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
 
           <tr class="sticky-header">
@@ -35,7 +35,7 @@
           </tr>
           
           <tr v-for="(item, index) in oral2" :key="index">
-              <td class="oral-content">{{item['name']}}</td>
+              <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
         </table>
       </div>
@@ -50,7 +50,7 @@
           </tr>
           <tr v-for="(item, index) in paper" :key="index">
             <td class="poster-id">{{item['id']}}</td>
-            <td class="poster-name">{{item['name']}}</td>
+            <td class="poster-name">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
         </table>
         
@@ -61,7 +61,7 @@
           
           <tr v-for="(item, index) in abstract" :key="index">
             <td class="oral-content">{{item['id']}}</td>
-            <td class="oral-content">{{item['name']}}</td>
+            <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
         </table>
       </div>
@@ -133,6 +133,17 @@
 
     .oral-content {
       padding: 15px;
+      font-family: Helvetica;
+      font-size: 14px;
+    }
+
+    .oral-authors {
+      display: block;
+      margin-top: 5px;
+      font-family: Helvetica;
+      font-style: italic;
+      color: #9b9b9b;
+      font-size: 12px;
     }
     
     /* Oral end */
@@ -233,6 +244,14 @@
       padding: 15px;
       font-family: Helvetica;
       font-size: 14px;
+    }
+    .oral-authors {
+      display: block;
+      margin-top: 5px;
+      font-family: Helvetica;
+      font-style: italic;
+      color: #9b9b9b;
+      font-size: 12px;
     }
     
     /* Oral end */
@@ -343,6 +362,15 @@
     .oral-content {
       padding: 15px;
       font-size: 14px;
+    }
+
+    .oral-authors {
+      display: block;
+      margin-top: 5px;
+      font-family: Helvetica;
+      font-style: italic;
+      color: #9b9b9b;
+      font-size: 12px;
     }
     
     /* Oral end */

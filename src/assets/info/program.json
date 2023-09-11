@@ -2,146 +2,196 @@
     {
         "oral1" : [
             {
-                "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology"
+                "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology",
+                "authors": "Zhang, Jingwei*; Ma, Ke; Kapse, Saarthak; Saltz, Joel; Vakalopoulou, Maria; Prasanna, Prateek; Samaras, Dimitris"
             },
             {
-                "name" : "GPC: Generative and general pathology image classifier"
+                "name" : "GPC: Generative and general pathology image classifier",
+                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*"
             },
             {
-                "name" : "Transductive few-shot adapters for medical image segmentation"
+                "name" : "Towards foundation models and few-shot parameter-efficient fine-tuning for volumetric organ segmentation",
+                "authors": "Julio Silva-Rodr´ıguez, Jose Dolz, and Ismail Ben Ayed"
             },
             {
-                "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications"
+                "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications",
+                "authors": "Kim, Sangwook*; McIntosh, Chris; Purdie, Thomas G"
             },
             {
-                "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model"
+                "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model",
+                "authors": "Zhang, Yizhe*; Zhou, Tao; Wang, Shuo; Liang, Peixian; Chen, Danny Z"
             }
         ],
         "oral2" : [
             {
-                "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities"
+                "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities",
+                "authors": "Hu, Dewei*; Li, Hao; Liu, Han; Yao, Xing; Wang, Jiacheng; Oguz, Ipek"
             },
             {
-                "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds"
+                "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds",
+                "authors": "Wu, Qingyang; Shen, Yiqing; Ke, Jing*"
             },
             {
-                "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification"
+                "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification",
+                "authors": "Kim, Injae*; Kim, Jongha; Choi, Joonmyung; Kim, Hyunwoo J"
             },
             {
-                "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation"
+                "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation",
+                "authors": "WANG, An*; Islam, Mobarakol; Xu, Mengya; Zhang, Yang; Ren, Hongliang"
             },
             {
-                "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation"
+                "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation",
+                "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*"
             },
             {
-                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima"
+                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima",
+                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W"
             }
         ],
         "full_length" : [
             {
                 "id" : "P1",
-                "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology"
+                "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology",
+                "authors": "Zhang, Jingwei*; Ma, Ke; Kapse, Saarthak; Saltz, Joel; Vakalopoulou, Maria; Prasanna, Prateek; Samaras, Dimitris"
             },
             {
                 "id" : "P2",
-                "name" : "GPC: Generative and general pathology image classifier"
+                "name" : "GPC: Generative and general pathology image classifier",
+                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*"
             },
             {
                 "id" : "P3",
-                "name" : "Transductive few-shot adapters for medical image segmentation"
+                "name" : "Towards foundation models and few-shot parameter-efficient fine-tuning for volumetric organ segmentation",
+                "authors": "Julio Silva-Rodr´ıguez, Jose Dolz, and Ismail Ben Ayed"
             },
             {
                 "id" : "P4",
-                "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications"
+                "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications",
+                "authors": "Kim, Sangwook*; McIntosh, Chris; Purdie, Thomas G"
             },
             {
                 "id" : "P5",
-                "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model"
+                "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model",
+                "authors": "Zhang, Yizhe*; Zhou, Tao; Wang, Shuo; Liang, Peixian; Chen, Danny Z"
             },
             {
                 "id" : "P6",
-                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima"
+                "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima",
+                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W"
             },
             {
                 "id" : "P7",
-                "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities"
+                "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities",
+                "authors": "Hu, Dewei*; Li, Hao; Liu, Han; Yao, Xing; Wang, Jiacheng; Oguz, Ipek"
             },
             {
                 "id" : "P8",
-                "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds"
+                "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds",
+                "authors": "Wu, Qingyang; Shen, Yiqing; Ke, Jing*"
             },
             {
                 "id" : "P9",
-                "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification"
+                "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification",
+                "authors": "Kim, Injae*; Kim, Jongha; Choi, Joonmyung; Kim, Hyunwoo J"
             },
             {
                 "id" : "P10",
-                "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation"
+                "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation",
+                "authors": "WANG, An*; Islam, Mobarakol; Xu, Mengya; Zhang, Yang; Ren, Hongliang"
             },
             {
                 "id" : "P11",
-                "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation"
+                "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation",
+                "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*"
             },
             {
                 "id" : "P12",
-                "name" : "Empirical Analysis of a Segmentation Foundation Model in Prostate Imaging"
+                "name" : "Empirical Analysis of a Segmentation Foundation Model in Prostate Imaging",
+                "authors": "Kim, Heejong*; Butoi, Victor I; Dalca, Adrian V; Margolis, Daniel JA; Sabuncu, Mert"
             },
             {
                 "id" : "P13",
-                "name" : "CEmb-SAM: Segment Anything Model with Condition Embedding for Joint Learning from Heterogeneous Datasets"
+                "name" : "CEmb-SAM: Segment Anything Model with Condition Embedding for Joint Learning from Heterogeneous Datasets",
+                "authors": "Shin, Dong Ik; Kim, Beom Suk; Baek, Seung*"
             },
             {
                 "id" : "P14",
-                "name" : "GPT4MIA: Utilizing Generative Pre-trained Transformer (GPT-3) as A Plug-and-Play Transductive Model for Medical Image Analysis"
+                "name" : "GPT4MIA: Utilizing Generative Pre-trained Transformer (GPT-3) as A Plug-and-Play Transductive Model for Medical Image Analysis",
+                "authors": "Zhang, Yizhe*; Chen, Danny Z"
             },
             {
                 "id" : "P15",
-                "name" : "Task-driven prompt evolution for Foundation models"
+                "name" : "Task-driven prompt evolution for Foundation models",
+                "authors": "Sathish, Rachana; Venkataramani, Rahul*; Shriram, K S; Sudhakar, Prasad"
             },
             {
                 "id" : "P16",
-                "name" : "Generalizing Across Domains in Diabetic Retinopathy via Variational Autoencoders"
+                "name" : "Generalizing Across Domains in Diabetic Retinopathy via Variational Autoencoders",
+                "authors": "Chokuwa, Sharon *; Khan, Muhammad Haris"
             },
             {
                 "id" : "P17",
-                "name" : "Histopathological Image Analysis with Style-Augmented Feature Domain Mixing for Improved Generalization"
+                "name" : "Histopathological Image Analysis with Style-Augmented Feature Domain Mixing for Improved Generalization",
+                "authors": "Khamankar, Vaibhav; Bera, Sutanu*; Bhattacharya, Saumik; Sen, Debashis; Biswas, Prabir  Kumar"
             }
         ],
         "abstract" : [
             {
                 "id" : "P18",
-                "name" : "Histopathology-Specific Foundation Model for Tissue Segmentation and Clustering"
+                "name" : "Histopathology-Specific Foundation Model for Tissue Segmentation and Clustering",
+                "authors": "Kim, Sijin*; Rakib Hasan, Kazi; Ando, Yu; Ko, Seokhwan; Cho, Junghwan; Park, Nora Jee-Young; Han, Hyungsoo"
             },
             {
                 "id" : "P19",
-                "name" : "Multi Pose-based Convolutional Neural Network Model for Diagnosis of Patient with Central Lumbar Spinal Stenosis"},
+                "name" : "Multi Pose-based Convolutional Neural Network Model for Diagnosis of Patient with Central Lumbar Spinal Stenosis",
+                "authors": "Park, Seyeon*"
+            },
+                
             {
                 "id" : "P20",
-                "name" : "Improving Intravenous Contrast Detection and Brain Filter Classification in Head CT Scans using a 3D CNN Model"},
+                "name" : "Improving Intravenous Contrast Detection and Brain Filter Classification in Head CT Scans using a 3D CNN Model",
+                "authors": "Silva, Camila*; Reis, Marcio R. C.; Pinto, Bruna GG; Paulo, Artur Jose M; de Paiva, Joselisa PQ; Olegário, Tayran; Maffei, Rafael; Rittner, Leticia"
+            },
             {
                 "id" : "P21",
-                "name" : "Tyche: In-Context Learning for Stochastic Medical Image Segmentation"},
+                "name" : "Tyche: In-Context Learning for Stochastic Medical Image Segmentation",
+                "authors": "Rakic, Marianne*; Gonzalez Ortiz, Jose Javier; Wong, Hallee E; Guttag, John; Dalca, Adrian V"
+            },
             {
                 "id" : "P22",
-                "name" : "Diagnosis of Pigmented Skin Cancer with CBAM"},
+                "name" : "Leveraging Locality Inductive Bias for Automated Medical Imaging Diagnosis",
+                "authors": "Ha, Jungmin; Lee, Jaekoo*; Kim, Jinkyu"
+            },
             {
                 "id" : "P23",
-                "name" : "Zero-shot Segmentation of Biomarkers in Optical Coherence Tomography Using Foundation Model Based on Bounding Box Prompting"},
+                "name" : "Zero-shot Segmentation of Biomarkers in Optical Coherence Tomography Using Foundation Model Based on Bounding Box Prompting",
+                "authors": "Cho, Jungrae*; Shon, Byungeun; Woo, Dongwon; Yu, Hosang; Kim, Moonkyu; Park, Dong Ho; Jeong, Sungmoon"
+            },
             {
                 "id" : "P24",
-                "name" : "Comparative Detection of Carpal Tunnel Syndrome in Muscle Ultrasound Images leveraging Heterogeneous Datasets"},
+                "name" : "Comparative Detection of Carpal Tunnel Syndrome in Muscle Ultrasound Images leveraging Heterogeneous Datasets",
+                "authors": "Sim, Jungsub sjs; Kim, Seunghyun; Lee, Sungche; Yoon, Joon Shik ; Baek, Seung*"
+            },
             {
                 "id" : "P25",
-                "name" : "Extra-Surv: Extrapolated Transformer Networks for Survival Analysis"},
+                "name" : "Extra-Surv: Extrapolated Transformer Networks for Survival Analysis",
+                "authors": "Yu, Hosang*; Shon, Byungeun; Woo, Dongwon; Cho, Jungrae; Seo, Jung Ju; Lim, Jeong-Hoon; Cho, Jang-Hee;  Kim, Yong-Lim; Jeong, Sungmoon"
+            },
             {
                 "id" : "P26",
-                "name" : "CLIP-IVP: CLIP-based Intraoral View Prediction Using Conditional GANs"},
+                "name" : "CLIP-IVP: CLIP-based Intraoral View Prediction Using Conditional GANs",
+                "authors": "Lim, Yewon*; Yu, Heejin; Choi, Jongeun ; Kim, Jinwoo"
+            },
             {
                 "id" : "P27",
-                "name" : "Few-shot medical image classification with simple shape and texture text descriptors using vision-language models"},
+                "name" : "Few-shot medical image classification with simple shape and texture text descriptors using vision-language models",
+                "authors": "Byra, Michal*; Rachmadi, Febrian; Skibbe, Henrik"
+            },
             {
                 "id" : "P28",
-                "name" : "Revisiting Active Learning in Histopathology Segmentation: Representativeness and Cost-Effective Active Learning"}
+                "name" : "Revisiting Active Learning in Histopathology Segmentation: Representativeness and Cost-Effective Active Learning",
+                "authors": "Lee, Hyeseong*; Lee, Jonghyun; KIM, EUNSU; Ahn, Sangjeong ; Lee, Sung Hak"
+            }
             
         ]
     }
