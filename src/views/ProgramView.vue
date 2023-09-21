@@ -7,6 +7,41 @@
       </div>
       <!-- Main Title End -->
 
+      <!-- Program Schedules -->
+      <div id="schedule">
+        <h2>Schedule</h2><hr>
+        <table class="table">
+          <tr>
+            <td class="schedule-time">8:00 - 8:10</td>
+            <td class="schedule-name">Opening Remarks</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">8:10 - 8:50</td>
+            <td class="schedule-name">Keynote 1: Prof. Yun Gu</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">8:50 - 9:40</td>
+            <td class="schedule-name">Oral Session 1</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">9:40 - 10:30</td>
+            <td class="schedule-name">Poster Session/Break</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">10:30 - 11:10</td>
+            <td class="schedule-name">Keynote 2: Prof. Shaoting Zhang</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">11:10 - 12:10</td>
+            <td class="schedule-name">Oral Session 2</td>
+          </tr>
+          <tr>
+            <td class="schedule-time">12:10 - 12:30</td>
+            <td class="schedule-name">Closing / Awards</td>
+          </tr>
+        </table>
+      </div>
+
       <!-- Oral Sessions -->
       <div id="oral">
         <h2>Oral Sessions</h2><hr>
@@ -113,10 +148,19 @@
     }
 
     table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    font-family: Helvetica;
-  }
+      border: 1px solid black;
+      border-collapse: collapse;
+      font-family: Helvetica;
+    }
+
+    .schedule-time {
+      padding: 10px;
+      width: 150px;
+    }
+
+    .schedule-name {
+      padding: 10px;
+    }
 
     /* Oral */
     #oral {
@@ -173,7 +217,6 @@
       padding: 15px;
     }
     /* Poster end */
-
   }
   
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -220,10 +263,19 @@
     }
 
     table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    font-family: Helvetica;
-  }
+      border: 1px solid black;
+      border-collapse: collapse;
+      font-family: Helvetica;
+    }
+
+    .schedule-time {
+      padding: 10px;
+      width: 100px;
+    }
+
+    .schedule-name {
+      padding: 10px;
+    }
 
     /* Oral */
     #oral {
@@ -333,16 +385,27 @@
     }
 
     table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    font-family: Helvetica;
-  }
+      border: 1px solid black;
+      border-collapse: collapse;
+      font-family: Helvetica;
+    }
+    
+    .schedule-time {
+      font-size: 14px;
+      padding: 10px;
+      width: 100px;
+    }
 
-  .sticky-header {
-    position: sticky;
-    top: 64px;
-    background-color: lightgray;
-  }
+    .schedule-name {
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    .sticky-header {
+      position: sticky;
+      top: 64px;
+      background-color: lightgray;
+    }
 
     /* Oral */
     #oral {
