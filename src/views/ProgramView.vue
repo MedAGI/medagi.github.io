@@ -84,8 +84,10 @@
             <td colspan="2" class="poster-title sticky-header">Full-length Papers</td>
           </tr>
           <tr v-for="(item, index) in paper" :key="index">
-            <td class="poster-id">{{item['id']}}</td>
-            <td class="poster-name">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
+            <td class="poster-id">{{item['id']}} </td>
+            <td class="poster-name">
+              {{item['name']}} [<a :href="`/assets/papers/${item['id']}.pdf`">paper</a>]
+              <span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
         </table>
         
