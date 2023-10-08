@@ -86,8 +86,9 @@
           <tr v-for="(item, index) in paper" :key="index">
             <td class="poster-id">{{item['id']}} </td>
             <td class="poster-name">
-              {{item['name']}} [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
-              {{item['name']}} [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+              {{item['name']}} 
+              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
               <span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
         </table>
