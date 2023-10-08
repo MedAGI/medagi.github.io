@@ -52,87 +52,104 @@
             {
                 "id" : "P1",
                 "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology",
-                "authors": "Zhang, Jingwei*; Ma, Ke; Kapse, Saarthak; Saltz, Joel; Vakalopoulou, Maria; Prasanna, Prateek; Samaras, Dimitris"
+                "authors": "Zhang, Jingwei*; Ma, Ke; Kapse, Saarthak; Saltz, Joel; Vakalopoulou, Maria; Prasanna, Prateek; Samaras, Dimitris",
+                "posters" : true
             },
             {
                 "id" : "P2",
                 "name" : "GPC: Generative and general pathology image classifier",
-                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*"
+                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*",
+                "posters" : true
             },
             {
                 "id" : "P3",
                 "name" : "Towards foundation models and few-shot parameter-efficient fine-tuning for volumetric organ segmentation",
-                "authors": "Julio Silva-Rodr´ıguez, Jose Dolz, and Ismail Ben Ayed"
+                "authors": "Julio Silva-Rodr´ıguez, Jose Dolz, and Ismail Ben Ayed",
+                "posters" : true
             },
             {
                 "id" : "P4",
                 "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications",
-                "authors": "Kim, Sangwook*; McIntosh, Chris; Purdie, Thomas G"
+                "authors": "Kim, Sangwook*; McIntosh, Chris; Purdie, Thomas G",
+                "posters" : true
             },
             {
                 "id" : "P5",
                 "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model",
-                "authors": "Zhang, Yizhe*; Zhou, Tao; Wang, Shuo; Liang, Peixian; Chen, Danny Z"
+                "authors": "Zhang, Yizhe*; Zhou, Tao; Wang, Shuo; Liang, Peixian; Chen, Danny Z",
+                "posters" : false
             },
             {
                 "id" : "P6",
                 "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima",
-                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W"
+                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W",
+                "posters" : false
             },
             {
                 "id" : "P7",
                 "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities",
-                "authors": "Hu, Dewei*; Li, Hao; Liu, Han; Yao, Xing; Wang, Jiacheng; Oguz, Ipek"
+                "authors": "Hu, Dewei*; Li, Hao; Liu, Han; Yao, Xing; Wang, Jiacheng; Oguz, Ipek",
+                "posters" : false
             },
             {
                 "id" : "P8",
                 "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds",
-                "authors": "Wu, Qingyang; Shen, Yiqing; Ke, Jing*"
+                "authors": "Wu, Qingyang; Shen, Yiqing; Ke, Jing*",
+                "posters" : false
             },
             {
                 "id" : "P9",
                 "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification",
-                "authors": "Kim, Injae*; Kim, Jongha; Choi, Joonmyung; Kim, Hyunwoo J"
+                "authors": "Kim, Injae*; Kim, Jongha; Choi, Joonmyung; Kim, Hyunwoo J",
+                "posters" : true
             },
             {
                 "id" : "P10",
                 "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation",
-                "authors": "WANG, An*; Islam, Mobarakol; Xu, Mengya; Zhang, Yang; Ren, Hongliang"
+                "authors": "WANG, An*; Islam, Mobarakol; Xu, Mengya; Zhang, Yang; Ren, Hongliang",
+                "posters" : true
             },
             {
                 "id" : "P11",
                 "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation",
-                "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*"
+                "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*",
+                "posters" : true
             },
             {
                 "id" : "P12",
                 "name" : "Empirical Analysis of a Segmentation Foundation Model in Prostate Imaging",
-                "authors": "Kim, Heejong*; Butoi, Victor I; Dalca, Adrian V; Margolis, Daniel JA; Sabuncu, Mert"
+                "authors": "Kim, Heejong*; Butoi, Victor I; Dalca, Adrian V; Margolis, Daniel JA; Sabuncu, Mert",
+                "posters" : true
             },
             {
                 "id" : "P13",
                 "name" : "CEmb-SAM: Segment Anything Model with Condition Embedding for Joint Learning from Heterogeneous Datasets",
-                "authors": "Shin, Dong Ik; Kim, Beom Suk; Baek, Seung*"
+                "authors": "Shin, Dong Ik; Kim, Beom Suk; Baek, Seung*",
+                "posters" : true
             },
             {
                 "id" : "P14",
                 "name" : "GPT4MIA: Utilizing Generative Pre-trained Transformer (GPT-3) as A Plug-and-Play Transductive Model for Medical Image Analysis",
-                "authors": "Zhang, Yizhe*; Chen, Danny Z"
+                "authors": "Zhang, Yizhe*; Chen, Danny Z",
+                "posters" : false
             },
             {
                 "id" : "P15",
                 "name" : "Task-driven prompt evolution for Foundation models",
-                "authors": "Sathish, Rachana; Venkataramani, Rahul*; Shriram, K S; Sudhakar, Prasad"
+                "authors": "Sathish, Rachana; Venkataramani, Rahul*; Shriram, K S; Sudhakar, Prasad",
+                "posters" : false
             },
             {
                 "id" : "P16",
                 "name" : "Generalizing Across Domains in Diabetic Retinopathy via Variational Autoencoders",
-                "authors": "Chokuwa, Sharon *; Khan, Muhammad Haris"
+                "authors": "Chokuwa, Sharon *; Khan, Muhammad Haris",
+                "posters" : true
             },
             {
                 "id" : "P17",
                 "name" : "Histopathological Image Analysis with Style-Augmented Feature Domain Mixing for Improved Generalization",
-                "authors": "Khamankar, Vaibhav; Bera, Sutanu*; Bhattacharya, Saumik; Sen, Debashis; Biswas, Prabir  Kumar"
+                "authors": "Khamankar, Vaibhav; Bera, Sutanu*; Bhattacharya, Saumik; Sen, Debashis; Biswas, Prabir  Kumar",
+                "posters" : true
             }
         ],
         "abstract" : [
@@ -144,7 +161,8 @@
             {
                 "id" : "P19",
                 "name" : "Multi Pose-based Convolutional Neural Network Model for Diagnosis of Patient with Central Lumbar Spinal Stenosis",
-                "authors": "Park, Seyeon*"
+                "authors": "Park, Seyeon*",
+                "posters" : false
             },
                 
             {
@@ -190,7 +208,8 @@
             {
                 "id" : "P28",
                 "name" : "Revisiting Active Learning in Histopathology Segmentation: Representativeness and Cost-Effective Active Learning",
-                "authors": "Lee, Hyeseong*; Lee, Jonghyun; KIM, EUNSU; Ahn, Sangjeong ; Lee, Sung Hak"
+                "authors": "Lee, Hyeseong*; Lee, Jonghyun; KIM, EUNSU; Ahn, Sangjeong ; Lee, Sung Hak",
+                "posters" : false
             }
             
         ]
