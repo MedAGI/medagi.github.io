@@ -103,7 +103,11 @@
           
           <tr v-for="(item, index) in abstract" :key="index">
             <td class="oral-content">{{item['id']}}</td>
-            <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
+            <td class="oral-content">{{item['name']}}
+              <span v-if="item['posters']===true">
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+              </span>
+              <span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
         </table>
       </div>
