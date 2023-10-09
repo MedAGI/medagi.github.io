@@ -3,49 +3,60 @@
         "oral1" : [
             {
                 "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology",
-                "authors": "Zhang, Jingwei*; Ma, Ke; Kapse, Saarthak; Saltz, Joel; Vakalopoulou, Maria; Prasanna, Prateek; Samaras, Dimitris"
+                "authors": "Zhang, Jingwei*; Ma, Ke; Kapse, Saarthak; Saltz, Joel; Vakalopoulou, Maria; Prasanna, Prateek; Samaras, Dimitris",
+                "id" : "P1"
             },
             {
                 "name" : "GPC: Generative and general pathology image classifier",
-                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*"
+                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*",
+                "id" : "P2"
             },
             {
                 "name" : "Towards foundation models and few-shot parameter-efficient fine-tuning for volumetric organ segmentation",
-                "authors": "Julio Silva-Rodr´ıguez, Jose Dolz, and Ismail Ben Ayed"
+                "authors": "Julio Silva-Rodr´ıguez, Jose Dolz, and Ismail Ben Ayed",
+                "id" : "P3"
             },
             {
                 "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications",
-                "authors": "Kim, Sangwook*; McIntosh, Chris; Purdie, Thomas G"
+                "authors": "Kim, Sangwook*; McIntosh, Chris; Purdie, Thomas G",
+                "id" : "P4"
             },
             {
                 "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model",
-                "authors": "Zhang, Yizhe*; Zhou, Tao; Wang, Shuo; Liang, Peixian; Chen, Danny Z"
+                "authors": "Zhang, Yizhe*; Zhou, Tao; Wang, Shuo; Liang, Peixian; Chen, Danny Z",
+                "id" : "P5"
             }
         ],
         "oral2" : [
             {
                 "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima",
-                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W"
+                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W",
+                "id" : "P6"
             },
             {
                 "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities",
-                "authors": "Hu, Dewei*; Li, Hao; Liu, Han; Yao, Xing; Wang, Jiacheng; Oguz, Ipek"
+                "authors": "Hu, Dewei*; Li, Hao; Liu, Han; Yao, Xing; Wang, Jiacheng; Oguz, Ipek",
+                "id" : "P7"
             },
             {
                 "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds",
-                "authors": "Wu, Qingyang; Shen, Yiqing; Ke, Jing*"
+                "authors": "Wu, Qingyang; Shen, Yiqing; Ke, Jing*",
+                "id" : "P8"
             },
             {
                 "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification",
-                "authors": "Kim, Injae*; Kim, Jongha; Choi, Joonmyung; Kim, Hyunwoo J"
+                "authors": "Kim, Injae*; Kim, Jongha; Choi, Joonmyung; Kim, Hyunwoo J",
+                "id" : "P9"
             },
             {
                 "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation",
-                "authors": "WANG, An*; Islam, Mobarakol; Xu, Mengya; Zhang, Yang; Ren, Hongliang"
+                "authors": "WANG, An*; Islam, Mobarakol; Xu, Mengya; Zhang, Yang; Ren, Hongliang",
+                "id" : "P10"
             },
             {
                 "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation",
-                "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*"
+                "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*",
+                "id" : "P11"
             }
         ],
         "full_length" : [

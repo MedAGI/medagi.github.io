@@ -11,7 +11,7 @@
           MICCAI 2023 1st International Workshop on<br> Foundation Models for General Medical AI
         </div>
         <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-          October 12, 2023 AM 8:00-11:30</div>
+          October 12, 2023 AM 8:00-11:30<br>(Meeting Room 17)</div>
       </div>
   </div>
   <!-- Introduction End -->
@@ -200,6 +200,7 @@ html, body {
     font-family: Helvetica;
     font-size: 18px;
     letter-spacing: 1px;
+    text-align: center;
     color: #d9d9d9;
   }
   /* Introudction End */
@@ -331,6 +332,7 @@ html, body {
     margin-top: 10px;
     font-family: Helvetica;
     font-size: 16px;
+    text-align: center;
     color: #d9d9d9;
   }
   /* Introudction End */
@@ -461,6 +463,7 @@ html, body {
     margin-top: 10px;
     font-family: Helvetica;
     font-size: 14px;
+    text-align: center;
     color: #d9d9d9;
   }
   /* Introudction End */

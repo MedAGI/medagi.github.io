@@ -48,11 +48,19 @@
         <table id="oral-table" class="table">
           <tr v-for="(item, index) in oral1" :key="index">
             <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(8:50 - 9:40)</td>
-              <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
+              <td class="oral-content">
+                {{item['name']}}
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span class="oral-authors">{{ item['authors'] }}</span>
+              </td>
           </tr>
           <tr v-for="(item, index) in oral2" :key="index">
               <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(11:10 - 12:10)</td>
-              <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
+              <td class="oral-content">
+                {{item['name']}}
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span class="oral-authors">{{ item['authors'] }}</span>
+              </td>
           </tr>
         </table>
 
@@ -62,7 +70,11 @@
           </tr>
           
           <tr v-for="(item, index) in oral1" :key="index">
-              <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
+              <td class="oral-content">
+                {{item['name']}}
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span class="oral-authors">{{ item['authors'] }}</span>
+              </td>
           </tr>
 
           <tr class="sticky-header">
@@ -70,7 +82,11 @@
           </tr>
           
           <tr v-for="(item, index) in oral2" :key="index">
-              <td class="oral-content">{{item['name']}}<span class="oral-authors">{{ item['authors'] }}</span></td>
+              <td class="oral-content">
+                {{item['name']}}
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span class="oral-authors">{{ item['authors'] }}</span>
+              </td>
           </tr>
         </table>
       </div>
