@@ -77,13 +77,13 @@
                 "id" : "P5",
                 "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model",
                 "authors": "Zhang, Yizhe*; Zhou, Tao; Wang, Shuo; Liang, Peixian; Chen, Danny Z",
-                "posters" : false
+                "posters" : true
             },
             {
                 "id" : "P6",
                 "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima",
                 "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W",
-                "posters" : false
+                "posters" : true
             },
             {
                 "id" : "P7",
@@ -95,7 +95,7 @@
                 "id" : "P8",
                 "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds",
                 "authors": "Wu, Qingyang; Shen, Yiqing; Ke, Jing*",
-                "posters" : false
+                "posters" : true
             },
             {
                 "id" : "P9",
