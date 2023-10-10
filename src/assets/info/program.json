@@ -229,7 +229,7 @@
                 "id" : "P28",
                 "name" : "Revisiting Active Learning in Histopathology Segmentation: Representativeness and Cost-Effective Active Learning",
                 "authors": "Lee, Hyeseong*; Lee, Jonghyun; KIM, EUNSU; Ahn, Sangjeong ; Lee, Sung Hak",
-                "posters" : false
+                "posters" : true
             }
             
         ]
