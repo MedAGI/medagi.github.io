@@ -3,59 +3,59 @@
         "oral1" : [
             {
                 "name" : "SAM-Path: A Segment Anything Model for Semantic Segmentation in Digital Pathology",
-                "authors": "Zhang, Jingwei*; Ma, Ke; Kapse, Saarthak; Saltz, Joel; Vakalopoulou, Maria; Prasanna, Prateek; Samaras, Dimitris",
+                "authors": "Zhang, Jingwei*<sup>1</sup>; Ma, Ke<sup>2</sup>; Kapse, Saarthak<sup>1</sup>; Saltz, Joel<sup>1</sup>; Vakalopoulou, Maria<sup>3</sup>; Prasanna, Prateek<sup>1</sup>; Samaras, Dimitris<sup>1</sup><br><sup>1</sup>Stony Brook University, USA, <br><sup>2</sup>Snap Inc., USA, <br><sup>3</sup>CentraleSupélec, University of Paris-Saclay, France",
                 "id" : "P1"
             },
             {
                 "name" : "GPC: Generative and general pathology image classifier",
-                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*",
+                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*<br>School of Electrical Engineering, Korea University, Seoul 02841, Korea",
                 "id" : "P2"
             },
             {
                 "name" : "Towards foundation models and few-shot parameter-efficient fine-tuning for volumetric organ segmentation",
-                "authors": "Julio Silva-Rodr´ıguez, Jose Dolz, and Ismail Ben Ayed",
+                "authors": "Julio Silva-Rodr´ıguez, Jose Dolz, and Ismail Ben Ayed<br>ETS Montreal, Canada",
                 "id" : "P3"
             },
             {
                 "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications",
-                "authors": "Kim, Sangwook*; McIntosh, Chris; Purdie, Thomas G",
+                "authors": "Kim, Sangwook*<sup>1</sup>; McIntosh, Chris<sup>1,2,4,8</sup>; Purdie, Thomas G<sup>1,2,3,5,6,7</sup><br>1 Department of Medical Biophysics, University of Toronto, Toronto, Canada, <br><sup>2</sup>Princess Margaret Cancer Centre, University Health Network, Toronto, Canada, <br><sup>3</sup>Toronto General Research Institute, University Health Network, Toronto, Canada, <br><sup>4</sup> Princess Margaret Research Institute, University Health Network, Toronto, Canada, <br><sup>5</sup> Peter Munk Cardiac Centre, University Health Network, Toronto, Canada, <br><sup>6</sup> Department of Medical Imaging, University of Toronto, Toronto, Canada,<br><sup>7</sup> Vector Institute, Toronto, Canada,<br><sup>8</sup> Department of Radiation Oncology, University of Toronto, Toronto, Canada",
                 "id" : "P4"
             },
             {
                 "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model",
-                "authors": "Zhang, Yizhe*; Zhou, Tao; Wang, Shuo; Liang, Peixian; Chen, Danny Z",
+                "authors": "Zhang, Yizhe*<sup>1</sup>; Zhou, Tao<sup>1</sup>; Wang, Shuo<sup>2,3</sup>; Liang, Peixian<sup>4</sup>; Yejia Zhang<sup>4</sup>; Chen, Danny Z<sup>4</sup><br><sup>1</sup> School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, Jiangsu 210094, China, <br><sup>2</sup>Digital Medical Research Center, School of Basic Medical Sciences, Fudan, University, Shanghai 200032, China, <br><sup>3</sup>Shanghai Key Laboratory of MICCAI, Shanghai, Shanghai 200032, China, <br><sup>4</sup>Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN 46556, USA",
                 "id" : "P5"
             }
         ],
         "oral2" : [
             {
                 "name" : "Multi-Task Cooperative Learning via Searching for Flat Minima",
-                "authors": "Wu, Fuping*; Zhang, Le; Sun, Yang; Mo, Yuanhan; Nichols, Thomas E; Papiez, Bartlomiej W",
+                "authors": "Wu, Fuping*<sup>1</sup>; Zhang, Le<sup>1</sup>; Sun, Yang<sup>2</sup>; Mo, Yuanhan<sup>2</sup>; Nichols, Thomas E<sup>1,2</sup>; Papiez, Bartlomiej W<sup>1,2</sup><br><sup>1</sup>Nuffield Department of Population Health, University of Oxford, Oxford, UK<br><sup>2</sup>Big Data Institute, University of Oxford, Oxford, UK",
                 "id" : "P6"
             },
             {
                 "name" : "MAP: Domain Generalization via Meta-Learning on Anatomy-Consistent Pseudo-Modalities",
-                "authors": "Hu, Dewei*; Li, Hao; Liu, Han; Yao, Xing; Wang, Jiacheng; Oguz, Ipek",
+                "authors": "Hu, Dewei*<sup>1</sup>; Li, Hao<sup>1</sup>; Liu, Han<sup>2</sup>; Yao, Xing<sup>2</sup>; Wang, Jiacheng<sup>2</sup>; Oguz, Ipek<sup>1,2</sup><br><sup>1</sup>Department of Electrical and Computer Engineering, Vanderbilt University<br><sup>2</sup>Department of Computer Science, Vanderbilt University",
                 "id" : "P7"
             },
             {
                 "name" : "A General Computationally-Efficient 3D Reconstruction Pipeline for Multiple Images with Point Clouds",
-                "authors": "Wu, Qingyang; Shen, Yiqing; Ke, Jing*",
+                "authors": "Wu, Qingyang<sup>1</sup>; Shen, Yiqing<sup>2</sup>; Ke, Jing*<sup>3,4</sup><br><sup>1</sup> School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China<br><sup>2</sup> Department of Computer Science, Johns Hopkins University, Baltimore, USA<br><sup>3</sup>School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong. University, Shanghai, China<br><sup>4</sup>School of Computer Science and Engineering, University of New South Wales, Sydney, Australia",
                 "id" : "P8"
             },
             {
                 "name" : "Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification",
-                "authors": "Kim, Injae*; Kim, Jongha; Choi, Joonmyung; Kim, Hyunwoo J",
+                "authors": "Kim, Injae*; Kim, Jongha; Choi, Joonmyung; Kim, Hyunwoo J<br>Department of Computer Science and Engineering, Korea University",
                 "id" : "P9"
             },
             {
                 "name" : "SAM Meets Robotic Surgery: An Empirical Study on Generalization, Robustness and Adaptation",
-                "authors": "WANG, An*; Islam, Mobarakol; Xu, Mengya; Zhang, Yang; Ren, Hongliang",
+                "authors": "WANG, An*<sup>1</sup>; Islam, Mobarakol<sup>2</sup>; Xu, Mengya<sup>3</sup>; Zhang, Yang<sup>4</sup>; Ren, Hongliang<sup>1, 3</sup><br>1 Dept. of Electronic Engineering, Shun Hing Institute of Advanced Engineering(SHIAE), The Chinese University of Hong Kong, Hong Kong SAR, China<br><sup>2</sup>Dept. of Medical Physics and Biomedical Engineering, Wellcome/EPSRC Centrefor Interventional and Surgical Sciences (WEISS), University College London, London, UK<br><sup>3</sup> Dept. of Biomedical Engineering, National University of Singapore, Singapore<br><sup>4</sup>School of Mechanical Engineering, Hubei University of Technology, Wuhan, China",
                 "id" : "P10"
             },
             {
                 "name" : "Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation",
-                "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*",
+                "authors": "Kim, SeungKyu; Oh, Hyun-Jic; Min, Seonghui; Jeong, Won-Ki*<br>Korea University, College of Informatics, Department of Computer Science and Engineering",
                 "id" : "P11"
             }
         ],

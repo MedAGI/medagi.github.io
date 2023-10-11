@@ -51,7 +51,7 @@
               <td class="oral-content">
                 {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
-                <span class="oral-authors">{{ item['authors'] }}</span>
+                <span class="oral-authors" v-html="item['authors']"></span>
               </td>
           </tr>
           <tr v-for="(item, index) in oral2" :key="index">
@@ -59,7 +59,7 @@
               <td class="oral-content">
                 {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
-                <span class="oral-authors">{{ item['authors'] }}</span>
+                <span class="oral-authors" v-html="item['authors']"></span>
               </td>
           </tr>
         </table>
@@ -73,7 +73,7 @@
               <td class="oral-content">
                 {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
-                <span class="oral-authors">{{ item['authors'] }}</span>
+                <span class="oral-authors" v-html="item['authors']"></span>
               </td>
           </tr>
 
@@ -85,7 +85,7 @@
               <td class="oral-content">
                 {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
-                <span class="oral-authors">{{ item['authors'] }}</span>
+                <span class="oral-authors" v-html="item['authors']"></span>
               </td>
           </tr>
         </table>
