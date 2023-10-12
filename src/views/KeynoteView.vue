@@ -12,7 +12,7 @@
 			<!-- <h2>Keynotes</h2><hr> -->
 			<div id="keynote-container">
 				<div class="keynote-box">
-					<div class="keynote-title">Pre-Foundation-Model-Era for Medical Imaging: <br>What can we study from the paradigm of self-supervised learning?</div>
+					<div class="keynote-title">Pre-Foundation-Model-Era for Medical Imaging Analysis: Studies on Self-supervised Learning</div>
           <div class="profile-box">
             <img src="@/assets/keynotes/yun_gu.png" class="profile">
             <div>
@@ -25,7 +25,7 @@
           </div>
 				</div>
         <div class="keynote-box">
-					<div class="keynote-title">Foundation Model Prompting for Medical Image Analysis</div>
+					<div class="keynote-title">Foundation Models in Medicine : Generalist vs Specialist</div>
           <div class="profile-box">
             <img src="@/assets/keynotes/shaoting_zhang.jpeg" class="profile" style="object-position: top;">
             <div class="">

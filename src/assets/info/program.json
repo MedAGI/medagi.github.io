@@ -8,7 +8,7 @@
             },
             {
                 "name" : "GPC: Generative and general pathology image classifier",
-                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*<br>School of Electrical Engineering, Korea University, Seoul 02841, Korea",
+                "authors": "Nguyen, Anh Tien; Kwak, Jin Tae*<br>School of Electrical Engineering, Korea University",
                 "id" : "P2"
             },
             {
@@ -18,12 +18,12 @@
             },
             {
                 "name" : "Cross-Task Attention Network: Improving Multi-Task Learning for Medical Imaging Applications",
-                "authors": "Kim, Sangwook*<sup>1</sup>; McIntosh, Chris<sup>1,2,4,8</sup>; Purdie, Thomas G<sup>1,2,3,5,6,7</sup><br>1 Department of Medical Biophysics, University of Toronto, Toronto, Canada, <br><sup>2</sup>Princess Margaret Cancer Centre, University Health Network, Toronto, Canada, <br><sup>3</sup>Toronto General Research Institute, University Health Network, Toronto, Canada, <br><sup>4</sup> Princess Margaret Research Institute, University Health Network, Toronto, Canada, <br><sup>5</sup> Peter Munk Cardiac Centre, University Health Network, Toronto, Canada, <br><sup>6</sup> Department of Medical Imaging, University of Toronto, Toronto, Canada,<br><sup>7</sup> Vector Institute, Toronto, Canada,<br><sup>8</sup> Department of Radiation Oncology, University of Toronto, Toronto, Canada",
+                "authors": "Kim, Sangwook*<sup>1</sup>; McIntosh, Chris<sup>1,2,4,8</sup>; Purdie, Thomas G<sup>1,2,3,5,6,7</sup><br><sup>1</sup> Department of Medical Biophysics, University of Toronto, Toronto, Canada<br><sup>2</sup>Princess Margaret Cancer Centre, University Health Network, Toronto, Canada<br><sup>3</sup>Toronto General Research Institute, University Health Network, Toronto, Canada<br><sup>4</sup> Princess Margaret Research Institute, University Health Network, Toronto, Canada<br><sup>5</sup> Peter Munk Cardiac Centre, University Health Network, Toronto, Canada<br><sup>6</sup> Department of Medical Imaging, University of Toronto, Toronto, Canada<br><sup>7</sup> Vector Institute, Toronto, Canada<br><sup>8</sup> Department of Radiation Oncology, University of Toronto, Toronto, Canada",
                 "id" : "P4"
             },
             {
                 "name" : "Input Augmentation with SAM: Boosting Medical Image Segmentation with Segmentation Foundation Model",
-                "authors": "Zhang, Yizhe*<sup>1</sup>; Zhou, Tao<sup>1</sup>; Wang, Shuo<sup>2,3</sup>; Liang, Peixian<sup>4</sup>; Yejia Zhang<sup>4</sup>; Chen, Danny Z<sup>4</sup><br><sup>1</sup> School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, Jiangsu 210094, China, <br><sup>2</sup>Digital Medical Research Center, School of Basic Medical Sciences, Fudan, University, Shanghai 200032, China, <br><sup>3</sup>Shanghai Key Laboratory of MICCAI, Shanghai, Shanghai 200032, China, <br><sup>4</sup>Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN 46556, USA",
+                "authors": "Zhang, Yizhe*<sup>1</sup>; Zhou, Tao<sup>1</sup>; Wang, Shuo<sup>2,3</sup>; Liang, Peixian<sup>4</sup>; Yejia Zhang<sup>4</sup>; Chen, Danny Z<sup>4</sup><br><sup>1</sup> School of Computer Science and Engineering, Nanjing University of Science and Technology<br><sup>2</sup>Digital Medical Research Center, School of Basic Medical Sciences, Fudan University<br><sup>3</sup>Shanghai Key Laboratory of MICCAI, Shanghai<br><sup>4</sup>Department of Computer Science and Engineering, University of Notre Dame, Notre Dame",
                 "id" : "P5"
             }
         ],

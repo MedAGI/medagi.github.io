@@ -17,7 +17,10 @@
           </tr>
           <tr>
             <td class="schedule-time">8:10 - 8:50</td>
-            <td class="schedule-name">Keynote 1: Prof. Yun Gu</td>
+            <td class="schedule-name">
+              Keynote 1: Prof. Yun Gu
+              <span class="oral-authors">Pre-Foundation-Model-Era for Medical Imaging Analysis: Studies on Self-supervised Learning</span>
+            </td>
           </tr>
           <tr>
             <td class="schedule-time">8:50 - 9:40</td>
@@ -29,7 +32,10 @@
           </tr>
           <tr>
             <td class="schedule-time">10:30 - 11:10</td>
-            <td class="schedule-name">Keynote 2: Prof. Shaoting Zhang</td>
+            <td class="schedule-name">
+              Keynote 2: Prof. Shaoting Zhang
+              <span class="oral-authors">Foundation Models in Medicine : Generalist vs Specialist</span>
+            </td>
           </tr>
           <tr>
             <td class="schedule-time">11:10 - 12:10</td>
