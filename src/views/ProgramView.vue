@@ -18,7 +18,7 @@
           <tr>
             <td class="schedule-time">8:10 - 8:50</td>
             <td class="schedule-name">
-              Keynote 1: Prof. Yun Gu
+              Keynote 1: Prof. Yun Gu [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/20231013_MICCAI_Workshop_Slides.pdf">slide</a>]
               <span class="oral-authors">Pre-Foundation-Model-Era for Medical Imaging Analysis: Studies on Self-supervised Learning</span>
             </td>
           </tr>
