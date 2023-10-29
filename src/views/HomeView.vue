@@ -1,5 +1,30 @@
 <template>
   <div id="home">
+    <!-- Closing -->
+    <div id="closing">
+      <div id="thankyou-message">
+        <span id="thankyou">MedAGI 2023 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
+        <div id="award-box">
+          <h2>Best Paper</h2>
+          <div id="best-paper">
+            <img src='@/assets/award/Photo_BestPaper.jpg' alt="" class="photo">
+            <img src='@/assets/award/Award_BestPaper.jpg' alt="" class="award">
+          </div>
+          <h2>Honorable Mention</h2>
+          <div id="honorable-mention">
+            <img src='@/assets/award/Photo_HonorableMention.jpg' alt="" class="photo">
+            <img src='@/assets/award/Award_HonorableMention.jpg' alt="" class="award">
+          </div>
+        </div>
+        <h2>Gallery</h2>
+        <div id="gallery">
+          <div v-for="(image, index) in imageList" :key="index" class="gallery-item">
+            <img :src="require(`@/assets/photo/${image}`)" alt="Image" class="gallery-photo" />
+          </div>
+        </div>
+      </div>
+      
+    </div>
     <!-- Workshop Description -->
     <div id="workshop-description">
       <h1>Workshop Description</h1>
@@ -24,12 +49,79 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      imageList: []
+    };
+  },
+  created() {
+    for (let i = 1; i <= 28; i++) {
+      this.imageList.push(`${i}.jpg`); // Add image file names to the array
+    }
+  }
+};
+</script>
+
 <style scoped>
 .email {
   text-decoration: underline;
   color: #1cacd7;
 }
 @media screen and (min-width: 1280px) {
+  /* Closing */
+  #thankyou-message{
+    width: 100%;
+  }
+
+  #thankyou {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  #award-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #best-paper, #honorable-mention{
+   width: 100%; 
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 40px;
+  }
+
+  .award, .photo {
+    width: 50%;
+    object-fit: contain;
+  }
+
+  #gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gallery-item {
+    width: 400px;
+    height: 300px;
+  }
+
+  .gallery-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /* Closing End */
+
   /* Workshop Description */
   #home {
     width: 1280px;
@@ -76,6 +168,59 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  /* Closing */
+  #thankyou-message{
+    width: 100%;
+  }
+
+  #thankyou {
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #award-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #best-paper, #honorable-mention{
+   width: 100%; 
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 40px;
+  }
+
+  .award, .photo {
+    width: 50%;
+    object-fit: contain;
+  }
+
+  #gallery {
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gallery-item {
+    width: 350px;
+    height: 240px;
+  }
+
+  .gallery-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /* Closing End */
+
   /* Workshop Description */
   #home {
     width: 720px;
@@ -121,6 +266,60 @@
 }
 
 @media screen and (max-width: 767px) {
+  /* Closing */
+  #thankyou-message{
+    width: 100%;
+  }
+
+  #thankyou {
+    width: 100%;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  #award-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #best-paper, #honorable-mention{
+   width: 100%; 
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 24px;
+  }
+
+  .award, .photo {
+    width: 50%;
+    object-fit: contain;
+  }
+
+  #gallery {
+    margin-bottom: 24px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gallery-item {
+    width: 360px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+
+  .gallery-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /* Closing End */
+  
   /* Workshop Description */
   #home {
     width: 360px;
