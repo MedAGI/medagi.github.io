@@ -75,6 +75,18 @@ export default {
       margin-bottom: 60px;
     }
 
+    #best-paper, #honorable-mention{
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    }
+
+    .award, .photo {
+      width: 50%;
+      object-fit: contain;
+    }
+
     .gallery-item {
       width: 400px;
       height: 300px;
@@ -94,6 +106,11 @@ export default {
       margin: 0;
       font-size: 36px;
     }
+
+    .main-title {
+    margin-top : 44px;
+    margin-bottom: 30px;
+  }
 
     .main-title-deco {
       width: 28px;
@@ -139,6 +156,11 @@ export default {
       font-size: 24px;
     }
 
+    .main-title {
+    margin-top : 24px;
+    margin-bottom: 30px;
+  }
+
     .main-title-deco {
       width: 28px;
       height: 1px;
@@ -163,7 +185,6 @@ export default {
 
     .gallery-item {
       width: 360px;
-      height: 240px;
       margin-bottom: 10px;
     }
 

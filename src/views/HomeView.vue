@@ -4,6 +4,8 @@
     <div id="closing">
       <div id="thankyou-message">
         <span id="thankyou">MedAGI 2023 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
+        <img id="cover-img" src="@/assets/cover.jpeg">
+        <div class="go-to-gallery"><router-link to="/gallery">Go To Gallery &rarr;</router-link></div>
         <div id="award-box">
           <h2>Best Paper Award</h2>
           <div id="best-paper">
@@ -64,7 +66,31 @@
     align-items: center;
     justify-content: center;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+  }
+
+  #cover-img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .go-to-gallery {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1cacd7;
+    text-align: right;
+  }
+
+  .go-to-gallery a:hover {
+    color: #1cabd7ca;
+  }
+
+  .go-to-gallery a:visited {
+    color: #1cacd7;
   }
 
   #award-box {
@@ -137,6 +163,11 @@
     width: 100%;
   }
 
+  #cover-img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
   #thankyou {
     width: 100%;
     font-family: Helvetica;
@@ -150,6 +181,26 @@
     margin-top: 40px;
     margin-bottom: 40px;
   }
+
+  .go-to-gallery {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1cacd7;
+    text-align: right;
+  }
+
+  .go-to-gallery a:hover {
+    color: #1cabd7ca;
+  }
+
+  .go-to-gallery a:visited {
+    color: #1cacd7;
+  }
+
   #award-box {
     width: 100%;
     display: flex;
@@ -219,6 +270,11 @@
     width: 100%;
   }
 
+  #cover-img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
   #thankyou {
     width: 100%;
     font-family: Helvetica;
@@ -232,6 +288,27 @@
     margin-bottom: 24px;
     text-align: center;
   }
+
+  .go-to-gallery {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1cacd7;
+    text-align: right;
+  }
+
+  .go-to-gallery a:hover {
+    color: #1cabd7ca;
+  }
+
+  .go-to-gallery a:visited {
+    color: #1cacd7;
+  }
+
+
   #award-box {
     width: 100%;
     display: flex;
@@ -241,13 +318,15 @@
   #best-paper, #honorable-mention{
    width: 100%; 
    display: flex;
+   flex-direction: column;
    justify-content: space-between;
    margin-bottom: 24px;
   }
 
   .award, .photo {
-    width: 50%;
+    width: 100%;
     object-fit: contain;
+    margin-bottom: 24px;
   }
   /* Closing End */
   
