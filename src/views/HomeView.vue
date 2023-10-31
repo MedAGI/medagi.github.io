@@ -16,12 +16,6 @@
             <img src='@/assets/award/Award_HonorableMention.jpg' alt="" class="award">
           </div>
         </div>
-        <h2>Gallery</h2>
-        <div id="gallery">
-          <div v-for="(image, index) in imageList" :key="index" class="gallery-item">
-            <img :src="require(`@/assets/photo/${image}`)" alt="Image" class="gallery-photo" />
-          </div>
-        </div>
       </div>
       
     </div>
@@ -48,21 +42,6 @@
     <!-- End Contact -->
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      imageList: []
-    };
-  },
-  created() {
-    for (let i = 1; i <= 28; i++) {
-      this.imageList.push(`${i}.jpg`); // Add image file names to the array
-    }
-  }
-};
-</script>
 
 <style scoped>
 .email {
@@ -103,25 +82,6 @@ export default {
 
   .award, .photo {
     width: 50%;
-    object-fit: contain;
-  }
-
-  #gallery {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 60px;
-  }
-
-  .gallery-item {
-    width: 400px;
-    height: 300px;
-  }
-
-  .gallery-photo {
-    width: 100%;
-    height: 100%;
     object-fit: contain;
   }
   /* Closing End */
@@ -207,25 +167,6 @@ export default {
     width: 50%;
     object-fit: contain;
   }
-
-  #gallery {
-    margin-bottom: 40px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .gallery-item {
-    width: 350px;
-    height: 240px;
-  }
-
-  .gallery-photo {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
   /* Closing End */
 
   /* Workshop Description */
@@ -306,26 +247,6 @@ export default {
 
   .award, .photo {
     width: 50%;
-    object-fit: contain;
-  }
-
-  #gallery {
-    margin-bottom: 24px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .gallery-item {
-    width: 360px;
-    height: 240px;
-    margin-bottom: 10px;
-  }
-
-  .gallery-photo {
-    width: 100%;
-    height: 100%;
     object-fit: contain;
   }
   /* Closing End */

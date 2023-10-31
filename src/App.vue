@@ -49,6 +49,10 @@
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Call For Papers'}">Call For Papers</router-link>
+      <router-link to="/gallery" 
+        class="navigation-tab"
+        v-on:click="changeMenuBtn" 
+        v-bind:class="{'selected-tab' : this.$data.page=='Gallery'}">Gallery</router-link>
       <router-link to="/sponsors" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
