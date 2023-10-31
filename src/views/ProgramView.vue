@@ -33,7 +33,7 @@
           <tr>
             <td class="schedule-time">10:30 - 11:10</td>
             <td class="schedule-name">
-              Keynote 2: Prof. Shaoting Zhang
+              Keynote 2: Prof. Shaoting Zhang [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>]
               <span class="oral-authors">Foundation Models in Medicine : Generalist vs Specialist</span>
             </td>
           </tr>

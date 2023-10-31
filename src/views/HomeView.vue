@@ -5,7 +5,7 @@
       <div id="thankyou-message">
         <span id="thankyou">MedAGI 2023 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
         <div id="award-box">
-          <h2>Best Paper</h2>
+          <h2>Best Paper Award</h2>
           <div id="best-paper">
             <img src='@/assets/award/Photo_BestPaper.jpg' alt="" class="photo">
             <img src='@/assets/award/Award_BestPaper.jpg' alt="" class="award">
@@ -77,14 +77,17 @@ export default {
 
   #thankyou {
     width: 100%;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 60px;
   }
+
   #award-box {
     width: 100%;
     display: flex;
@@ -108,6 +111,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 60px;
   }
 
   .gallery-item {
@@ -175,11 +179,14 @@ export default {
 
   #thankyou {
     width: 100%;
-    font-size: 14px;
-    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
   }
@@ -273,13 +280,16 @@ export default {
 
   #thankyou {
     width: 100%;
-    font-size: 10px;
-    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 24px;
     margin-bottom: 24px;
+    text-align: center;
   }
   #award-box {
     width: 100%;
