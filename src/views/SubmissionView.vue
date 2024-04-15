@@ -65,8 +65,35 @@
       </div>
 		</div>
     </div>
-    <div v-else style="font-size: 35px;">
-      TBD
+    <div v-else>
+      <div id="important-dates">
+      <div id="dates-table">
+        <div class="date-row">
+          <div class="dates">May 1, 2024<br></div>
+          <div class="due-work">Paper submission open</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">June 23, 2024<br></div>
+          <div class="due-work">Paper submission due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">July 14, 2024<br></div>
+          <div class="due-work">Review Due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">July 21, 2024<br></div>
+          <div class="due-work">Final Notification</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">August 4, 2024<br></div>
+          <div class="due-work">Camera-ready Due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">October 6, 2024<br></div>
+          <div class="due-work">Workshop Date</div>
+        </div>
+      </div>
+		</div>
     </div>
     
     <!-- Important Dates Ends -->
