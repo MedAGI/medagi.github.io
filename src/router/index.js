@@ -5,43 +5,90 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: HomeView
+    component: HomeView,
+    beforeEnter: (to, from, next) => {
+      if (to.params.year && to.params.year !== '2023') {
+        next({ name: 'NotFound' });
+      } else {
+        next();
+      }
+    }
   },
   {
-    path: '/organization',
+    path: '/:year(2023)?/organization',
     name: 'Organization',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/OrganizationView.vue')
+    component: () => import('../views/OrganizationView.vue'),
+    beforeEnter: (to, from, next) => {
+      // Optional: Check if the year is 2023 or not provided (which means current year)
+      if (to.params.year && to.params.year !== '2023') {
+        // If the year parameter is something other than '2023', redirect to a 404 page or handle as needed
+        next({ name: 'NotFound' });
+      } else {
+        // If it's '2023' or no year provided, continue to the route
+        next();
+      }
+    }
   },
   {
-    path: '/program',
+    path: '/:year(2023)?/program',
     name: 'Program',
-    component: () => import('../views/ProgramView.vue')
+    component: () => import('../views/ProgramView.vue'),
+    beforeEnter: (to, from, next) => {
+      if (to.params.year && to.params.year !== '2023') {
+        next({ name: 'NotFound' });
+      } else {
+        next();
+      }
+    }
   },
   {
-    path: '/keynote',
+    path: '/:year(2023)?/keynote',
     name: 'Keynote',
-    component: () => import('../views/KeynoteView.vue')
+    component: () => import('../views/KeynoteView.vue'),
+    beforeEnter: (to, from, next) => {
+      if (to.params.year && to.params.year !== '2023') {
+        next({ name: 'NotFound' });
+      } else {
+        next();
+      }
+    }
   },
   {
-    path: '/call-for-papers',
+    path: '/:year(2023)?/call-for-papers',
     name: 'Call For Papers',
-    component: () => import('../views/SubmissionView.vue')
+    component: () => import('../views/SubmissionView.vue'),
+    beforeEnter: (to, from, next) => {
+      if (to.params.year && to.params.year !== '2023') {
+        next({ name: 'NotFound' });
+      } else {
+        next();
+      }
+    }
   },
   {
-    path: '/sponsors',
+    path: '/:year(2023)?/sponsors',
     name: 'Sponsors',
-    component: () => import('../views/SponsorsView.vue')
+    component: () => import('../views/SponsorsView.vue'),
+    beforeEnter: (to, from, next) => {
+      if (to.params.year && to.params.year !== '2023') {
+        next({ name: 'NotFound' });
+      } else {
+        next();
+      }
+    }
   },
   {
-    path: '/gallery',
+    path: '/:year(2023)?/gallery',
     name: 'Gallery',
-    component: () => import('../views/GalleryView.vue')
-  }
-
-  
+    component: () => import('../views/GalleryView.vue'),
+    beforeEnter: (to, from, next) => {
+      if (to.params.year && to.params.year !== '2023') {
+        next({ name: 'NotFound' });
+      } else {
+        next();
+      }
+    }
+  },
 ]
 
 const router = createRouter({

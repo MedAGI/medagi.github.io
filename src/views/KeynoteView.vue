@@ -8,7 +8,8 @@
     <!-- Main Title End -->
 
     <!-- Preliminary Keynotes -->
-		<div id="keynotes">
+		<div v-if="currentYear === '2023'">
+      <div id="keynotes">
 			<!-- <h2>Keynotes</h2><hr> -->
 			<div id="keynote-container">
 				<div class="keynote-box">
@@ -38,7 +39,11 @@
           </div>
 				</div>
 			</div>
-		</div>
+    </div>
+  </div>
+  <div v-else style="font-size: 40px;">
+      TBD
+    </div>
     <!-- Preliminary Keynotes End -->
   </div>
 </template>
@@ -335,3 +340,27 @@
   /* Preliminary Keynote End */
 }
 </style>
+
+<script>
+export default {
+  computed: {
+  currentYear() {
+    return this.$route.params.year || new Date().getFullYear().toString();
+    }
+  },
+  methods: {
+      fetchData() {
+      // Use the currentYear computed property to determine which data to fetch
+      const year = this.currentYear;
+      if (year === '2023') {
+        // Fetch and set the data for the 2023 archive
+      } else {
+        // Fetch and set the data for the current year
+      }
+    }
+  },
+  created(){
+    this.fetchData();
+  },
+}
+</script>
