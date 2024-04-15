@@ -518,10 +518,16 @@
   }
   </style>
   
-  <script>
+<script>
 import program from "@/assets/info/program.json"
 
 export default {
+  computed: {
+  currentYear() {
+    return this.$route.params.year || new Date().getFullYear().toString();
+    }
+  },
+
   data() {
     return {
       oral1 : program[0]['oral1'],
@@ -531,7 +537,18 @@ export default {
     }
   },
   methods: {
-
-  }
+      fetchData() {
+      // Use the currentYear computed property to determine which data to fetch
+      const year = this.currentYear;
+      if (year === '2023') {
+        // Fetch and set the data for the 2023 archive
+      } else {
+        // Fetch and set the data for the current year
+      }
+    }
+  },
+  created(){
+    this.fetchData();
+  },
 }
 </script>
