@@ -1,25 +1,27 @@
 <template>
   <div id="home">
-    <!-- Closing -->
-    <div id="closing">
-      <div id="thankyou-message">
-        <span id="thankyou">MedAGI 2023 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
-        <img id="cover-img" src="@/assets/cover.jpeg">
-        <div class="go-to-gallery"><router-link to="/gallery">Go To Gallery &rarr;</router-link></div>
-        <div id="award-box">
-          <h2>Best Paper Award</h2>
-          <div id="best-paper">
-            <img src='@/assets/award/Photo_BestPaper.jpg' alt="" class="photo">
-            <img src='@/assets/award/Award_BestPaper.jpg' alt="" class="award">
-          </div>
-          <h2>Honorable Mention</h2>
-          <div id="honorable-mention">
-            <img src='@/assets/award/Photo_HonorableMention.jpg' alt="" class="photo">
-            <img src='@/assets/award/Award_HonorableMention.jpg' alt="" class="award">
+    <div v-if="currentYear === '2023'">
+      <div id="closing">
+        <div id="thankyou-message">
+          <span id="thankyou">MedAGI 2023 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
+          <img id="cover-img" src="@/assets/cover.jpeg">
+          <div class="go-to-gallery"><router-link to="/gallery">Go To Gallery &rarr;</router-link></div>
+          <div id="award-box">
+            <h2>Best Paper Award</h2>
+            <div id="best-paper">
+              <img src='@/assets/award/Photo_BestPaper.jpg' alt="" class="photo">
+              <img src='@/assets/award/Award_BestPaper.jpg' alt="" class="award">
+            </div>
+            <h2>Honorable Mention</h2>
+            <div id="honorable-mention">
+              <img src='@/assets/award/Photo_HonorableMention.jpg' alt="" class="photo">
+              <img src='@/assets/award/Award_HonorableMention.jpg' alt="" class="award">
+            </div>
           </div>
         </div>
-      </div>
-      
+      </div>  
+    </div>
+    <div v-else>
     </div>
     <!-- Workshop Description -->
     <div id="workshop-description">
@@ -375,3 +377,28 @@
   /* Contact End */
 }
 </style>
+
+<script>
+export default {
+  computed: {
+  currentYear() {
+    console.log(this.$data)
+    return this.$route.params.year || new Date().getFullYear().toString();
+    },
+  },
+  methods: {
+      fetchData() {
+      // Use the currentYear computed property to determine which data to fetch
+      const year = this.currentYear;
+      if (year === '2023') {
+        // Fetch and set the data for the 2023 archive
+      } else {
+        // Fetch and set the data for the current year
+      }
+    }
+  },
+  created(){
+    this.fetchData();
+  },
+}
+</script>

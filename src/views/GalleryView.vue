@@ -4,11 +4,17 @@
           <h1>Gallery</h1>
           <div class="main-title-deco"></div>
       </div>
-      <h2>2023</h2><hr>
-      <div id="container">
-        <div v-for="(image, index) in imageList" :key="index" class="gallery-item">
-          <img :src="require(`@/assets/photo/${image}`)" loading="lazy" decoding="async" class="gallery-photo" />
+      <div v-if="currentYear === '2023'">
+        <h2>2023</h2><hr>
+        <div id="container">
+          <div v-for="(image, index) in imageList" :key="index" class="gallery-item">
+            <img :src="require(`@/assets/photo/${image}`)" loading="lazy" decoding="async" class="gallery-photo" />
+          </div>
         </div>
+      </div>
+      <div v-else style="font-size: 40px;">
+        <h2>2024</h2><hr>
+        TBD
       </div>
     </div>
   </template>
@@ -23,9 +29,27 @@ export default {
   created() {
     for (let i = 1; i <= 28; i++) {
       this.imageList.push(`${i}.jpg`); // Add image file names to the array
-    }
+    };
+    this.fetchData();
+  },
+  computed: {
+    currentYear() {
+      return this.$route.params.year || new Date().getFullYear().toString();
+      }
+    },
+
+    methods: {
+        fetchData() {
+        // Use the currentYear computed property to determine which data to fetch
+        const year = this.currentYear;
+        if (year === '2023') {
+          // Fetch and set the data for the 2023 archive
+        } else {
+          // Fetch and set the data for the current year
+        }
+      }
+    },
   }
-};
 </script>
   
   <style scoped>
@@ -196,4 +220,3 @@ export default {
     
   }
   </style>
-  

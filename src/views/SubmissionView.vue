@@ -38,8 +38,9 @@
     <!-- Topics End -->
 
     <!-- Important Dates -->
-		<div id="important-dates">
-			<h2>Important Dates</h2><hr>
+    <h2>Important Dates</h2><hr>
+		<div v-if="currentYear === '2023'">
+      <div id="important-dates">
       <div id="dates-table">
         <div class="date-row">
           <div class="dates"><span class="canceled-date">June 25, 2023 (23:59 PDT)</span><br>July 5, 2023 (23:59PDT)</div>
@@ -63,6 +64,11 @@
         </div>
       </div>
 		</div>
+    </div>
+    <div v-else style="font-size: 35px;">
+      TBD
+    </div>
+    
     <!-- Important Dates Ends -->
 
     <!-- Submission Instructions -->
@@ -568,3 +574,29 @@ a {
   /* Submission Site End */
 }
 </style>
+
+<script>
+
+
+export default {
+  computed: {
+  currentYear() {
+    return this.$route.params.year || new Date().getFullYear().toString();
+    }
+  },
+  methods: {
+      fetchData() {
+      // Use the currentYear computed property to determine which data to fetch
+      const year = this.currentYear;
+      if (year === '2023') {
+        // Fetch and set the data for the 2023 archive
+      } else {
+        // Fetch and set the data for the current year
+      }
+    }
+  },
+  created(){
+    this.fetchData();
+  },
+}
+</script>

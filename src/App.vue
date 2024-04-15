@@ -1,6 +1,23 @@
 <template>
   <!-- Introduction -->
-  <div id="introduction" v-bind:class="{'home-nav' : this.$data.page ==='Home'}">
+  <div v-if="viewingArchive">
+      <div id="introduction" v-bind:class="{'home-nav' : this.$data.page ==='Home'}">
+        <div class="big-title" 
+        v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
+        v-bind:style="{backgroundPosition: '0 ' + offsetY + 'px'}">
+          <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+          <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
+          <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+          <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+            MICCAI 2023 1st International Workshop on<br> Foundation Models for General Medical AI
+          </div>
+          <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+            October 12, 2023 AM 8:00-11:30<br>(Meeting Room 17)</div>
+        </div>
+    </div>
+  </div>
+  <div v-else>
+    <div id="introduction" v-bind:class="{'home-nav' : this.$data.page ==='Home'}">
       <div class="big-title" 
       v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
       v-bind:style="{backgroundPosition: '0 ' + offsetY + 'px'}">
@@ -8,11 +25,13 @@
         <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
         <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
         <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-          MICCAI 2023 1st International Workshop on<br> Foundation Models for General Medical AI
+          MICCAI 2024 2nd International Workshop on<br> Foundation Models for General Medical AI
         </div>
         <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-          October 12, 2023 AM 8:00-11:30<br>(Meeting Room 17)</div>
+          Date and location: TBD
+        </div>
       </div>
+  </div>
   </div>
   <!-- Introduction End -->
 
@@ -31,32 +50,36 @@
     <nav id="tab-box" v-bind:class="showMenuBar">
       <router-link to="/" 
         class="navigation-tab"
-        v-bind:class="{selectedTab : this.$data.page ===''}"
-        v-on:click="changeMenuBtn">Home</router-link>
-      <router-link to="/organization" 
+        v-on:click="changeMenuBtn"
+        v-bind:class="{selectedTab : this.$data.page ===''}">Home</router-link>
+      <router-link :to="this.$data.viewingArchive ? '/2023/organization' : '/organization'" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page === 'Organization'}">Organization</router-link>
-      <router-link to="/program" 
+      <router-link :to="this.$data.viewingArchive ? '/2023/program' : '/program'" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Program'}">Program</router-link>
-      <router-link to="/keynote" 
+      <router-link :to="this.$data.viewingArchive ? '/2023/keynote' : '/keynote'" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Keynote'}">Keynote</router-link>
-      <router-link to="/call-for-papers" 
+      <router-link :to="this.$data.viewingArchive ? '/2023/call-for-papers' : '/call-for-papers'" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Call For Papers'}">Call For Papers</router-link>
-      <router-link to="/gallery" 
+      <router-link :to="this.$data.viewingArchive ? '/2023/gallery' : '/gallery'" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Gallery'}">Gallery</router-link>
-      <router-link to="/sponsors" 
+      <router-link :to="this.$data.viewingArchive ? '/2023/sponsors' : '/sponsors'" 
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Sponsors'}">Sponsors</router-link>
+      <router-link to="/" 
+        class="navigation-tab"
+        v-on:click="toggleArchiveView" 
+        :class="{'selected-tab' : this.$data.page=='Years'}">{{medAGIText}}</router-link>
     </nav>
   </div>  
   <!-- Navigation End -->
@@ -83,7 +106,10 @@ export default {
           showMenuBar: function() {
             if (this.$data.isSideOpened) return {'show-menu-bar': true };
             else return {'hide-menu-bar': true };
-          }
+          },
+          medAGIText() {
+            return this.viewingArchive ? 'Visit MedAGI 2024' : 'Visit MedAGI 2023';
+          },
   },
   methods: {
         openMenuBtn: function() {
@@ -91,8 +117,12 @@ export default {
         },
         changeMenuBtn: function() {
             this.$data.isSideOpened = false;
-        }
+        },
+        toggleArchiveView() {
+          this.viewingArchive = !this.viewingArchive;          
+        },
       },
+
   mounted() {
     document.title = "MedAGI";  // 문서 탭 타이틀 변경
     if (this.$data.page !== 'Home') {
@@ -123,7 +153,8 @@ export default {
       page: '',
       offsetY: 0,
       isSideOpened: false,
-      hideNavBar: false
+      hideNavBar: false,
+      viewingArchive: false,
     }}
 }
 </script>

@@ -4,62 +4,84 @@
       <h1>Organization</h1>
     	<div class="main-title-deco"></div>
     </div>
-		<div id="organizing-team">
-			<h2>Organizing Team</h2><hr>
-			<div class="card-container">
-				<div class="card">
-					<img src='@/assets/profile/Wonki_Jeong.jpg' alt="" class="profile">
-					<div class="name">Won-Ki Jeong</div>
-					<div class="belong">Korea University</div>
-				</div>
-				<div class="card">
-					<img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
-					<div class="name">Hyunwoo Kim</div>
-					<div class="belong">Korea University</div>
-				</div>
-				<div class="card">
-					<img src="@/assets/profile/Yiqing_Shen.jpg" alt="" class="profile">
-					<div class="name">Yiqing Shen</div>
-					<div class="belong">Johns Hopkins University</div>
-				</div>
-				<div class="card">
-					<img src="@/assets/profile/Zhongying_Deng.jpg" alt="" class="profile">
-					<div class="name">Zhongying Deng</div>
-					<div class="belong">University of Surrey</div>
-				</div>
-        <div class="card">
-					<img src="@/assets/profile/edward_choi.png" alt="" class="profile">
-					<div class="name">Edward Choi</div>
-					<div class="belong">KAIST</div>
-				</div>
-				<div class="card">
-					<img src="../assets/profile/Junjun_He.webp" alt="" class="profile">
-					<div class="name">Junjun He</div>
-					<div class="belong">Shanghai AI Laboratory</div>
-				</div>
-				<div class="card">
-					<img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile color-profile">
-					<div class="name">Hoon Cho</div>
-					<div class="belong">Broad Institute of MIT and Harvard</div>
-				</div>
-				<div class="card">
-					<img src="@/assets/profile/donglai_sq.png" alt="" class="profile">
-					<div class="name">Donglai Wei</div>
-					<div class="belong">Boston College</div>
-				</div>
-				<div class="card">
-					<img src="@/assets/profile/Jin_Ye.jpg" alt="" class="profile">
-					<div class="name">Jin Ye</div>
-					<div class="belong">Shanghai AI Laboratory</div>
-				</div>
-				<div class="card">
-					<img src="@/assets/profile/Jing_Ke.jpg" alt="" class="profile color-profile">
-					<div class="name">Jing Ke</div>
-					<div class="belong">Shanghai Jiao Tong University</div>
-				</div>
-			</div>
-		</div>
-		<div id="program-committee">
+		
+    <div v-if="currentYear === '2023'">
+    <!-- 2023 -->
+      <div id="organizing-team">
+        <h2>Organizing Team</h2><hr>
+        <div class="card-container">
+          <div class="card">
+            <img src='@/assets/profile/Wonki_Jeong.jpg' alt="" class="profile">
+            <div class="name">Won-Ki Jeong</div>
+            <div class="belong">Korea University</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
+            <div class="name">Hyunwoo Kim</div>
+            <div class="belong">Korea University</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/Yiqing_Shen.jpg" alt="" class="profile">
+            <div class="name">Yiqing Shen</div>
+            <div class="belong">Johns Hopkins University</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/Zhongying_Deng.jpg" alt="" class="profile">
+            <div class="name">Zhongying Deng</div>
+            <div class="belong">University of Surrey</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/edward_choi.png" alt="" class="profile">
+            <div class="name">Edward Choi</div>
+            <div class="belong">KAIST</div>
+          </div>
+          <div class="card">
+            <img src="../assets/profile/Junjun_He.webp" alt="" class="profile">
+            <div class="name">Junjun He</div>
+            <div class="belong">Shanghai AI Laboratory</div>
+          </div>
+          <div class="card">
+            <img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile color-profile">
+            <div class="name">Hoon Cho</div>
+            <div class="belong">Broad Institute of MIT and Harvard</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/donglai_sq.png" alt="" class="profile">
+            <div class="name">Donglai Wei</div>
+            <div class="belong">Boston College</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/Jin_Ye.jpg" alt="" class="profile">
+            <div class="name">Jin Ye</div>
+            <div class="belong">Shanghai AI Laboratory</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/Jing_Ke.jpg" alt="" class="profile color-profile">
+            <div class="name">Jing Ke</div>
+            <div class="belong">Shanghai Jiao Tong University</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div v-else>
+    <div id="organizing-team">
+        <h2>Organizing Team</h2><hr>
+        <div class="card-container">
+          <div class="card">
+            <img src='@/assets/profile/Wonki_Jeong.jpg' alt="" class="profile">
+            <div class="name">Won-Ki Jeong</div>
+            <div class="belong">Korea University</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
+            <div class="name">Hyunwoo Kim</div>
+            <div class="belong">Korea University</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div v-if="currentYear === '2023'">
+    <div id="program-committee">
 			<h2>Program Committee</h2><hr>
       <ul id="committee-list">
         <li v-for="committee in pc" :id="committee['No']">
@@ -67,12 +89,33 @@
         </li>
       </ul>
 		</div>
+  </div>
+  <div v-else>
+    <div id="program-committee">
+			<h2>Program Committee</h2><hr>
+      <ul id="committee-list">
+        <li v-for="committee in pc" :id="committee['No']">
+          <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
+        </li>
+      </ul>
+		</div>
+  </div>
+  <div v-if="currentYear === '2023'">
     <div id="student-contributor">
       <h2>Student Contributor</h2><hr>
         <ul id="contributor-list">
           <li><strong>Byungju Chae</strong> (<span class="committee-belong">Korea University</span>) </li>
         </ul>
     </div>
+  </div>
+  <div v-else>
+    <div id="student-contributor">
+      <h2>Student Contributor</h2><hr>
+        <ul id="contributor-list">
+          <li><strong>Jongha Kim</strong> (<span class="committee-belong">Korea University</span>) </li>
+        </ul>
+    </div>
+  </div>
   </div>
 </template>
 
@@ -420,13 +463,30 @@
 import program_committee from "@/assets/info/program_committee.json"
 
 export default {
+  computed: {
+  currentYear() {
+    return this.$route.params.year || new Date().getFullYear().toString();
+    }
+  },
+
   data() {
     return {
       pc : program_committee
     }
   },
   methods: {
-
-  }
+      fetchData() {
+      // Use the currentYear computed property to determine which data to fetch
+      const year = this.currentYear;
+      if (year === '2023') {
+        // Fetch and set the data for the 2023 archive
+      } else {
+        // Fetch and set the data for the current year
+      }
+    }
+  },
+  created(){
+    this.fetchData();
+  },
 }
 </script>

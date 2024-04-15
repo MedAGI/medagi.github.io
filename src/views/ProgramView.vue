@@ -6,50 +6,56 @@
           <div class="main-title-deco"></div>
       </div>
       <!-- Main Title End -->
-
-      <!-- Program Schedules -->
-      <div id="schedule">
-        <h2>Schedule</h2><hr>
-        <table class="table">
-          <tr>
-            <td class="schedule-time">8:00 - 8:10</td>
-            <td class="schedule-name">Opening Remarks</td>
-          </tr>
-          <tr>
-            <td class="schedule-time">8:10 - 8:50</td>
-            <td class="schedule-name">
-              Keynote 1: Prof. Yun Gu [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/20231013_MICCAI_Workshop_Slides.pdf">slide</a>]
-              <span class="oral-authors">Pre-Foundation-Model-Era for Medical Imaging Analysis: Studies on Self-supervised Learning</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="schedule-time">8:50 - 9:40</td>
-            <td class="schedule-name">Oral Session 1</td>
-          </tr>
-          <tr>
-            <td class="schedule-time">9:40 - 10:30</td>
-            <td class="schedule-name">Poster Session/Break</td>
-          </tr>
-          <tr>
-            <td class="schedule-time">10:30 - 11:10</td>
-            <td class="schedule-name">
-              Keynote 2: Prof. Shaoting Zhang [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>]
-              <span class="oral-authors">Foundation Models in Medicine : Generalist vs Specialist</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="schedule-time">11:10 - 12:10</td>
-            <td class="schedule-name">Oral Session 2</td>
-          </tr>
-          <tr>
-            <td class="schedule-time">12:10 - 12:30</td>
-            <td class="schedule-name">Closing / Awards</td>
-          </tr>
-        </table>
+      <div v-if="currentYear === '2023'">
+          <div id="schedule">
+          <h2>Schedule</h2><hr>
+          <table class="table">
+            <tr>
+              <td class="schedule-time">8:00 - 8:10</td>
+              <td class="schedule-name">Opening Remarks</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">8:10 - 8:50</td>
+              <td class="schedule-name">
+                Keynote 1: Prof. Yun Gu [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/20231013_MICCAI_Workshop_Slides.pdf">slide</a>]
+                <span class="oral-authors">Pre-Foundation-Model-Era for Medical Imaging Analysis: Studies on Self-supervised Learning</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="schedule-time">8:50 - 9:40</td>
+              <td class="schedule-name">Oral Session 1</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">9:40 - 10:30</td>
+              <td class="schedule-name">Poster Session/Break</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">10:30 - 11:10</td>
+              <td class="schedule-name">
+                Keynote 2: Prof. Shaoting Zhang [<a href="https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/keynotes/OpenMEDLab-eng v5.pdf">slide</a>]
+                <span class="oral-authors">Foundation Models in Medicine : Generalist vs Specialist</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="schedule-time">11:10 - 12:10</td>
+              <td class="schedule-name">Oral Session 2</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">12:10 - 12:30</td>
+              <td class="schedule-name">Closing / Awards</td>
+            </tr>
+          </table>
+        </div>
       </div>
+      <div v-else style="font-size: 40px;">
+        TBD
+      </div>
+      <!-- Program Schedules -->
+      
 
       <!-- Oral Sessions -->
-      <div id="oral">
+      <div v-if="currentYear === '2023'">
+        <div id="oral">
         <h2>Oral Sessions</h2><hr>
         <table id="oral-table" class="table">
           <tr v-for="(item, index) in oral1" :key="index">
@@ -96,43 +102,53 @@
           </tr>
         </table>
       </div>
+      </div>
+      <div v-else>
+
+      </div>
+  
       <!-- Oral Sessions End -->
 
-
-      <div id="poster">
-        <h2>Poster Sessions (9:40 - 10:30)</h2><hr>
-        <table class="table">
-          <tr>
-            <td colspan="2" class="poster-title sticky-header">Full-length Papers</td>
-          </tr>
-          <tr v-for="(item, index) in paper" :key="index">
-            <td class="poster-id">{{item['id']}} </td>
-            <td class="poster-name">
-              {{item['name']}} 
-              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
-              <span v-if="item['posters']===true">
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
-              </span>
-              
-              <span class="oral-authors">{{ item['authors'] }}</span></td>
-          </tr>
-        </table>
-        
-        <table class="table">
-          <tr>
-            <td colspan="2" class="poster-title sticky-header">Extended Abstracts</td>
-          </tr>
+      <div v-if="currentYear === '2023'">
+          <div id="poster">
+          <h2>Poster Sessions (9:40 - 10:30)</h2><hr>
+          <table class="table">
+            <tr>
+              <td colspan="2" class="poster-title sticky-header">Full-length Papers</td>
+            </tr>
+            <tr v-for="(item, index) in paper" :key="index">
+              <td class="poster-id">{{item['id']}} </td>
+              <td class="poster-name">
+                {{item['name']}} 
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span v-if="item['posters']===true">
+                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                </span>
+                
+                <span class="oral-authors">{{ item['authors'] }}</span></td>
+            </tr>
+          </table>
           
-          <tr v-for="(item, index) in abstract" :key="index">
-            <td class="oral-content">{{item['id']}}</td>
-            <td class="oral-content">{{item['name']}}
-              <span v-if="item['posters']===true">
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
-              </span>
-              <span class="oral-authors">{{ item['authors'] }}</span></td>
-          </tr>
-        </table>
+          <table class="table">
+            <tr>
+              <td colspan="2" class="poster-title sticky-header">Extended Abstracts</td>
+            </tr>
+            
+            <tr v-for="(item, index) in abstract" :key="index">
+              <td class="oral-content">{{item['id']}}</td>
+              <td class="oral-content">{{item['name']}}
+                <span v-if="item['posters']===true">
+                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                </span>
+                <span class="oral-authors">{{ item['authors'] }}</span></td>
+            </tr>
+          </table>
+        </div>
       </div>
+      <div v-else>
+        
+      </div>
+      
     </div>
   </template>
   
