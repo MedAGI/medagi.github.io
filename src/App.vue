@@ -19,18 +19,17 @@
   <div v-else>
     <div id="introduction" v-bind:class="{'home-nav' : this.$data.page ==='Home'}">
       <div class="big-title-2024" 
-      v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
-      v-bind:style="{backgroundPosition: '0 ' + offsetY + 'px'}">
-        <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-        <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
-        <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-        <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-          MICCAI 2024 2nd International Workshop on<br> Foundation Models for General Medical AI
+        v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
+        v-bind:style="{backgroundPosition: '0 ' + offsetY + 'px'}">
+          <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+          <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
+          <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+          <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+            MICCAI 2024 2nd International Workshop on<br> Foundation Models for General Medical AI
+          </div>
+          <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+            Data and Location: TBD</div>
         </div>
-        <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-          Date and location: TBD
-        </div>
-      </div>
   </div>
   </div>
   <!-- Introduction End -->
@@ -347,6 +346,19 @@ html, body {
     flex-direction: column;
   }
 
+  .big-title-2024 {
+    background-image: url('./assets/intro-2024.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2024.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .big-title-off {
     height: 64px!important;
     position: fixed;
@@ -472,6 +484,19 @@ html, body {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .big-title-2024 {
+    background-image: url('./assets/intro-2024.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2024.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
