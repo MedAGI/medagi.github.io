@@ -28,7 +28,7 @@
             MICCAI 2024 2nd International Workshop on<br> Foundation Models for General Medical AI
           </div>
           <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-            Data and Location: TBD</div>
+            Date and Location: TBD</div>
         </div>
   </div>
   </div>
