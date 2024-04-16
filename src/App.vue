@@ -86,19 +86,21 @@
   <!-- Contents -->
   <div id="contents">
     <router-view/>
-    <Footer/>
+    <Footer v-if="viewingArchive" />
+    <Footer_2024 v-else />
   </div> 
   <!-- Contents End -->
 </template>
 
 <script>
 import Footer from "@/components/Footer.vue";
+import Footer_2024 from "@/components/Footer_2024.vue";
 import logo from "@/assets/logo.png";
 import logo2024 from "@/assets/logo_2024.png";
 
 export default {
   name: 'Home',
-  components: { Footer },
+  components: { Footer, Footer_2024 },
   computed: {
           sideBtnStyle: function() {
             if (!this.$data.isSideOpened) return {'side-menu-open': true };
