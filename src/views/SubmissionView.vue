@@ -118,7 +118,7 @@
 
         <!-- Manuscript Template -->
         <div class="instruction-contents">
-          <strong>Manuscript template | </strong> In general, the format requirements are the same as MICCAI 2023 main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
+          <strong>Manuscript template | </strong> In general, the format requirements are the same as MICCAI {{currentYear}} main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
         </div>
         <!-- Manuscript Template End -->
 
@@ -144,7 +144,7 @@
         <div id="awards">
           <h2>Awards</h2><hr>
           <div class="awards-contents">
-            The MedAGI 2023 best paper and the honorable mention awards will be given to the two high-quality papers chosen by the award committee.
+            The MedAGI {{currentYear}} best paper and the honorable mention awards will be given to the two high-quality papers chosen by the award committee.
           </div>
         </div>
         <!-- Awards End -->
