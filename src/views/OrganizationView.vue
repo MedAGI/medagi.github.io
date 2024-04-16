@@ -38,7 +38,7 @@
           <div class="card">
             <img src="../assets/profile/Junjun_He.webp" alt="" class="profile">
             <div class="name">Junjun He</div>
-            <div class="belong">Shanghai AI Laboratory</div>
+            <div class="belong">Shanghai AI Labratory</div>
           </div>
           <div class="card">
             <img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile color-profile">
@@ -53,7 +53,7 @@
           <div class="card">
             <img src="@/assets/profile/Jin_Ye.jpg" alt="" class="profile">
             <div class="name">Jin Ye</div>
-            <div class="belong">Shanghai AI Laboratory</div>
+            <div class="belong">Shanghai AI Labratory</div>
           </div>
           <div class="card">
             <img src="@/assets/profile/Jing_Ke.jpg" alt="" class="profile color-profile">
@@ -68,7 +68,7 @@
         <h2>Organizing Team</h2><hr>
         <div class="card-container">
           <div class="card">
-            <img src='@/assets/profile/empty.png' alt="" class="profile">
+            <img src="@/assets/profile/Zhongying_Deng.jpg" alt="" class="profile">
             <div class="name">Zhongying Deng</div>
             <div class="belong">University of Cambridge</div>
           </div>
@@ -83,7 +83,7 @@
             <div class="belong">Korea University</div>
           </div>
           <div class="card">
-            <img src='@/assets/profile/Wonki_Jeong.jpg' alt="" class="profile">
+            <img src='@/assets/profile/Wonki_Jeong_2024.jpeg' alt="" class="profile">
             <div class="name">Won-Ki Jeong</div>
             <div class="belong">Korea University</div>
           </div>
@@ -93,12 +93,12 @@
             <div class="belong">University of Cambrigde</div>
           </div>
           <div class="card">
-            <img src="@/assets/profile/empty.png" alt="" class="profile color-profile">
+            <img src="@/assets/profile/junjun_he.jpeg" alt="" class="profile color-profile">
             <div class="name">Junjun He</div>
             <div class="belong">Shanghai AI Labratory</div>
           </div>
           <div class="card">
-            <img src="@/assets/profile/empty.png" alt="" class="profile color-profile">
+            <img src="@/assets/profile/shaoting_zhang.jpg" alt="" class="profile color-profile">
             <div class="name">Shaoting Zhang</div>
             <div class="belong">Shanghai AI Labratory</div>
           </div>
