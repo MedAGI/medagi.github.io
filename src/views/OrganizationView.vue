@@ -73,7 +73,7 @@
             <div class="belong">University of Cambridge</div>
           </div>
           <div class="card">
-            <img src='@/assets/profile/yiqing_shen.jpeg' alt="" class="profile">
+            <img src='@/assets/profile/Yiqing_Shen.jpg' alt="" class="profile">
             <div class="name">Yiqing Shen</div>
             <div class="belong">Johns Hopkins University</div>
           </div>
