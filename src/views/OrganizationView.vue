@@ -95,12 +95,12 @@
           <div class="card">
             <img src="@/assets/profile/empty.png" alt="" class="profile color-profile">
             <div class="name">Junjun He</div>
-            <div class="belong">Sanghai AI Labratory</div>
+            <div class="belong">Shanghai AI Labratory</div>
           </div>
           <div class="card">
             <img src="@/assets/profile/empty.png" alt="" class="profile color-profile">
             <div class="name">Shaoting Zhang</div>
-            <div class="belong">Sanghai AI Labratory</div>
+            <div class="belong">Shanghai AI Labratory</div>
           </div>
           <div class="card">
           </div>
