@@ -8,16 +8,25 @@
     <!-- Main Title End -->
 
     <!-- Scope of the Workshop -->
+    <div v-if="currentYear === '2023'">
     <div id="scope">
       <h2>Scope of the Workshop</h2><hr>
       <div class="scope-contents">
         In the field of medical image analysis, existing AI solutions are typically designed and evaluated on specific datasets, making it challenging to transfer them to different tasks or handle datasets from diverse medical centers. However, real-world clinical practices vary across hospitals and institutions, resulting in different data modalities and task formulations. As a result, there is increasing attention toward developing a general model that can effectively handle various medical scenarios. Such a model, with excellent generalization ability to process different medical image modalities and perform a variety of medical AI tasks, is commonly referred to as a general medical AI. Inspired by recent advances in the generalization power of large-scale vision-language and foundation models in computer vision, this first workshop on foundation models for general medical AI (MedAGI) is dedicated to addressing the current medical AI systems and discussing opportunities for generalizing learning systems across multiple unseen tasks and domains specifically targeting various medical data (e.g., images, omics, clinical data) processing and analysis scenarios.
       </div>
-      
+    </div>
+    </div>
+    <div v-else>
+    <div id="scope">
+      <h2>Scope of the Workshop</h2><hr>
+      <div class="scope-contents">
+        Medical image analysis has traditionally relied on AI models trained on specific datasets, which often becomes challenging when transferred to data from different medical centers. This inherent limitation has inspired a growing interest in general medical AI, capable of seamlessly adapting to various medical scenarios, data modalities, and task formulations prevalent across hospitals and institutions. Drawing parallels from the computer vision and natural language processing domains, foundation models, such as large language and vision-language models like GPT, LLaMA, stand out as quintessential general AI solutions. These models have demonstrated remarkable proficiency in a myriad of tasks owing to their massive training datasets and substantial model sizes. Yet, the translation of these successes to medical, namely the general medical AI, remains nascent. This workshop is designed to continue the success of our last year’s event and serve as a confluence of insights from the current landscape of medical AI and foundation models. This year, we aim to foster discussions that will pave the way for the evolution of task-specific medical AI systems into more generalized frameworks capable of tackling a diverse range of tasks, datasets, and domains.       </div>
+    </div>
     </div>
     <!-- Scope of the Workshop End -->
 
     <!-- Topics -->
+    <div v-if="currentYear === '2023'">
     <div id="topics">
 			<h2>Topics</h2><hr>
       <div id="topic-description">
@@ -35,6 +44,25 @@
         <li>Social impact and/or ethical issues of general medical AI</li>
       </ul>
 		</div>
+  </div>
+  <div v-else>
+    <div id="topics">
+      <h2>Topics</h2><hr>
+      <div id="topic-description">
+        Topics are included but not limited to:
+      </div>
+      <ul id="topic-list">
+        <li>Medical artificial general intelligence</li>
+        <li>Medical foundation models</li>
+        <li>Medical generative AI</li>
+        <li>Medical large language/vision models</li>
+        <li>Medical vision-language models</li>
+        <li>Benchmarking and evaluations for general medical AI</li>
+        <li>Current challenges and future trends in general medical AI</li>
+        <li>Social impact and ethical considerations in general medical AI</li>
+      </ul>
+    </div>
+    </div>
     <!-- Topics End -->
 
     <!-- Important Dates -->

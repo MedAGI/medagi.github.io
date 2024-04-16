@@ -125,7 +125,7 @@
     <div id="program-committee">
 			<h2>Program Committee</h2><hr>
       <ul id="committee-list">
-        <li v-for="committee in pc" :id="committee['No']">
+        <li v-for="committee in pc2024" :id="committee['No']">
           <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
         </li>
       </ul>
@@ -492,6 +492,7 @@
 
 <script>
 import program_committee from "@/assets/info/program_committee.json"
+import program_committee_2024 from "@/assets/info/program_committee_2024.json"
 
 export default {
   computed: {
@@ -502,7 +503,8 @@ export default {
 
   data() {
     return {
-      pc : program_committee
+      pc : program_committee,
+      pc2024 : program_committee_2024
     }
   },
   methods: {
