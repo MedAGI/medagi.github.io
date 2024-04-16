@@ -38,7 +38,7 @@
           <div class="card">
             <img src="../assets/profile/Junjun_He.webp" alt="" class="profile">
             <div class="name">Junjun He</div>
-            <div class="belong">Shanghai AI Labratory</div>
+            <div class="belong">Shanghai AI Laboratory</div>
           </div>
           <div class="card">
             <img src='../assets/profile/hoon_Cho.jpeg' alt="" class="profile color-profile">
@@ -53,7 +53,7 @@
           <div class="card">
             <img src="@/assets/profile/Jin_Ye.jpg" alt="" class="profile">
             <div class="name">Jin Ye</div>
-            <div class="belong">Shanghai AI Labratory</div>
+            <div class="belong">Shanghai AI Laboratory</div>
           </div>
           <div class="card">
             <img src="@/assets/profile/Jing_Ke.jpg" alt="" class="profile color-profile">
@@ -95,12 +95,12 @@
           <div class="card">
             <img src="@/assets/profile/junjun_he.jpeg" alt="" class="profile color-profile">
             <div class="name">Junjun He</div>
-            <div class="belong">Shanghai AI Labratory</div>
+            <div class="belong">Shanghai AI Laboratory</div>
           </div>
           <div class="card">
             <img src="@/assets/profile/shaoting_zhang.jpg" alt="" class="profile color-profile">
             <div class="name">Shaoting Zhang</div>
-            <div class="belong">Shanghai AI Labratory</div>
+            <div class="belong">Shanghai AI Laboratory</div>
           </div>
           <div class="card">
           </div>
