@@ -68,14 +68,45 @@
         <h2>Organizing Team</h2><hr>
         <div class="card-container">
           <div class="card">
+            <img src='@/assets/profile/empty.png' alt="" class="profile">
+            <div class="name">Zhongying Deng</div>
+            <div class="belong">University of Cambridge</div>
+          </div>
+          <div class="card">
+            <img src='@/assets/profile/yiqing_shen.jpeg' alt="" class="profile">
+            <div class="name">Yiqing Shen</div>
+            <div class="belong">Johns Hopkins University</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
+            <div class="name">Hyunwoo J. Kim</div>
+            <div class="belong">Korea University</div>
+          </div>
+          <div class="card">
             <img src='@/assets/profile/Wonki_Jeong.jpg' alt="" class="profile">
             <div class="name">Won-Ki Jeong</div>
             <div class="belong">Korea University</div>
           </div>
           <div class="card">
-            <img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
-            <div class="name">Hyunwoo Kim</div>
-            <div class="belong">Korea University</div>
+            <img src="@/assets/profile/angelica.png" alt="" class="profile color-profile">
+            <div class="name">Angelica I Aviles-Rivero</div>
+            <div class="belong">University of Cambrigde</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/empty.png" alt="" class="profile color-profile">
+            <div class="name">Junjun He</div>
+            <div class="belong">Sanghai AI Labratory</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/empty.png" alt="" class="profile color-profile">
+            <div class="name">Shaoting Zhang</div>
+            <div class="belong">Sanghai AI Labratory</div>
+          </div>
+          <div class="card">
+          </div>
+          <div class="card">
+          </div>
+          <div class="card">
           </div>
         </div>
       </div>

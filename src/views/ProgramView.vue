@@ -47,8 +47,44 @@
           </table>
         </div>
       </div>
-      <div v-else style="font-size: 40px;">
-        TBD
+      <div v-else>
+        <div id="schedule">
+          <h2>Schedule</h2><hr>
+          <table class="table">
+            <tr>
+              <td class="schedule-time">8:00 - 8:10</td>
+              <td class="schedule-name">Opening Remarks</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">8:10 - 8:50</td>
+              <td class="schedule-name">
+                Keynote Talk 1
+              </td>
+            </tr>
+            <tr>
+              <td class="schedule-time">8:50 - 9:30</td>
+              <td class="schedule-name">Oral Session 1 (4 papers, each 10 mins)</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">9:30 - 10:50</td>
+              <td class="schedule-name">Poster Session / Break</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">10:50 - 11:30</td>
+              <td class="schedule-name">
+                Keynote Talk 2
+              </td>
+            </tr>
+            <tr>
+              <td class="schedule-time">11:30 - 12:10</td>
+              <td class="schedule-name">Oral Session 2 (4 papers, each 10 mins)</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">12:10 - 12:30</td>
+              <td class="schedule-name">Closing / Awards</td>
+            </tr>
+          </table>
+        </div>
       </div>
       <!-- Program Schedules -->
       

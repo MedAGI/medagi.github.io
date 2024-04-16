@@ -65,8 +65,35 @@
       </div>
 		</div>
     </div>
-    <div v-else style="font-size: 35px;">
-      TBD
+    <div v-else>
+      <div id="important-dates">
+      <div id="dates-table">
+        <div class="date-row">
+          <div class="dates">May 1, 2024<br></div>
+          <div class="due-work">Paper submission open</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">June 23, 2024<br></div>
+          <div class="due-work">Paper submission due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">July 14, 2024<br></div>
+          <div class="due-work">Review Due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">July 21, 2024<br></div>
+          <div class="due-work">Final Notification</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">August 4, 2024<br></div>
+          <div class="due-work">Camera-ready Due</div>
+        </div>
+        <div class="date-row">
+          <div class="dates">October 6, 2024<br></div>
+          <div class="due-work">Workshop Date</div>
+        </div>
+      </div>
+		</div>
     </div>
     
     <!-- Important Dates Ends -->
@@ -91,7 +118,7 @@
 
         <!-- Manuscript Template -->
         <div class="instruction-contents">
-          <strong>Manuscript template | </strong> In general, the format requirements are the same as MICCAI 2023 main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
+          <strong>Manuscript template | </strong> In general, the format requirements are the same as MICCAI {{currentYear}} main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
         </div>
         <!-- Manuscript Template End -->
 
@@ -117,7 +144,7 @@
         <div id="awards">
           <h2>Awards</h2><hr>
           <div class="awards-contents">
-            The MedAGI 2023 best paper and the honorable mention awards will be given to the two high-quality papers chosen by the award committee.
+            The MedAGI {{currentYear}} best paper and the honorable mention awards will be given to the two high-quality papers chosen by the award committee.
           </div>
         </div>
         <!-- Awards End -->

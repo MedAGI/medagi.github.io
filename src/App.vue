@@ -18,7 +18,7 @@
   </div>
   <div v-else>
     <div id="introduction" v-bind:class="{'home-nav' : this.$data.page ==='Home'}">
-      <div class="big-title" 
+      <div class="big-title-2024" 
       v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
       v-bind:style="{backgroundPosition: '0 ' + offsetY + 'px'}">
         <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
@@ -39,7 +39,7 @@
   <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home'}">
     <div id="title">
       <router-link to="/" tag="img">
-        <img src="@/assets/logo.png" alt="">
+        <img :src="logoSrc" alt="">
       </router-link>
       
     </div>
@@ -94,6 +94,8 @@
 
 <script>
 import Footer from "@/components/Footer.vue";
+import logo from "@/assets/logo.png";
+import logo2024 from "@/assets/logo_2024.png";
 
 export default {
   name: 'Home',
@@ -110,6 +112,9 @@ export default {
           medAGIText() {
             return this.viewingArchive ? 'Visit MedAGI 2024' : 'Visit MedAGI 2023';
           },
+          logoSrc() {
+            return this.viewingArchive ? logo : logo2024;
+          }
   },
   methods: {
         openMenuBtn: function() {
@@ -190,6 +195,19 @@ html, body {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .big-title-2024 {
+    background-image: url('./assets/intro-2024.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2024.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
