@@ -163,9 +163,17 @@
         <!-- Domain Conflicts End -->
 
         <!-- Publication -->
-        <div class="instruction-contents">
+        <div v-if="currentYear === '2023'">
+          <div class="instruction-contents">
           <strong>Publication | </strong>Accepted full-length papers will be published with MICCAI Proceedings in the Springer LNCS Series. Expanded versions of selected papers will be invited to a special issue “Foundation Models for Medical Image Analysis” of the Medical Image Analysis journal.
         </div>
+        </div>
+        <div v-else>
+          <div class="instruction-contents">
+          <strong>Publication | </strong>Accepted full-length papers will be published with MICCAI Proceedings in the Springer LNCS Series.
+        </div>  
+        </div>
+        
         <!-- Publication End -->
         
         <!-- Awards -->
@@ -180,7 +188,7 @@
         <!-- Submission Site -->
         <div id="submission-site">
           <h2>Submission Site</h2><hr>
-          <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI2023 </a>
+          <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI{{currentYear}} </a>
         </div>
         <!-- Submission Site End -->
       </div>
