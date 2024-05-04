@@ -186,10 +186,19 @@
         <!-- Awards End -->
 
         <!-- Submission Site -->
-        <div id="submission-site">
+        <div v-if="currentYear === '2023'">
+          <div id="submission-site">
           <h2>Submission Site</h2><hr>
-          <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI{{currentYear}} </a>
+          <a href="https://cmt3.research.microsoft.com/MedAGI2023" target="_blank">https://cmt3.research.microsoft.com/MedAGI2023 </a>
         </div>
+        </div>
+        <div v-else>
+          <div id="submission-site">
+          <h2>Submission Site</h2><hr>
+          <a href="https://cmt3.research.microsoft.com/MedAGI2024" target="_blank">https://cmt3.research.microsoft.com/MedAGI2024 </a>
+        </div>
+        </div>
+        
         <!-- Submission Site End -->
       </div>
     </div>
