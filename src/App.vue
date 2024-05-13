@@ -75,10 +75,9 @@
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Sponsors'}">Sponsors</router-link>
-      <router-link to="/" 
-        class="navigation-tab"
-        v-on:click="toggleArchiveView" 
-        :class="{'selected-tab' : this.$data.page=='Years'}">{{medAGIText}}</router-link>
+      <a href="http://medagi2023.github.io/#/" target="_blank" class="navigation-tab" :class="{'selected-tab' : this.$data.page=='Years'}">
+  {{medAGIText}}
+</a>
     </nav>
   </div>  
   <!-- Navigation End -->
