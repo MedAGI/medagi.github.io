@@ -41,8 +41,43 @@
 			</div>
     </div>
   </div>
-  <div v-else style="font-size: 40px;">
-      TBD
+  <div v-else>
+    <div id="keynotes">
+			<!-- <h2>Keynotes</h2><hr> -->
+			<div id="keynote-container">
+				<div class="keynote-box">
+			
+          <div class="profile-box">
+            <img src="@/assets/keynotes/mathias.jpg" class="profile">
+            <div>
+              <div class="keynote-speaker">
+                <a href="https://mathiasunberath.github.io/" target="_blank">Prof. Mathias Unberath</a>
+              </div>
+              <div class="affiliation"><i>Department of Computer Science, Johns Hopkins University</i></div>
+            </div>
+          </div>
+          <div class="speaker-bio">
+            Mathias Unberath is an Assistant Professor in the Department of Computer Science at Johns Hopkins University, with secondary appointments in the School of Medicine. He is core faculty in the Laboratory for Computational Sensing and Robotics, Fellow of the Malone Center for Engineering in Healthcare, and Affiliated Faculty in the Institute for Assured Autonomy.
+            With his group - the Advanced Robotics and Computationally AugmenteD Environments (ARCADE) Lab - he builds the future of computer-assisted medicine by creating collaborative intelligent systems. Through synergistic research on imaging, computer vision, machine learning, and interaction design, they invent human-centered solutions that are embodied in emerging technology such as mixed reality and robotics.
+          </div>
+				</div>
+        <div class="keynote-box">
+
+          <div class="profile-box">
+            <img src="@/assets/keynotes/dimitris.jpg" class="profile" style="object-position: top;">
+            <div class="">
+              <div class="keynote-speaker">
+                <a href="https://www.cs.rutgers.edu/people/professors/details/dimitris-metaxas" target="_blank">Prof. Dimitris Metaxas</a>
+              </div>
+              <div class="affiliation"><i>Department of Computer Science, Rutgers The State University of New Jersey</i></div>
+            </div>
+          </div>
+          <div class="speaker-bio">
+
+          </div>
+				</div>
+			</div>
+    </div>
     </div>
     <!-- Preliminary Keynotes End -->
   </div>
