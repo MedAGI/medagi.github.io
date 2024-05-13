@@ -14,6 +14,14 @@
           <div id="sponsors-container">
             <img src="@/assets/logo_ict.png" alt="" class="sponsors-logo">
           </div>
+          <div v-if="currentYear === '2023'">
+          </div>
+          <div v-else>
+            <div id="sponsors-container">
+            <img src="@/assets/sponsor_logo.png" alt="" class="sponsors-logo">
+          </div>
+          </div>
+          
       <!-- Sponsors -->
     </div>
   </template>
@@ -167,3 +175,28 @@
    /* Sponsors Container End */
   }
   </style>
+
+
+<script>
+export default {
+  computed: {
+  currentYear() {
+    return this.$route.params.year || new Date().getFullYear().toString();
+    }
+  },
+  methods: {
+      fetchData() {
+      // Use the currentYear computed property to determine which data to fetch
+      const year = this.currentYear;
+      if (year === '2023') {
+        // Fetch and set the data for the 2023 archive
+      } else {
+        // Fetch and set the data for the current year
+      }
+    }
+  },
+  created(){
+    this.fetchData();
+  },
+}
+</script>
