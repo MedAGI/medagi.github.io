@@ -170,7 +170,7 @@
         </div>
         <div v-else>
           <div class="instruction-contents">
-          <strong>Publication | </strong>Accepted full-length papers will be published with MICCAI Proceedings in the Springer LNCS Series.
+          <strong>Publication | </strong>Accepted full-length papers are tentatively planned to be published with the MICCAI Proceedings in the Springer LNCS Series.
         </div>  
         </div>
         
