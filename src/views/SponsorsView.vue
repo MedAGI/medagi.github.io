@@ -13,13 +13,8 @@
           </div> -->
           <div id="sponsors-container">
             <img src="@/assets/logo_ict.png" alt="" class="sponsors-logo">
-          </div>
-          <div v-if="currentYear === '2023'">
-          </div>
-          <div v-else>
-            <div id="sponsors-container">
-            <img src="@/assets/sponsor_logo.png" alt="" class="sponsors-logo">
-          </div>
+            <img src="@/assets/sponsor_logo_crop.png" alt="" class="sponsors-logo-2">
+
           </div>
           
       <!-- Sponsors -->
@@ -68,10 +63,16 @@
     #sponsors-container {
       width: 100%;
       margin-top: 64x;
+      display: flex;
+      align-items: center; /* Centers logos vertically */
     }
 
     .sponsors-logo {
       height: 80px;
+      margin-right: 20px;
+    }
+    .sponsors-logo-2 {
+      height: 128px;
     }
    /* Sponsors Container End */
   }
@@ -118,10 +119,16 @@
     #sponsors-container {
       width: 100%;
       margin-top: 40px;
+      display: flex;
+      align-items: center; /* Centers logos vertically */
     }
 
     .sponsors-logo {
       height: 64px;
+      margin-right: 20px;
+    }
+    .sponsors-logo-2 {
+      height: 128px;
     }
    /* Sponsors Container End */
   }
@@ -167,10 +174,16 @@
     #sponsors-container {
       width: 100%;
       margin-top: 40px;
+      display: flex;
+      align-items: center; /* Centers logos vertically */
     }
-
+  
     .sponsors-logo {
       height: 64px;
+      margin-right: 20px;
+    }
+    .sponsors-logo-2 {
+      height: 128px;
     }
    /* Sponsors Container End */
   }
