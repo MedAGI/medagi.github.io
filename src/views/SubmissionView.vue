@@ -101,7 +101,7 @@
           <div class="due-work">Paper submission open</div>
         </div>
         <div class="date-row">
-          <div class="dates">June 23, 2024<br></div>
+          <div class="dates"><span class="canceled-date">June 23, 2024</span><br>June 30, 2024</div>
           <div class="due-work">Paper submission due</div>
         </div>
         <div class="date-row">
