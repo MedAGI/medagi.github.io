@@ -101,11 +101,11 @@
           <div class="due-work">Paper submission open</div>
         </div>
         <div class="date-row">
-          <div class="dates"><span class="canceled-date">June 23, 2024</span><br>June 29, 2024 <br> (End of the day, <br>Anywhere on Earth (AoE))</div>
+          <div class="dates"><span class="canceled-date">June 23, 2024</span><br>June 29, 2024 <br> (End of the day, Anywhere on Earth (AoE))</div>
           <div class="due-work">Paper submission due</div>
         </div>
         <div class="date-row">
-          <div class="dates">July 14, 2024 <br> (End of the day, <br>Anywhere on Earth (AoE)) <br></div>
+          <div class="dates">July 14, 2024 <br> (End of the day, Anywhere on Earth (AoE)) <br></div>
           <div class="due-work">Review Due</div>
         </div>
         <div class="date-row">
@@ -114,7 +114,7 @@
           <div class="due-work">Final Notification</div>
         </div>
         <div class="date-row">
-          <div class="dates">August 4, 2024 <br> (End of the day, <br>Anywhere on Earth (AoE)) <br></div>
+          <div class="dates">August 4, 2024 <br> (End of the day, Anywhere on Earth (AoE)) <br></div>
           <div class="due-work">Camera-ready Due</div>
         </div>
         <div class="date-row">
