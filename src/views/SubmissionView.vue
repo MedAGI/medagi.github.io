@@ -105,7 +105,7 @@
           <div class="due-work">Paper submission due</div>
         </div>
         <div class="date-row">
-          <div class="dates"><span class="canceled-date">July 14, 2024</span> <br>July 13, 2024 <br> (End of the day, Anywhere on Earth (AoE)) <br></div>
+          <div class="dates"><span class="canceled-date">July 14, 2024</span> <br>July 12, 2024 <br> (End of the day, Anywhere on Earth (AoE)) <br></div>
           <div class="due-work">Review Due</div>
         </div>
         <div class="date-row">
