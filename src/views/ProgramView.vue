@@ -52,36 +52,40 @@
           <h2>Schedule</h2><hr>
           <table class="table">
             <tr>
-              <td class="schedule-time">8:00 - 8:10</td>
+              <td class="schedule-time">13:30 - 13:40</td>
               <td class="schedule-name">Opening Remarks</td>
             </tr>
             <tr>
-              <td class="schedule-time">8:10 - 8:50</td>
+              <td class="schedule-time">13:40 - 14:20</td>
               <td class="schedule-name">
                 Keynote Talk 1
               </td>
             </tr>
             <tr>
-              <td class="schedule-time">8:50 - 9:30</td>
+              <td class="schedule-time">14:20 - 15:00</td>
               <td class="schedule-name">Oral Session 1 (4 papers, each 10 mins)</td>
             </tr>
             <tr>
-              <td class="schedule-time">9:30 - 10:50</td>
+              <td class="schedule-time">15:00 - 16:20</td>
               <td class="schedule-name">Poster Session / Break</td>
             </tr>
             <tr>
-              <td class="schedule-time">10:50 - 11:30</td>
+              <td class="schedule-time">16:20 - 17:00</td>
               <td class="schedule-name">
                 Keynote Talk 2
               </td>
             </tr>
             <tr>
-              <td class="schedule-time">11:30 - 12:10</td>
+              <td class="schedule-time">17:00 - 17:40</td>
               <td class="schedule-name">Oral Session 2 (4 papers, each 10 mins)</td>
             </tr>
             <tr>
-              <td class="schedule-time">12:10 - 12:30</td>
+              <td class="schedule-time">17:40 - 18:00</td>
               <td class="schedule-name">Closing / Awards</td>
+            </tr>
+            <tr class="no-border">
+              <td class="schedule-time">15:30 - 16:00</td>
+              <td class="schedule-name">MICCAI Coffee Break</td>
             </tr>
           </table>
         </div>
@@ -228,8 +232,17 @@
     }
 
     .table {
-      width: calc(100% - 40px);
-      margin: 0 20px;
+      width: 100%;
+      margin: 0;
+      border-right:none; 
+      border-left:none;
+      border-bottom:none;
+    }
+
+    .table .no-border td {
+      border: none !important;
+      border-bottom: none !important;
+      border-right: none !important;
     }
 
     table, th, td {
@@ -345,6 +358,15 @@
     .table {
       width: 100%;
       margin: 0;
+      border-right:none; 
+      border-left:none;
+      border-bottom:none;
+    }
+
+    .table .no-border td {
+      border: none !important;
+      border-bottom: none !important;
+      border-right: none !important;
     }
 
     table, th, td {
@@ -467,6 +489,15 @@
     .table {
       width: 100%;
       margin: 0;
+      border-right:none; 
+      border-left:none;
+      border-bottom:none;
+    }
+
+    .table .no-border td {
+      border: none !important;
+      border-bottom: none !important;
+      border-right: none !important;
     }
 
     table, th, td {
