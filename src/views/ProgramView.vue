@@ -144,7 +144,53 @@
       </div>
       </div>
       <div v-else>
+        <div id="oral">
+        <h2>Oral Sessions</h2><hr>
+        <table id="oral-table" class="table">
+          <tr v-for="(item, index) in oral_2024" :key="index">
+            <td v-if="index === 0" :rowspan="oral_2024.length" class="oral-time">Oral Session<br></td>
+              <td class="oral-content">
+                {{item['name']}}
+                <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+                <span class="oral-authors" v-html="item['authors']"></span>
+              </td>
+          </tr>
+          <!-- <tr v-for="(item, index) in oral2" :key="index">
+              <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(11:10 - 12:10)</td>
+              <td class="oral-content">
+                {{item['name']}}
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span class="oral-authors" v-html="item['authors']"></span>
+              </td>
+          </tr> -->
+        </table>
 
+        <table id="oral-table-m" class="table">
+          <tr class="sticky-header">
+            <td class="oral-time-m"> Oral Session </td>
+          </tr>
+          
+          <tr v-for="(item, index) in oral_2024" :key="index">
+              <td class="oral-content">
+                {{item['name']}}
+                <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+                <span class="oral-authors" v-html="item['authors']"></span>
+              </td>
+          </tr>
+        <!-- 
+          <tr class="sticky-header">
+            <td class="oral-time-m">Oral2 (11:10 - 12:10)</td>
+          </tr>
+          
+          <tr v-for="(item, index) in oral2" :key="index">
+              <td class="oral-content">
+                {{item['name']}}
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <span class="oral-authors" v-html="item['authors']"></span>
+              </td>
+          </tr> -->
+        </table>
+      </div>
       </div>
   
       <!-- Oral Sessions End -->
@@ -186,7 +232,27 @@
         </div>
       </div>
       <div v-else>
-        
+        <div id="poster">
+          <h2>Poster Sessions</h2><hr>
+          <table class="table">
+            <tr>
+              <td colspan="2" class="poster-title sticky-header">Full-length Papers</td>
+            </tr>
+            <tr v-for="(item, index) in paper_2024" :key="index">
+              <td class="poster-id">{{item['id']}} </td>
+              <td class="poster-name">
+                {{item['name']}} 
+                <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+                <!-- <span v-if="item['posters']===true"> -->
+                  <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>] -->
+                <!-- </span> -->
+                
+                <span class="oral-authors">{{ item['authors'] }}</span></td>
+            </tr>
+          </table>
+          
+    
+        </div>
       </div>
       
     </div>
@@ -586,7 +652,8 @@
   </style>
   
 <script>
-import program from "@/assets/info/program.json"
+import program from "@/assets/info/program.json";
+import program_2024 from "@/assets/info/program_2024.json";
 
 export default {
   computed: {
@@ -601,6 +668,8 @@ export default {
       oral2 : program[0]['oral2'],
       paper : program[0]['full_length'],
       abstract : program[0]['abstract'],
+      oral_2024 : program_2024[0]['oral'],
+      paper_2024 : program_2024[0]['full_length'],
     }
   },
   methods: {
