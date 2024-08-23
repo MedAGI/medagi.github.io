@@ -1,0 +1,94 @@
+[
+    {
+        "oral" : [
+            {
+                "name": "The Importance of Downstream Networks in Digital Pathology Foundation Models",
+                "authors": "Gustav Bredell, Marcel Fischer, Przemyslaw Szostak, Samaneh Abbasi Sureshjani, Alvaro Gomariz",
+                "id": "P1"
+                },
+                {
+                "name": "Navigating Data Scarcity using Foundation Models: A Benchmark of Few-Shot and Zero-Shot Learning Approaches in Medical Imaging",
+                "authors": "Stefano Woerner, Christian F Baumgartner",
+                "id": "P2"
+                },
+                {
+                "name": "SAT-Morph: Unsupervised Deformable Medical Image Registration using Vision Foundation Models with Anatomically Aware Text Prompt",
+                "authors": "Hao Xu, Tengfei Xue, Dongnan Liu, Fan Zhang, Carl-Fredrik Westin, Ron Kikinis, Lauren J O'Donnell, Weidong Cai",
+                "id": "P3"
+                },
+                {
+                "name": "Promptable Counterfactual Diffusion Model for Unified Brain Tumor Segmentation and Generation with MRIs",
+                "authors": "Yiqing Shen, Guannan He, Mathias Unberath",
+                "id": "P4"
+                },
+                {
+                "name": "UniCrossAdapter: Multimodal Adaptation of CLIP for Radiology Report Generation",
+                "authors": "Yaxiong Chen, Chuang Du, Chunlei Li, Jingliang Hu, Yilei Shi, Shengwu Xiong, Xiaoxiang Zhu, Lichao Mou",
+                "id": "P5"
+                },
+                {
+                "name": "TUMSyn: A Text-Guided Generalist model for Customized Multimodal MR Image Synthesis",
+                "authors": "Yulin Wang, Honglin Xiong, Yi Xie, Jiameng Liu, Qian Wang, qian liu, Dinggang Shen",
+                "id": "P6"
+                },
+                {
+                "name": "Boosting Vision-Language Models for Histopathology Classification: Predict all at once",
+                "authors": "Maxime Zanella, Fereshteh Shakeri, Yunshi Huang, Houda Bahig, Ismail Ben Ayed",
+                "id": "P7"
+                },
+                {
+                "name": "MAGDA: Multi-agent guideline-driven diagnostic assistance",
+                "authors": "David Bani-Harouni, Nassir Navab, Matthias Keicher",
+                "id": "P8"
+            }
+        ],
+        "full_length" : [
+            {
+                "name": "FastSAM-3DSlicer: A 3D-Slicer Extension for 3D Volumetric Segment Anything Model with Uncertainty Quantification",
+                "authors": "Yiqing Shen, xinyuan shao, Blanca Inigo, David Dreizin, Mathias Unberath",
+                "id": "P1"
+                },
+                {
+                "name": "Temporal-spatial Adaptation of Promptable SAM Enhance Accuracy and Generalizability of cine CMR Segmentation",
+                "authors": "Zhennong Chen, SEKEUN KIM, Hui Ren, Quanzheng Li, Xiang Li",
+                "id": "P2"
+                },
+                {
+                "name": "AutoEncoder-Based Feature Transformation with Multiple Foundation Models in Computational Pathology",
+                "authors": "Woojin Chung, Yujun Park, Yoonho Nam",
+                "id": "P3"
+                },
+                {
+                "name": "OSATTA: One-Shot Automatic Test Time Augmentation for Domain Adaptation",
+                "authors": "Felix S Küper, Sergi Pujades",
+                "id": "P4"
+                },
+                {
+                "name": "Automating MedSAM by Learning Prompts with Weak Few-Shot Supervision",
+                "authors": "Mélanie S Gaillochet, Christian Desrosiers, Herve Jun Lombaert",
+                "id": "P5"
+                },
+                {
+                "name": "D-Rax: Domain-specific Radiologic assistant leveraging multi-modal data and eXpert model predictions",
+                "authors": "Hareem Nisar, Syed Muhammad Anwar, Zhifan Jiang, Abhijeet Parida, Ramon Sanchez-Jacob, Vishwesh Nath, Holger R Roth, Marius George Linguraru",
+                "id": "P6"
+                },
+                {
+                "name": "Optimal Prompting in SAM for Few-Shot and Weakly Supervised Medical Image Segmentation",
+                "authors": "Lara Siblini, Gustavo Andrade-Miranda, Kamilia TAGUELMIMT, Dimitris Visvikis, Julien Bert",
+                "id": "P7"
+                },
+                {
+                "name": "SAMU: An Efficient and Promptable Foundation Model for Medical Image Segmentation",
+                "authors": "Joseph Bae, Xueqi Guo, Halid Yerebakan, Yoshihisa Shinagawa, Sepehr Farhand",
+                "id": "P8"
+                },
+                {
+                "name": "Anatomical Embedding-Based Training Method for Medical Image Segmentation Foundation Models",
+                "authors": "Mingrui Zhuang, Rui Xu, Qinhe Zhang, Ailian Liu, Xin Fan, Hongkai Wang",
+                "id": "P9"
+                }
+        ]
+    }
+    
+]
