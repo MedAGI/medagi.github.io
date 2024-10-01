@@ -50,6 +50,9 @@
       <div v-else>
         <div id="schedule">
           <h2>Schedule</h2><hr>
+          <p :style="{ fontFamily: 'Helvetica, Arial, sans-serif', fontSize: '20px' }">
+            Location: Diamant Room
+          </p>
           <table class="table">
             <tr>
               <td class="schedule-time">13:30 - 13:40</td>
@@ -91,7 +94,10 @@
         </div>
       </div>
       <!-- Program Schedules -->
-      
+      <h2>Workshop Proceedings</h2><hr>
+      <p :style="{ fontFamily: 'Helvetica, Arial, sans-serif', fontSize: '16px' }">
+        Official workshop proceedings can be found <a href="https://link.springer.com/book/10.1007/978-3-031-73471-7">here.</a>
+      </p>
 
       <!-- Oral Sessions -->
       <div v-if="currentYear === '2023'">
@@ -144,6 +150,7 @@
       </div>
       </div>
       <div v-else>
+
       <div id="oral">
           <h2>Oral Sessions</h2><hr>
           <table class="table">
