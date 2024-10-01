@@ -151,7 +151,7 @@
             <td v-if="index === 0" :rowspan="oral_2024.length" class="oral-time">Oral Session<br></td>
               <td class="oral-content">
                 {{item['name']}}
-                <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                 <span class="oral-authors" v-html="item['authors']"></span>
               </td>
           </tr>
@@ -224,7 +224,7 @@
               <td class="oral-content">{{item['id']}}</td>
               <td class="oral-content">{{item['name']}}
                 <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/poster/${item['id']}.pdf`">poster</a>]
                 </span>
                 <span class="oral-authors">{{ item['authors'] }}</span></td>
             </tr>
@@ -242,7 +242,7 @@
               <td class="poster-id">{{item['id']}} </td>
               <td class="poster-name">
                 {{item['name']}} 
-                <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers_2024/${item['id']}.pdf`">paper</a>]
                 <!-- <span v-if="item['posters']===true"> -->
                   <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>] -->
                 <!-- </span> -->
