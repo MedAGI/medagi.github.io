@@ -44,38 +44,39 @@
   <div v-else>
     <div id="keynotes">
 			<!-- <h2>Keynotes</h2><hr> -->
+      <div class="keynote-box">
+
+      <div class="profile-box">
+        <img src="@/assets/keynotes/dimitris.jpg" class="profile" style="object-position: top;">
+        <div class="">
+          <div class="keynote-speaker">
+            <a href="https://people.cs.rutgers.edu/~dnm/bio.html" target="_blank">Prof. Dimitris Metaxas</a>
+          </div>
+          <div class="affiliation"><i>Department of Computer Science, Rutgers The State University of New Jersey</i></div>
+        </div>
+      </div>
+      <div class="speaker-bio">
+
+      </div>
+      </div>
 			<div id="keynote-container">
 				<div class="keynote-box">
-			
+          <div class="keynote-title">Foundation Models for Medical Image Analysis – Preparing for the Next “iPhone Moment” in MICCAI</div>
           <div class="profile-box">
             <img src="@/assets/keynotes/mathias.jpg" class="profile">
             <div>
               <div class="keynote-speaker">
-                <a href="https://mathiasunberath.github.io/" target="_blank">Prof. Mathias Unberath</a>
+                <a href="https://arcade.cs.jhu.edu/members/mathias-unberath.html" target="_blank">Prof. Mathias Unberath</a>
               </div>
               <div class="affiliation"><i>Department of Computer Science, Johns Hopkins University</i></div>
             </div>
           </div>
           <div class="speaker-bio">
-            Mathias Unberath is an Assistant Professor in the Department of Computer Science at Johns Hopkins University, with secondary appointments in the School of Medicine. He is core faculty in the Laboratory for Computational Sensing and Robotics, Fellow of the Malone Center for Engineering in Healthcare, and Affiliated Faculty in the Institute for Assured Autonomy.
-            With his group - the Advanced Robotics and Computationally AugmenteD Environments (ARCADE) Lab - he builds the future of computer-assisted medicine by creating collaborative intelligent systems. Through synergistic research on imaging, computer vision, machine learning, and interaction design, they invent human-centered solutions that are embodied in emerging technology such as mixed reality and robotics.
+            <b>Abstract.</b> A new class of machine learning models, often termed foundation models, has started to receive widespread attention in -- and well beyond MICCAI. Trained in flexible manner on large and diverse datasets, foundation models offer unprecedented generalization ability, and if leveraged correctly, broad utility. In this talk, I will first paint a picture of how foundation models may set us off on a trajectory towards the next iPhone moment in MICCAI. I will then substantiate this by providing recent examples of how we develop and use foundation models to tame perpetually challenging problems across MICCAI, concluding with an elaborate discussion of open challenges and opportunities.
+            <br><b>Bio.</b> Mathias Unberath is the John C. Malone Associate Professor of Computer Science at Johns Hopkins University, core faculty in the Malone Center for Engineering in Healthcare and the Laboratory for Computational Sensing and Robotics, and affiliate faculty in the Institute for Assured Autonomy. He holds secondary appointments in the School of Medicine. With his team, the ARCADE research group on Advanced Robotics and Computationally AugmenteD Environments, he builds the future of computer-assisted medicine. Through synergistic research on imaging, computer vision, machine learning, and interaction design, they create human-centered solutions that are embodied in emerging technology such as mixed reality and robotics. Mathias has published more than 175 journal and conference articles, and has received numerous awards, grants, and fellowships, including the NSF Career, NIH NIBIB R21 Trailblazer and Google Research Scholar Award, and more than 20 international paper awards.
           </div>
 				</div>
-        <div class="keynote-box">
 
-          <div class="profile-box">
-            <img src="@/assets/keynotes/dimitris.jpg" class="profile" style="object-position: top;">
-            <div class="">
-              <div class="keynote-speaker">
-                <a href="https://www.cs.rutgers.edu/people/professors/details/dimitris-metaxas" target="_blank">Prof. Dimitris Metaxas</a>
-              </div>
-              <div class="affiliation"><i>Department of Computer Science, Rutgers The State University of New Jersey</i></div>
-            </div>
-          </div>
-          <div class="speaker-bio">
-
-          </div>
-				</div>
 			</div>
     </div>
     </div>
