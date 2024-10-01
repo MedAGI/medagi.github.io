@@ -46,47 +46,47 @@
             {
                 "name": "FastSAM-3DSlicer: A 3D-Slicer Extension for 3D Volumetric Segment Anything Model with Uncertainty Quantification",
                 "authors": "Yiqing Shen, xinyuan shao, Blanca Inigo, David Dreizin, Mathias Unberath",
-                "id": "P1"
+                "id": "P9"
                 },
                 {
                 "name": "Temporal-spatial Adaptation of Promptable SAM Enhance Accuracy and Generalizability of cine CMR Segmentation",
                 "authors": "Zhennong Chen, SEKEUN KIM, Hui Ren, Quanzheng Li, Xiang Li",
-                "id": "P2"
+                "id": "P10"
                 },
                 {
                 "name": "AutoEncoder-Based Feature Transformation with Multiple Foundation Models in Computational Pathology",
                 "authors": "Woojin Chung, Yujun Park, Yoonho Nam",
-                "id": "P3"
+                "id": "P11"
                 },
                 {
                 "name": "OSATTA: One-Shot Automatic Test Time Augmentation for Domain Adaptation",
                 "authors": "Felix S Küper, Sergi Pujades",
-                "id": "P4"
+                "id": "P12"
                 },
                 {
                 "name": "Automating MedSAM by Learning Prompts with Weak Few-Shot Supervision",
                 "authors": "Mélanie S Gaillochet, Christian Desrosiers, Herve Jun Lombaert",
-                "id": "P5"
+                "id": "P13"
                 },
                 {
                 "name": "D-Rax: Domain-specific Radiologic assistant leveraging multi-modal data and eXpert model predictions",
                 "authors": "Hareem Nisar, Syed Muhammad Anwar, Zhifan Jiang, Abhijeet Parida, Ramon Sanchez-Jacob, Vishwesh Nath, Holger R Roth, Marius George Linguraru",
-                "id": "P6"
+                "id": "P14"
                 },
                 {
                 "name": "Optimal Prompting in SAM for Few-Shot and Weakly Supervised Medical Image Segmentation",
                 "authors": "Lara Siblini, Gustavo Andrade-Miranda, Kamilia TAGUELMIMT, Dimitris Visvikis, Julien Bert",
-                "id": "P7"
+                "id": "P15"
                 },
                 {
                 "name": "SAMU: An Efficient and Promptable Foundation Model for Medical Image Segmentation",
                 "authors": "Joseph Bae, Xueqi Guo, Halid Yerebakan, Yoshihisa Shinagawa, Sepehr Farhand",
-                "id": "P8"
+                "id": "P16"
                 },
                 {
                 "name": "Anatomical Embedding-Based Training Method for Medical Image Segmentation Foundation Models",
                 "authors": "Mingrui Zhuang, Rui Xu, Qinhe Zhang, Ailian Liu, Xin Fan, Hongkai Wang",
-                "id": "P9"
+                "id": "P17"
                 }
         ]
     }
