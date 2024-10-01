@@ -151,7 +151,11 @@
             <td v-if="index === 0" :rowspan="oral_2024.length" class="oral-time">Oral Session<br></td>
               <td class="oral-content">
                 {{item['name']}}
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                <!-- [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI/medagi.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>] -->
+                <!-- [<a :href="getPaperUrl(item.id)" target="_blank" rel="noopener noreferrer`">paper</a>] -->
+                <!-- <template> -->
+                  [<a :href="getPaperUrl(item.id)" target="_blank" rel="noopener noreferrer">paper</a>]
+                <!-- </template> -->
                 <span class="oral-authors" v-html="item['authors']"></span>
               </td>
           </tr>
@@ -681,6 +685,10 @@ export default {
       } else {
         // Fetch and set the data for the current year
       }
+    },
+
+    getPaperUrl(id) {
+      return require(`@/assets/papers/${id}.pdf`).default;
     }
   },
   created(){
