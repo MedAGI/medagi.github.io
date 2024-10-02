@@ -1,6 +1,6 @@
 [
     {
-        "oral" : [
+        "oral1" : [
             {
                 "name": "The Importance of Downstream Networks in Digital Pathology Foundation Models",
                 "authors": "Gustav Bredell, Marcel Fischer, Przemyslaw Szostak, Samaneh Abbasi Sureshjani, Alvaro Gomariz",
@@ -20,7 +20,9 @@
                 "name": "Promptable Counterfactual Diffusion Model for Unified Brain Tumor Segmentation and Generation with MRIs",
                 "authors": "Yiqing Shen, Guannan He, Mathias Unberath",
                 "id": "P4"
-                },
+                }
+            ],
+        "oral2":[
                 {
                 "name": "UniCrossAdapter: Multimodal Adaptation of CLIP for Radiology Report Generation",
                 "authors": "Yaxiong Chen, Chuang Du, Chunlei Li, Jingliang Hu, Yilei Shi, Shengwu Xiong, Xiaoxiang Zhu, Lichao Mou",

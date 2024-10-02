@@ -157,14 +157,28 @@
           <h2>Oral Sessions</h2><hr>
           <table class="table">
           
-            <tr v-for="(item, index) in oral_2024" :key="index">
-              <td class="poster-id">{{item['id']}} </td>
+            <tr v-for="(item, index) in oral1_2024" :key="index">
+            <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(14:20 - 15:00)</td>
+              <!-- <td class="poster-id">{{item['id']}} </td> -->
               <td class="poster-name">
                 {{item['name']}} 
                 [<a :href="getPaperUrl(item['id'])" target="_blank" rel="noopener noreferrer">paper</a>]
                 <span class="oral-authors">{{ item['authors'] }}</span></td>
             </tr>
+            
           </table>
+          <table class="table">
+          
+          <tr v-for="(item, index) in oral2_2024" :key="index">
+          <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(17:00 - 17:40)</td>
+            <!-- <td class="poster-id">{{item['id']}} </td> -->
+            <td class="poster-name">
+              {{item['name']}} 
+              [<a :href="getPaperUrl(item['id'])" target="_blank" rel="noopener noreferrer">paper</a>]
+              <span class="oral-authors">{{ item['authors'] }}</span></td>
+          </tr>
+          
+        </table>
           
       </div>
       </div>
@@ -213,7 +227,7 @@
           <table class="table">
 
             <tr v-for="(item, index) in paper_2024" :key="index">
-              <td class="poster-id">{{item['id']}} </td>
+              <!-- <td class="poster-id">{{item['id']}} </td> -->
               <td class="poster-name">
                 {{item['name']}} 
                 [<a :href="getPaperUrl(item['id'])" target="_blank" rel="noopener noreferrer">paper</a>]
@@ -229,7 +243,7 @@
           <table class="table">
 
             <tr v-for="(item, index) in abstract_2024" :key="index">
-              <td class="poster-id">{{item['id']}} </td>
+              <!-- <td class="poster-id">{{item['id']}} </td> -->
               <td class="poster-name">
                 {{item['name']}} 
                 [<a :href="getPaperUrl(item['id'])" target="_blank" rel="noopener noreferrer">paper</a>]
@@ -654,7 +668,8 @@ export default {
       oral2 : program[0]['oral2'],
       paper : program[0]['full_length'],
       abstract : program[0]['abstract'],
-      oral_2024 : program_2024[0]['oral'],
+      oral1_2024 : program_2024[0]['oral1'],
+      oral2_2024 : program_2024[0]['oral2'],
       paper_2024 : program_2024[0]['full_length'],
       abstract_2024 : program_2024[0]['abstract'],
     }
