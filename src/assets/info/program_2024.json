@@ -88,6 +88,39 @@
                 "authors": "Mingrui Zhuang, Rui Xu, Qinhe Zhang, Ailian Liu, Xin Fan, Hongkai Wang",
                 "id": "P17"
                 }
+        ],
+        "abstract" : [
+            {
+                "name": "Exploring the Robustness of Adaptation Methods in VLMs under Realistic Medical Data Shifts",
+                "authors": "Kim-Celine Kahl, Selen Erkan, Klaus H. Maier-Hein, Paul F. Jaeger",
+                "id": "P18"
+            },
+            {
+                "name": "Large-scale Long-tailed Disease Diagnosis on Radiology Images",
+                "authors": "Qiaoyu Zheng, Weike zhao, Chaoyi Wu, Xiaoman Zhang, Lisong Dai, Hengyu Guan, Yuehua Li, Ya Zhang, Yanfeng Wang, Weidi Xie",
+                "id": "P19"
+            },
+            {
+                "name": "Towards Universal Segmentation for Medical Images with Text Prompts",
+                "authors": "Ziheng Zhao, Yao Zhang, Chaoyi Wu, Xiaoman Zhang, Ya Zhang, Yanfeng Wang, Weidi Xie",
+                "id": "P20"
+            },
+            {
+                "name": "Making the Most of Limited Data with Self-Supervised Learning for Breast Cancer Screening",
+                "authors": "Christopher Clark, Scott Kinder, Syed Rakin Ahmed, Giacomo Nebbia, Yoga Advaith Veturi, Praveer Singh, and Jayashree Kalpathy-Cramer",
+                "id": "P21"
+            },
+            {
+                "name": "Leveraging Foundation Models for Content-Based Medical Image Retrieval in Radiology",
+                "authors": "Stefan Denner, David Zimmerer, Dimitrios Bounias, Markus Bujotzek, Shuhan Xiao, Rafael Stock, Lisa Kausch, Philipp Schader, Tobias Penzkofer, Paul F. Jäger, and Klaus Maier-Hein",
+                "id": "P22"
+            },
+            {
+                "name": "An experience report on finetuning LLMs for toxicologic pathology applications in pharmaceutical drug discovery",
+                "authors": "Arijit Patra, Peter Hall, Phil Scordis",
+                "id": "P23"
+            }
+                
         ]
     }
     

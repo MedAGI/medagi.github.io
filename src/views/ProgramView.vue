@@ -61,7 +61,8 @@
             <tr>
               <td class="schedule-time">13:40 - 14:20</td>
               <td class="schedule-name">
-                Keynote Talk 1
+                Keynote Talk 1: Prof. Dimitris Metaxas
+                <span class="oral-authors">Towards Human Centered AI: Large Language Models and Domain Knowledge</span>
               </td>
             </tr>
             <tr>
@@ -75,7 +76,8 @@
             <tr>
               <td class="schedule-time">16:20 - 17:00</td>
               <td class="schedule-name">
-                Keynote Talk 2
+                Keynote Talk 2: Prof. Mathias Unberath
+                <span class="oral-authors">Foundation Models for Medical Image Analysis – Preparing for the Next “iPhone Moment” in MICCAI</span>
               </td>
             </tr>
             <tr>
@@ -211,6 +213,22 @@
           <table class="table">
 
             <tr v-for="(item, index) in paper_2024" :key="index">
+              <td class="poster-id">{{item['id']}} </td>
+              <td class="poster-name">
+                {{item['name']}} 
+                [<a :href="getPaperUrl(item['id'])" target="_blank" rel="noopener noreferrer">paper</a>]
+                <span class="oral-authors">{{ item['authors'] }}</span></td>
+            </tr>
+          </table>
+          
+    
+        </div>
+
+        <div id="poster">
+          <h2>Extended Abstracts</h2><hr>
+          <table class="table">
+
+            <tr v-for="(item, index) in abstract_2024" :key="index">
               <td class="poster-id">{{item['id']}} </td>
               <td class="poster-name">
                 {{item['name']}} 
@@ -638,6 +656,7 @@ export default {
       abstract : program[0]['abstract'],
       oral_2024 : program_2024[0]['oral'],
       paper_2024 : program_2024[0]['full_length'],
+      abstract_2024 : program_2024[0]['abstract'],
     }
   },
   mounted() {

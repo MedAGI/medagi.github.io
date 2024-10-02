@@ -45,7 +45,7 @@
     <div id="keynotes">
 			<!-- <h2>Keynotes</h2><hr> -->
       <div class="keynote-box">
-
+        <div class="keynote-title">Towards Human Centered AI: Large Language Models and Domain Knowledge</div>
       <div class="profile-box">
         <img src="@/assets/keynotes/dimitris.jpg" class="profile" style="object-position: top;">
         <div class="">
@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="speaker-bio">
-
+        <b>Bio.</b> Dr. Dimitris Metaxas is a Distinguished Professor in the Department of Computer Science at Rutgers University since July 2007. From September 2001 to June 2007 he was a Professor in the same department. He is currently directing the Center for Computational Biomedicine, Imaging and Modeling (CBIM). From January 1998 to September 2001 he was a tenured Associate Professor in the Computer and Information Science Department of the University of Pennsylvania and Director of the VAST Lab. Prior to this he was an Assistant Professor in the same department since 1992. Prof. Metaxas received a Diploma in Electrical Engineering from the National Technical University of Athens of Athens Greece in 1986, an M.Sc. in Computer Science from the University of Maryland, College Park in 1988, and a Ph.D. in Computer Science from the University of Toronto, Ontario, Canada in 1992.
       </div>
       </div>
 			<div id="keynote-container">
@@ -173,6 +173,7 @@
   }
 
   .speaker-bio {
+    padding-left:10px;
     padding-top: 5px;
     padding-bottom: 10px;
     font-family: Helvetica;
@@ -271,6 +272,7 @@
   }
 
   .speaker-bio {
+    padding-left:10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: Helvetica;
@@ -367,6 +369,7 @@
   }
 
   .speaker-bio {
+    padding-left:10px;
     padding-bottom: 10px;
     font-family: Helvetica;
     font-size: 14px;
