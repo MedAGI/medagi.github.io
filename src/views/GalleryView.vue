@@ -14,7 +14,19 @@
       </div>
       <div v-else style="font-size: 40px;">
         <h2>2024</h2><hr>
-        TBD
+        <div id="container">
+          <img src='@/assets/photo_2024/photo1.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo2.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo3.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo4.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo5.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo6.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo7.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo8.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo9.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo10.jpg' alt="" class="gallery-photo">
+          <img src='@/assets/photo_2024/photo11.jpg' alt="" class="gallery-photo">
+        </div>
       </div>
     </div>
   </template>
