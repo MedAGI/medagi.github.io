@@ -22,6 +22,27 @@
       </div>  
     </div>
     <div v-else>
+      <div id="closing">
+        <div id="thankyou-message">
+          <span id="thankyou">MedAGI 2024 was successfully concluded. We would like to thank all the attendees for the support! See you next year!</span>
+          <img src='@/assets/photo_2024/photo9.jpg' alt="" class="photo">
+          <img src='@/assets/photo_2024/photo6.jpg' alt="" class="photo">
+          <div class="go-to-gallery"><router-link to="/gallery">Go To Gallery &rarr;</router-link></div>
+          <div id="award-box">
+            <h2>Keynote Talks</h2>
+            <div id="keynote-talks">
+              <img src='@/assets/photo_2024/photo5.jpg' alt="" class="photo">
+              <img src='@/assets/photo_2024/photo7.jpg' alt="" class="photo">
+            </div>
+            <h2>Best Paper & Honorable Mention Paper</h2>
+            <div id="best-paper">
+              <img src='@/assets/photo_2024/best_paper.jpg' alt="" class="photo">
+              <img src='@/assets/photo_2024/honorable_mention.jpg' alt="" class="photo">
+              <!-- <img src='@/assets/award/Award_BestPaper.jpg' alt="" class="award"> -->
+            </div>
+          </div>
+        </div>
+      </div>  
     </div>
     <!-- Workshop Description -->
     <div v-if="currentYear === '2023'">
