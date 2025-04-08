@@ -13,7 +13,7 @@
           </div> -->
           <div id="sponsors-container">
             <img src="@/assets/logo_ict.png" alt="" class="sponsors-logo">
-            <img src="@/assets/sponsor_logo_crop.png" alt="" class="sponsors-logo-2">
+            <!-- <img src="@/assets/sponsor_logo_crop.png" alt="" class="sponsors-logo-2"> -->
 
           </div>
           
