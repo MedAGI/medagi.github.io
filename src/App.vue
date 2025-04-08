@@ -25,10 +25,10 @@
           <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
           <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
           <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-            MICCAI 2024 2nd International Workshop on<br> Foundation Models for General Medical AI
+            MICCAI 2025 3rd International Workshop on<br> Foundation Models for General Medical AI
           </div>
-          <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-            October 6, 2024 / Marrakesh, Morocco <br> Location: Diamant Room</div>
+          <!-- <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+            October 6, 2024 / Marrakesh, Morocco <br> Location: Diamant Room</div> -->
         </div>
   </div>
   </div>
@@ -75,9 +75,8 @@
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Sponsors'}">Sponsors</router-link>
-      <a href="http://medagi2023.github.io/#/" target="_blank" class="navigation-tab" :class="{'selected-tab' : this.$data.page=='Years'}">
-  {{medAGIText}}
-</a>
+      <a href="http://medagi2023.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2023</a>
+      <a href="http://medagi2024.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2024</a>
     </nav>
   </div>  
   <!-- Navigation End -->
@@ -202,8 +201,8 @@ html, body {
   }
 
   .big-title-2024 {
-    background-image: url('./assets/intro-2024.jpg');
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2024.jpg');
+    background-image: url('./assets/intro-2025.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2025.jpg');
     background-attachment: fixed;
     background-size: cover;
     width: 100%;

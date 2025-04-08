@@ -1,9 +1,9 @@
 <template>
     <div id="footer">
         <div id="logos">
-            <img src="@/assets/miccai2024-logo.png" class="logo" alt="">
+            <img src="@/assets/miccai2025-logo.png" class="logo" alt="">
         </div>
-        <div id="copyright">© 2024 2nd International Workshop on Foundation Models for General Medical AI (MedAGI 2024)</div>
+        <div id="copyright">© 2025 3rd International Workshop on Foundation Models for General Medical AI (MedAGI 2025)</div>
     </div>
 </template>
 

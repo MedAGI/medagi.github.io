@@ -16,11 +16,6 @@
             <div class="belong">Korea University</div>
           </div>
           <div class="card">
-            <img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
-            <div class="name">Hyunwoo Kim</div>
-            <div class="belong">Korea University</div>
-          </div>
-          <div class="card">
             <img src="@/assets/profile/Yiqing_Shen.jpg" alt="" class="profile">
             <div class="name">Yiqing Shen</div>
             <div class="belong">Johns Hopkins University</div>
@@ -68,16 +63,6 @@
         <h2>Organizing Team</h2><hr>
         <div class="card-container">
           <div class="card">
-            <img src="@/assets/profile/Zhongying_Deng.jpg" alt="" class="profile">
-            <div class="name">Zhongying Deng</div>
-            <div class="belong">University of Cambridge</div>
-          </div>
-          <div class="card">
-            <img src='@/assets/profile/Yiqing_Shen.jpg' alt="" class="profile">
-            <div class="name">Yiqing Shen</div>
-            <div class="belong">Johns Hopkins University</div>
-          </div>
-          <div class="card">
             <img src="@/assets/profile/hyunwoo_kim.jpeg" alt="" class="profile color-profile">
             <div class="name">Hyunwoo J. Kim</div>
             <div class="belong">Korea University</div>
@@ -88,19 +73,24 @@
             <div class="belong">Korea University</div>
           </div>
           <div class="card">
-            <img src="@/assets/profile/angelica.png" alt="" class="profile color-profile">
-            <div class="name">Angelica I Aviles-Rivero</div>
-            <div class="belong">University of Cambrigde</div>
+            <img src="@/assets/profile/Zhongying_Deng.jpg" alt="" class="profile">
+            <div class="name">Zhongying Deng</div>
+            <div class="belong">University of Cambridge</div>
           </div>
           <div class="card">
-            <img src="@/assets/profile/junjun_he.jpeg" alt="" class="profile color-profile">
-            <div class="name">Junjun He</div>
-            <div class="belong">Shanghai AI Laboratory</div>
+            <img src='@/assets/profile/Yiqing_Shen.jpg' alt="" class="profile">
+            <div class="name">Yiqing Shen</div>
+            <div class="belong">Johns Hopkins University</div>
           </div>
           <div class="card">
             <img src="@/assets/profile/shaoting_zhang.jpg" alt="" class="profile color-profile">
             <div class="name">Shaoting Zhang</div>
             <div class="belong">Shanghai AI Laboratory</div>
+          </div>
+          <div class="card">
+            <img src="@/assets/profile/angelica.png" alt="" class="profile color-profile">
+            <div class="name">Angelica I Aviles-Rivero</div>
+            <div class="belong">University of Cambrigde</div>
           </div>
           <div class="card">
           </div>
@@ -110,42 +100,6 @@
           </div>
         </div>
       </div>
-  </div>
-  <div v-if="currentYear === '2023'">
-    <div id="program-committee">
-			<h2>Program Committee</h2><hr>
-      <ul id="committee-list">
-        <li v-for="committee in pc" :id="committee['No']">
-          <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
-        </li>
-      </ul>
-		</div>
-  </div>
-  <div v-else>
-    <div id="program-committee">
-			<h2>Program Committee</h2><hr>
-      <ul id="committee-list">
-        <li v-for="committee in pc2024" :id="committee['No']">
-          <strong>{{ committee.Name }}</strong> (<span class="committee-belong">{{ committee.Affliation }}</span>) 
-        </li>
-      </ul>
-		</div>
-  </div>
-  <div v-if="currentYear === '2023'">
-    <div id="student-contributor">
-      <h2>Student Contributor</h2><hr>
-        <ul id="contributor-list">
-          <li><strong>Byungju Chae</strong> (<span class="committee-belong">Korea University</span>) </li>
-        </ul>
-    </div>
-  </div>
-  <div v-else>
-    <div id="student-contributor">
-      <h2>Student Contributor</h2><hr>
-        <ul id="contributor-list">
-          <li><strong>Jongha Kim</strong> (<span class="committee-belong">Korea University</span>) </li>
-        </ul>
-    </div>
   </div>
   </div>
 </template>
