@@ -27,8 +27,9 @@
           <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
             MICCAI 2025 3rd International Workshop on<br> Foundation Models for General Medical AI
           </div>
-          <!-- <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-            October 6, 2024 / Marrakesh, Morocco <br> Location: Diamant Room</div> -->
+          <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
+            September 23 or 27, 2025 at Daejeon, Republic of Korea
+          </div>
         </div>
   </div>
   </div>
