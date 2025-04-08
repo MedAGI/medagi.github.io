@@ -1,5 +1,5 @@
 # MedAGI
-*2024 1st International Workshop on Foundation Models for General Medical AI*
+*2024 2nd International Workshop on Foundation Models for General Medical AI*
 
 ## Project Description
 This Repository is made for MedAGI, International Workshop on Foundation Models for General Medical AI on MICCAI 2024.
