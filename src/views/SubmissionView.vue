@@ -95,33 +95,33 @@
     </div>
     <div v-else>
       <div id="important-dates">
-        <h2>TBD</h2>
-      <!-- <div id="dates-table">
+        <!-- <h2>TBD</h2> -->
+      <div id="dates-table">
         <div class="date-row">
-          <div class="dates">May 1, 2024<br></div>
+          <div class="dates">May 1 (Thu), 2025<br></div>
           <div class="due-work">Paper submission open</div>
         </div>
         <div class="date-row">
-          <div class="dates"><span class="canceled-date">June 23, 2024</span><br>June 29, 2024 <br> (End of the day, Anywhere on Earth (AoE))</div>
+          <div class="dates">June 25 (Wed), 2025 <br> (23:59, Pacific Time)</div>
           <div class="due-work">Paper submission due</div>
         </div>
         <div class="date-row">
-          <div class="dates"><span class="canceled-date">July 14, 2024</span> <br>July 12, 2024 <br> (End of the day, Anywhere on Earth (AoE)) <br></div>
+          <div class="dates">July 11 (Fri), 2025 <br> (23:59, Pacific Time) <br></div>
           <div class="due-work">Review Due</div>
         </div>
         <div class="date-row">
-          <div class="dates"><span class="canceled-date">July 21, 2024</span><br>July 15, 2024</div>
+          <div class="dates">July 16 (Wed), 2025 <br> (23:59, Pacific Time) <br></div>
           <div class="due-work">Final Notification</div>
         </div>
         <div class="date-row">
-          <div class="dates">August 4, 2024 <br> (End of the day, Anywhere on Earth (AoE)) <br></div>
+          <div class="dates">July 30 (Mon), 2025 <br> (23:59, Pacific Time) <br></div>
           <div class="due-work">Camera-ready Due</div>
         </div>
         <div class="date-row">
-          <div class="dates">October 6, 2024<br></div>
+          <div class="dates">Sep 23 or 27, 2025<br></div>
           <div class="due-work">Workshop Date</div>
         </div>
-      </div> -->
+      </div>
 		</div>
     </div>
     
@@ -129,8 +129,50 @@
     <!-- Submission Instructions -->
     <div id="instructions">
       <h2>Submission Instructions</h2><hr>
-      <h2>TBD</h2>
       <div>
+        <!-- Submission Formats -->
+        <div class="instruction-contents">
+          <strong>Submission format |</strong> Submissions are in two tracks: Full-length papers and extended abstracts.
+          <ol>
+            <li>
+              Full-length papers: Manuscripts should be up to <b>8 pages</b> (text, figures, and tables) plus up to <b>2 pages</b> of references. Submissions must be new. Accepted papers will be assigned as oral or poster presentations.
+            </li>
+            <li>
+              Extended abstracts: Manuscripts should be up to <b>2 pages</b> (text, figures, tables, and references). Submissions may be new work or recently published/accepted papers (including posted preprints). Accepted abstracts will be assigned primarily as poster presentations. Accepted abstracts will not be formally published by publishers, but the authors can choose to make them archived on the workshop website.
+            </li>
+          </ol>
+        </div>
+        <!-- Submission Formats End -->
+
+        <!-- Manuscript Template -->
+        <div class="instruction-contents">
+          <strong>Manuscript template | </strong> In general, the format requirements are the same as MICCAI {{currentYear}} main conference. No modifications to the templates are permitted. Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Lecture Notes in Computer Science</a>.
+        </div>
+        <!-- Manuscript Template End -->
+
+        <!-- Breach of anonymization End -->
+        <div class="instruction-contents">
+          <strong>Breach of anonymization | </strong>The review process is double-blind, i.e. the names of the authors, reviewers, and area chairs are not revealed to each other. Papers must thus be properly anonymized before submission.
+        </div>
+        <!-- Breach of anonymization -->
+
+        <!-- Domain Conflicts -->
+        <div class="instruction-contents">
+          <strong>Domain conflicts | </strong>To avoid conflict of interest among the authors, reviewers, and meta-reviewers, all co-author information and a complete and accurate list of domain conflicts must be entered in the submission form by the submission deadline. For the same reason, i.e., to avoid conflict of interest during the review process, the author list must be complete at submission time.
+        </div>
+        <!-- Domain Conflicts End -->
+
+        <!-- Publication -->
+        <div v-if="currentYear === '2023'">
+          <div class="instruction-contents">
+          <strong>Publication | </strong>Accepted full-length papers will be published with MICCAI Proceedings in the Springer LNCS Series. Expanded versions of selected papers will be invited to a special issue “Foundation Models for Medical Image Analysis” of the Medical Image Analysis journal.
+        </div>
+        </div>
+        <div v-else>
+          <div class="instruction-contents">
+          <strong>Publication | </strong>Accepted full-length papers are tentatively planned to be published with the MICCAI Proceedings in the Springer LNCS Series.
+        </div>  
+        </div>
 
         
         <!-- Publication End -->
@@ -138,7 +180,9 @@
         <!-- Awards -->
         <div id="awards">
           <h2>Awards</h2><hr>
-          <h2>TBD</h2>
+          <div class="awards-contents">
+            The MedAGI {{currentYear}} best paper and the honorable mention awards will be given to the two high-quality papers chosen by the award committee.
+          </div>
         </div>
         <!-- Awards End -->
 
