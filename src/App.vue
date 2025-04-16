@@ -1,6 +1,6 @@
 <template>
   <!-- Introduction -->
-  <div v-if="viewingArchive">
+  <!-- <div v-if="viewingArchive">
       <div id="introduction" v-bind:class="{'home-nav' : this.$data.page ==='Home'}">
         <div class="big-title" 
         v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
@@ -32,11 +32,11 @@
           </div>
         </div>
   </div>
-  </div>
+  </div> -->
   <!-- Introduction End -->
 
   <!-- Navigation -->
-  <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home'}">
+  <!-- <div id="navigation" v-bind:class="{'fixed-navigation' : this.$data.page !=='Home'}">
     <div id="title">
       <router-link to="/" tag="img">
         <img :src="logoSrc" alt="">
@@ -79,7 +79,7 @@
       <a href="http://medagi2023.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2023</a>
       <a href="http://medagi2024.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2024</a>
     </nav>
-  </div>  
+  </div>   -->
   <!-- Navigation End -->
 
   <!-- Contents -->
@@ -137,12 +137,13 @@ export default {
     // Scroll 시 배경 이미지 이동
     window.addEventListener('scroll', () => {
       // Main 화면의 경우 스크롤에 따라 backgroun image가 delay scroll event를 발생시킴
-      if (this.$data.page === 'Home') {
-        let navHeight = document.getElementById('navigation').offsetHeight;
+      // if (this.$data.page === 'Home') {
+      //   let navHeight = document.getElementById('navigation').offsetHeight;
+      //   this.$data.offsetY = -1 * Math.min(window.scrollY, screen.height)/2;
+      //   this.$data.hideNavBar = screen.height - window.scrollY > navHeight*1.5;
+      // }
+      // else { this.$data.offsetY = -1 * screen.height /2 }
         this.$data.offsetY = -1 * Math.min(window.scrollY, screen.height)/2;
-        this.$data.hideNavBar = screen.height - window.scrollY > navHeight*1.5;
-      }
-      else { this.$data.offsetY = -1 * screen.height /2 }
     });      
   },
   watch: {
