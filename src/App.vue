@@ -1,6 +1,6 @@
 <template>
   <!-- Introduction -->
-  <!-- <div v-if="viewingArchive">
+  <div v-if="viewingArchive">
       <div id="introduction" v-bind:class="{'home-nav' : this.$data.page ==='Home'}">
         <div class="big-title" 
         v-bind:class="{'big-title-off' : this.$data.page !=='Home'}"
@@ -32,7 +32,7 @@
           </div>
         </div>
   </div>
-  </div> -->
+  </div>
   <!-- Introduction End -->
 
   <!-- Navigation -->
@@ -203,12 +203,12 @@ html, body {
   }
 
   .big-title-2024 {
-    background-image: url('./assets/intro-2025.jpg');
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2025.jpg');
+    background-image: url('./assets/intro-2025.png');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2025.png');
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,12 +349,12 @@ html, body {
   }
 
   .big-title-2024 {
-    background-image: url('./assets/intro-2024.jpg');
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2024.jpg');
+    background-image: url('./assets/intro-2025.png');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2025.png');
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,12 +493,12 @@ html, body {
   }
 
   .big-title-2024 {
-    background-image: url('./assets/intro-2024.jpg');
+    background-image: url('./assets/intro-2025.png');
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2024.jpg');
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
