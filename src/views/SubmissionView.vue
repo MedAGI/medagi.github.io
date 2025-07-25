@@ -118,7 +118,7 @@
           <div class="due-work">Camera-ready Due</div>
         </div>
         <div class="date-row">
-          <div class="dates">Sep 23 or 27, 2025<br></div>
+          <div class="dates">Sep 27, 2025<br></div>
           <div class="due-work">Workshop Date</div>
         </div>
       </div>
