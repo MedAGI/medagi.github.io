@@ -25,10 +25,10 @@
           <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
           <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
           <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-            MICCAI 2025 3rd International Workshop on<br> Foundation Models for General Medical AI
+            MICCAI 2026 4th International Workshop on<br> Foundation Models for General Medical AI
           </div>
           <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-            September 27, 2025 at Daejeon, Republic of Korea
+            September 27 - October 1, 2026 &bull; Strasbourg, France
           </div>
         </div>
   </div>
@@ -203,8 +203,8 @@ html, body {
   }
 
   .big-title-2024 {
-    background-image: url('./assets/intro-2025.png');
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2025.png');
+    background-image: url('./assets/intro-2026.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2026.jpg');
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
@@ -349,8 +349,8 @@ html, body {
   }
 
   .big-title-2024 {
-    background-image: url('./assets/intro-2025.png');
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2025.png');
+    background-image: url('./assets/intro-2026.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2026.jpg');
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
@@ -493,8 +493,8 @@ html, body {
   }
 
   .big-title-2024 {
-    background-image: url('./assets/intro-2025.png');
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2024.jpg');
+    background-image: url('./assets/intro-2026.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/intro-2026.jpg');
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
